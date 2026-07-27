@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winner Tournament Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #090d16;
+      --bg-card: rgba(22, 30, 49, 0.75);
+      --bg-input: #1a233a;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-focus: #3b82f6;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --accent-purple: #a855f7;
+      --accent-green: #10b981;
+      --accent-gold: #f59e0b;
+      --text: #f8fafc;
+      --text-muted: #64748b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
+
+    body {
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(168, 85, 247, 0.15) 0px, transparent 50%);
+      background-attachment: fixed;
+      color: var(--text);
+      padding-bottom: 60px;
+    }
+
+    header {
+      background: rgba(15, 23, 42, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 18px 20px;
+      text-align: center;
+      position: sticky; top: 0; z-index: 100;
+    }
+
+    header h1 {
+      font-size: 1.5rem; font-weight: 800;
+      background: linear-gradient(135deg, #60a5fa, #c084fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-flex; align-items: center; gap: 10px;
+    }
+
+    .container { max-width: 1200px; margin: 25px auto; padding: 0 15px; }
+
+    .card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+
+    .card-title {
+      font-size: 1.2rem; font-weight: 700; margin-bottom: 15px;
+      color: #93c5fd; display: flex; align-items: center; justify-content: space-between;
+    }
+
+    .btn {
+      background: var(--primary); color: white; border: none;
+      padding: 10px 18px; border-radius: 10px; font-weight: 600; font-size: 0.9rem;
+      cursor: pointer; transition: all 0.2s ease;
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .btn:hover { background: var(--primary-hover); transform: translateY(-2px); }
+    .btn-green { background: var(--accent-green); }
+    .btn-green:hover { background: #059669; }
+    .btn-purple { background: var(--accent-purple); }
+    .btn-purple:hover { background: #9333ea; }
+    .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+    .btn-outline:hover { background: var(--bg-input); }
+    .btn-sm { padding: 6px 12px; font-size: 0.8rem; }
+
+    .form-group { margin-bottom: 15px; }
+    label { display: block; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 6px; font-weight: 600; }
+    input[type="text"], input[type="number"], select {
+      width: 100%; padding: 10px 14px; background: var(--bg-input);
+      border: 1px solid var(--border); border-radius: 8px; color: var(--text);
+      font-size: 0.9rem; outline: none; transition: border-color 0.2s;
+    }
+    input:focus, select:focus { border-color: var(--border-focus); }
+
+    .teams-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 10px; max-height: 400px; overflow-y: auto; padding-right: 5px;
+    }
+    .team-card-select {
+      background: var(--bg-input); border: 1px solid var(--border);
+      border-radius: 10px; padding: 10px; display: flex; align-items: center;
+      justify-content: space-between; cursor: pointer; user-select: none; transition: all 0.2s;
+    }
+    .team-card-select.selected {
+      border-color: var(--primary); background: rgba(59, 130, 246, 0.2);
+    }
+    .team-info { display: flex; align-items: center; gap: 8px; }
+    .rating-badge {
+      font-size: 0.75rem; font-weight: 700; background: rgba(255,255,255,0.1);
+      padding: 2px 6px; border-radius: 6px; color: #60a5fa;
+    }
+
+    .nav-tabs { display: flex; gap: 8px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 10px; overflow-x: auto; }
+    .tab-btn {
+      padding: 10px 16px; background: transparent; border: none; color: var(--text-muted);
+      font-weight: 600; font-size: 0.9rem; cursor: pointer; border-radius: 8px; white-space: nowrap;
+    }
+    .tab-btn.active { background: var(--primary); color: white; }
+
+    .groups-wrapper { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.85rem; }
+    th, td { padding: 10px 6px; text-align: center; border-bottom: 1px solid var(--border); }
+    th { color: var(--text-muted); font-weight: 600; background: rgba(0,0,0,0.2); }
+    td.team-col { text-align: left; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+
+    .match-item {
+      background: rgba(0,0,0,0.2); border: 1px solid var(--border); border-radius: 12px;
+      padding: 12px; margin-bottom: 10px; display: flex; flex-direction: column; gap: 8px;
+    }
+    .match-body { display: flex; align-items: center; justify-content: space-between; }
+    .team-display { flex: 1; display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.9rem; }
+    .team-display.away { justify-content: flex-end; }
+    .score-input { width: 48px !important; height: 36px; text-align: center; font-weight: 700; font-size: 1.1rem; padding: 0 !important; }
+
+    .bracket-container { display: flex; gap: 20px; overflow-x: auto; padding: 10px 0; }
+    .bracket-round { flex: 0 0 260px; display: flex; flex-direction: column; justify-content: space-around; }
+    .bracket-round-title { text-align: center; font-weight: 700; color: #60a5fa; margin-bottom: 15px; }
+    .bracket-match { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 10px; margin: 10px 0; }
+
+    .hidden { display: none !important; }
+    .stat-badge { font-weight: bold; color: #60a5fa; }
+    .winner-highlight { color: var(--accent-gold); font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏆 Winner Tournament Manager</h1>
+</header>
+
+<div class="container">
+
+  <div id="setup-section">
+    <div class="card">
+      <div class="card-title">1. Configura Torneo</div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+        <div class="form-group">
+          <label>Nome Torneo</label>
+          <input type="text" id="tournament-name" value="World & Club Championship 2026">
+        </div>
+        <div class="form-group">
+          <label>Formato Torneo</label>
+          <select id="tournament-format" onchange="updateFormatOptions()">
+            <option value="groups_knockout">Gironi + Eliminazione Diretta</option>
+            <option value="league">Campionato (Girone Unico)</option>
+            <option value="knockout">Eliminazione Diretta Semplice</option>
+          </select>
+        </div>
+        <div class="form-group" id="group-size-group">
+          <label>Squadre per Girone</label>
+          <select id="teams-per-group">
+            <option value="4" selected>4 Squadre</option>
+            <option value="3">3 Squadre</option>
+          </select>
+        </div>
+        <div class="form-group" id="qualifiers-group">
+          <label>Qualificate per Girone</label>
+          <select id="qualifiers-per-group">
+            <option value="2">Prime 2</option>
+            <option value="1">Solo la Prima</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <span>2. Seleziona Partecipanti (<span id="selected-count">0</span>)</span>
+      </div>
+      <div style="display:flex; gap:10px; margin-bottom:15px; flex-wrap:wrap;">
+        <input type="text" style="flex:1; min-width:180px;" id="team-search" placeholder="🔍 Cerca squadra..." oninput="filterTeams()">
+        <button class="btn btn-outline btn-sm" onclick="selectAllTeams(true)">Tutte</button>
+        <button class="btn btn-outline btn-sm" onclick="selectAllTeams(false)">Azzera</button>
+      </div>
+      <div class="teams-grid" id="teams-container"></div>
+      <button class="btn btn-green" style="width:100%; margin-top:20px; font-size:1rem;" onclick="generateTournament()">🚀 Avvia Torneo</button>
+    </div>
+  </div>
+
+  <div id="dashboard-section" class="hidden">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h2 id="display-tournament-name" style="font-size:1.4rem;"></h2>
+        <p style="color:var(--text-muted); font-size:0.85rem;" id="display-tournament-info"></p>
+      </div>
+      <div style="display:flex; gap:8px;">
+        <button class="btn btn-purple btn-sm" onclick="simulaTuttoTorneo()">🎲 Simula Risultati (in base al Rating)</button>
+        <button class="btn btn-outline btn-sm" onclick="resetTournament()">🔄 Nuovo Torneo</button>
+      </div>
+    </div>
+
+    <div class="nav-tabs" id="tabs-bar">
+      <button class="tab-btn active" id="tab-btn-gironi" onclick="switchTab('gironi')">⚽ Classifiche Gironi</button>
+      <button class="tab-btn" id="tab-btn-partite" onclick="switchTab('partite')">📅 Partite & Risultati</button>
+      <button class="tab-btn" id="tab-btn-bracket" onclick="switchTab('bracket')">🌳 Tabellone Ad Eliminazione</button>
+      <button class="tab-btn" id="tab-btn-marcatori" onclick="switchTab('marcatori')">👟 Marcatori & Rose</button>
+    </div>
+
+    <div id="tab-gironi" class="tab-content">
+      <div class="groups-wrapper" id="groups-container"></div>
+    </div>
+
+    <div id="tab-partite" class="tab-content hidden">
+      <div class="card" id="fixtures-container"></div>
+    </div>
+
+    <div id="tab-bracket" class="tab-content hidden">
+      <div class="card" style="overflow-x: auto;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+          <h3>Fase ad Eliminazione Diretta</h3>
+          <button class="btn btn-sm btn-green" onclick="generateKnockoutFromGroups()" id="btn-generate-knockout">Popola dai Gironi</button>
+        </div>
+        <div class="bracket-container" id="bracket-tree"></div>
+      </div>
+    </div>
+
+    <div id="tab-marcatori" class="tab-content hidden">
+      <div class="card">
+        <h3>👥 Consulta Rosa Ufficiale</h3>
+        <div style="display:flex; gap:10px; margin-top:10px; margin-bottom:20px;">
+          <select id="select-team-roster" onchange="loadTeamRoster(this.value)"></select>
+        </div>
+        <div id="roster-display-container" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:10px;"></div>
+      </div>
+
+      <div class="card">
+        <h3>📊 Classifica Marcatori</h3>
+        <table>
+          <thead>
+            <tr><th>Giocatore</th><th>Squadra</th><th>Gol</th></tr>
+          </thead>
+          <tbody id="top-scorers-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+  let teamsDatabase = [];
+  let playersDatabase = {};
+  let rostersDatabase = {};
+
+  let state = {
+    name: "", format: "groups_knockout", teamsPerGroup: 4, qualifiersPerGroup: 2,
+    selectedTeamIds: [], gironi: {}, knockoutRounds: []
+  };
+
+  // Caricamento Dati Esterni
+  async function loadAllData() {
+    try {
+      const resTeams = await fetch('data/teams.json');
+      if(resTeams.ok) teamsDatabase = await resTeams.json();
+
+      const resPlayers = await fetch('data/players.json');
+      if(resPlayers.ok) playersDatabase = await resPlayers.json();
+
+      const resRosters = await fetch('data/rosters.json');
+      if(resRosters.ok) rostersDatabase = await resRosters.json();
+
+      renderTeamList();
+    } catch (e) {
+      console.log("In attesa dei file JSON nella cartella data/...");
+    }
+  }
+
+  function renderTeamList() {
+    const container = document.getElementById('teams-container');
+    if(teamsDatabase.length === 0) {
+      container.innerHTML = `<p style="color:var(--text-muted); padding:10px;">Aggiungi i dati nel file data/teams.json...</p>`;
+      return;
+    }
+
+    container.innerHTML = teamsDatabase.map(t => `
+      <div class="team-card-select ${state.selectedTeamIds.includes(t.id) ? 'selected' : ''}" id="card-${t.id}" onclick="toggleTeam('${t.id}')">
+        <div class="team-info">
+          <span>${t.flag}</span>
+          <span style="font-size:0.85rem; font-weight:600;">${t.name}</span>
+        </div>
+        <span class="rating-badge">${t.rating || '80.0'}</span>
+      </div>
+    `).join('');
+    document.getElementById('selected-count').innerText = state.selectedTeamIds.length;
+  }
+
+  function toggleTeam(id) {
+    if (state.selectedTeamIds.includes(id)) state.selectedTeamIds = state.selectedTeamIds.filter(x => x !== id);
+    else state.selectedTeamIds.push(id);
+    document.getElementById(`card-${id}`).classList.toggle('selected', state.selectedTeamIds.includes(id));
+    document.getElementById('selected-count').innerText = state.selectedTeamIds.length;
+  }
+
+  function selectAllTeams(select) { state.selectedTeamIds = select ? teamsDatabase.map(t => t.id) : []; renderTeamList(); }
+
+  function filterTeams() {
+    const query = document.getElementById('team-search').value.toLowerCase();
+    teamsDatabase.forEach(t => {
+      const el = document.getElementById(`card-${t.id}`);
+      if(el) el.style.display = t.name.toLowerCase().includes(query) ? 'flex' : 'none';
+    });
+  }
+
+  function updateFormatOptions() {
+    const fmt = document.getElementById('tournament-format').value;
+    document.getElementById('group-size-group').style.display = (fmt === 'knockout') ? 'none' : 'block';
+    document.getElementById('qualifiers-group').style.display = (fmt === 'groups_knockout') ? 'block' : 'none';
+  }
+
+  function generateTournament() {
+    if (state.selectedTeamIds.length < 2) { alert("Seleziona almeno 2 squadre!"); return; }
+
+    state.name = document.getElementById('tournament-name').value || "World Tournament";
+    state.format = document.getElementById('tournament-format').value;
+    state.teamsPerGroup = parseInt(document.getElementById('teams-per-group').value);
+    state.qualifiersPerGroup = parseInt(document.getElementById('qualifiers-per-group').value);
+
+    const selectedTeams = teamsDatabase.filter(t => state.selectedTeamIds.includes(t.id));
+    selectedTeams.sort(() => Math.random() - 0.5);
+
+    state.gironi = {}; state.knockoutRounds = [];
+
+    if (state.format === 'knockout') {
+      setupKnockoutTree(selectedTeams);
+    } else {
+      let code = 65;
+      const size = (state.format === 'league') ? selectedTeams.length : state.teamsPerGroup;
+      for (let i = 0; i < selectedTeams.length; i += size) {
+        const gName = (state.format === 'league') ? "Girone Unico" : "Girone " + String.fromCharCode(code++);
+        const gTeams = selectedTeams.slice(i, i + size);
+        const matches = [];
+        for (let a = 0; a < gTeams.length; a++) {
+          for (let b = a + 1; b < gTeams.length; b++) {
+            matches.push({
+              id: 'm_' + Math.random().toString(36).substr(2, 7),
+              home: gTeams[a], away: gTeams[b],
+              homeScore: null, awayScore: null
+            });
+          }
+        }
+        state.gironi[gName] = { teams: gTeams.map(t => ({ ...t, P:0, W:0, D:0, L:0, GF:0, GA:0, GD:0, PTS:0 })), matches };
+      }
+    }
+
+    saveState(); renderDashboard();
+  }
+
+  function sanitizeScore(val) {
+    if (val === "" || val === null) return null;
+    return Math.max(0, parseInt(val) || 0);
+  }
+
+  function updateScore(gName, matchId, isHome, val) {
+    const cleanVal = sanitizeScore(val);
+    const match = state.gironi[gName].matches.find(m => m.id === matchId);
+    if (isHome) match.homeScore = cleanVal;
+    else match.awayScore = cleanVal;
+
+    recalculateGroup(gName); saveState(); renderDashboard();
+  }
+
+  function recalculateGroup(gName) {
+    const group = state.gironi[gName];
+    group.teams.forEach(t => { t.P=0; t.W=0; t.D=0; t.L=0; t.GF=0; t.GA=0; t.GD=0; t.PTS=0; });
+    group.matches.forEach(m => {
+      if (m.homeScore !== null && m.awayScore !== null) {
+        const hs = m.homeScore, as = m.awayScore;
+        const home = group.teams.find(t => t.id === m.home.id);
+        const away = group.teams.find(t => t.id === m.away.id);
+        home.P++; away.P++; home.GF += hs; home.GA += as; away.GF += as; away.GA += hs;
+        home.GD = home.GF - home.GA; away.GD = away.GF - away.GA;
+        if (hs > as) { home.W++; away.L++; home.PTS += 3; }
+        else if (as > hs) { away.W++; home.L++; away.PTS += 3; }
+        else { home.D++; away.D++; home.PTS += 1; away.PTS += 1; }
+      }
+    });
+    group.teams.sort((a,b) => b.PTS - a.PTS || b.GD - a.GD || b.GF - a.GF);
+  }
+
+  function renderDashboard() {
+    document.getElementById('setup-section').classList.add('hidden');
+    document.getElementById('dashboard-section').classList.remove('hidden');
+
+    document.getElementById('display-tournament-name').innerText = state.name;
+    document.getElementById('display-tournament-info').innerText = `${state.selectedTeamIds.length} Partecipanti | Formato: ${state.format}`;
+
+    const isPureKnockout = (state.format === 'knockout');
+    document.getElementById('tab-btn-gironi').style.display = isPureKnockout ? 'none' : 'block';
+    document.getElementById('btn-generate-knockout').style.display = isPureKnockout ? 'none' : 'block';
+
+    if (isPureKnockout) switchTab('bracket');
+    else { renderGroups(); renderFixtures(); }
+
+    renderBracket(); populateRosterSelector();
+  }
+
+  function renderGroups() {
+    const container = document.getElementById('groups-container');
+    container.innerHTML = '';
+    Object.keys(state.gironi).forEach(gName => {
+      const g = state.gironi[gName];
+      const div = document.createElement('div'); div.className = 'card';
+      div.innerHTML = `
+        <div class="card-title"><span>${gName}</span></div>
+        <table>
+          <thead><tr><th style="text-align:left;">Squadra</th><th>G</th><th>V</th><th>N</th><th>P</th><th>DR</th><th>Pt</th></tr></thead>
+          <tbody>
+            ${g.teams.map(t => `
+              <tr>
+                <td class="team-col"><span>${t.flag}</span><span>${t.name}</span></td>
+                <td>${t.P}</td><td>${t.W}</td><td>${t.D}</td><td>${t.L}</td>
+                <td>${t.GD > 0 ? '+' + t.GD : t.GD}</td><td class="stat-badge">${t.PTS}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+      container.appendChild(div);
+    });
+  }
+
+  function renderFixtures() {
+    const container = document.getElementById('fixtures-container');
+    container.innerHTML = '<div class="card-title"><span>Calendario Partite</span></div>';
+    Object.keys(state.gironi).forEach(gName => {
+      state.gironi[gName].matches.forEach(m => {
+        const item = document.createElement('div'); item.className = 'match-item';
+        item.innerHTML = `
+          <div class="match-body">
+            <div class="team-display"><span>${m.home.flag}</span><span>${m.home.name}</span></div>
+            <div style="display:flex; gap:6px; align-items:center;">
+              <input type="number" min="0" class="score-input" value="${m.homeScore !== null ? m.homeScore : ''}" onchange="updateScore('${gName}', '${m.id}', true, this.value)">
+              <span>-</span>
+              <input type="number" min="0" class="score-input" value="${m.awayScore !== null ? m.awayScore : ''}" onchange="updateScore('${gName}', '${m.id}', false, this.value)">
+            </div>
+            <div class="team-display away"><span>${m.away.name}</span><span>${m.away.flag}</span></div>
+          </div>
+        `;
+        container.appendChild(item);
+      });
+    });
+  }
+
+  function setupKnockoutTree(teams) {
+    let size = 2; while (size < teams.length) size *= 2;
+    const round1 = [];
+    for (let i = 0; i < size; i += 2) {
+      round1.push({
+        id: 'k_' + Math.random().toString(36).substr(2, 7),
+        home: teams[i] || { name: 'BYE', flag: '🏳️', id: null },
+        away: teams[i+1] || { name: 'BYE', flag: '🏳️', id: null },
+        homeScore: null, awayScore: null, winner: null
+      });
+    }
+    state.knockoutRounds = [round1];
+    let curSize = size / 2;
+    while (curSize > 1) {
+      curSize /= 2;
+      const nextR = [];
+      for (let i = 0; i < curSize; i++) {
+        nextR.push({ id: 'k_' + Math.random().toString(36).substr(2, 7), home: { name: 'TBD', flag: '❓', id: null }, away: { name: 'TBD', flag: '❓', id: null }, homeScore: null, awayScore: null, winner: null });
+      }
+      state.knockoutRounds.push(nextR);
+    }
+  }
+
+  function generateKnockoutFromGroups() {
+    const qualified = [];
+    Object.keys(state.gironi).forEach(gName => {
+      qualified.push(...state.gironi[gName].teams.slice(0, state.qualifiersPerGroup));
+    });
+    setupKnockoutTree(qualified);
+    saveState(); switchTab('bracket'); renderBracket();
+  }
+
+  function updateKnockoutScore(rIdx, mIdx, isHome, val) {
+    const match = state.knockoutRounds[rIdx][mIdx];
+    const cleanVal = sanitizeScore(val);
+    if (isHome) match.homeScore = cleanVal; else match.awayScore = cleanVal;
+
+    if (match.homeScore !== null && match.awayScore !== null) {
+      if (match.homeScore > match.awayScore) match.winner = match.home;
+      else if (match.awayScore > match.homeScore) match.winner = match.away;
+      else match.winner = Math.random() > 0.5 ? match.home : match.away;
+
+      if (rIdx + 1 < state.knockoutRounds.length) {
+        const nextIdx = Math.floor(mIdx / 2);
+        const isNextHome = (mIdx % 2 === 0);
+        if (isNextHome) state.knockoutRounds[rIdx + 1][nextIdx].home = match.winner;
+        else state.knockoutRounds[rIdx + 1][nextIdx].away = match.winner;
+      }
+    }
+    saveState(); renderBracket();
+  }
+
+  function renderBracket() {
+    const container = document.getElementById('bracket-tree'); container.innerHTML = '';
+    if (!state.knockoutRounds || state.knockoutRounds.length === 0) return;
+
+    state.knockoutRounds.forEach((round, rIdx) => {
+      const col = document.createElement('div'); col.className = 'bracket-round';
+      col.innerHTML = `<div class="bracket-round-title">Turno ${rIdx + 1}</div>`;
+      round.forEach((m, mIdx) => {
+        const box = document.createElement('div'); box.className = 'bracket-match';
+        box.innerHTML = `
+          <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+            <span class="${m.winner && m.winner.id === m.home.id ? 'winner-highlight' : ''}">${m.home.flag} ${m.home.name}</span>
+            <input type="number" min="0" class="score-input" style="height:28px;" value="${m.homeScore !== null ? m.homeScore : ''}" onchange="updateKnockoutScore(${rIdx}, ${mIdx}, true, this.value)">
+          </div>
+          <div style="display:flex; justify-content:space-between;">
+            <span class="${m.winner && m.winner.id === m.away.id ? 'winner-highlight' : ''}">${m.away.flag} ${m.away.name}</span>
+            <input type="number" min="0" class="score-input" style="height:28px;" value="${m.awayScore !== null ? m.awayScore : ''}" onchange="updateKnockoutScore(${rIdx}, ${mIdx}, false, this.value)">
+          </div>
+        `;
+        col.appendChild(box);
+      });
+      container.appendChild(col);
+    });
+  }
+
+  function populateRosterSelector() {
+    const select = document.getElementById('select-team-roster');
+    const selectedTeams = teamsDatabase.filter(t => state.selectedTeamIds.includes(t.id));
+    select.innerHTML = selectedTeams.map(t => `<option value="${t.id}">${t.flag} ${t.name}</option>`).join('');
+    if (selectedTeams.length > 0) loadTeamRoster(selectedTeams[0].id);
+  }
+
+  function loadTeamRoster(teamId) {
+    const container = document.getElementById('roster-display-container');
+    const playerIds = rostersDatabase[teamId] || [];
+    
+    if(playerIds.length === 0) {
+      container.innerHTML = `<p style="color:var(--text-muted); grid-column: 1/-1;">Nessuna rosa caricata per questa squadra in data/rosters.json.</p>`;
+      return;
+    }
+
+    container.innerHTML = playerIds.map(pId => {
+      const p = playersDatabase[pId] || { name: pId, pos: "GIOC", nat: "" };
+      return `
+        <div style="background:var(--bg-input); border:1px solid var(--border); border-radius:8px; padding:10px; display:flex; justify-content:space-between; align-items:center;">
+          <div>
+            <div style="font-weight:600; font-size:0.85rem;">${p.name}</div>
+            <div style="font-size:0.7rem; color:var(--text-muted);">${p.nat || ''}</div>
+          </div>
+          <span style="font-size:0.7rem; background:rgba(255,255,255,0.1); padding:2px 6px; border-radius:4px;">${p.pos || 'GIOC'}</span>
+        </div>
+      `;
+    }).join('');
+  }
+
+  // Simulazione basata sul Rating
+  function simulaTuttoTorneo() {
+    Object.keys(state.gironi).forEach(gName => {
+      state.gironi[gName].matches.forEach(m => {
+        const rHome = m.home.rating || 75;
+        const rAway = m.away.rating || 75;
+        const diff = (rHome - rAway) / 20;
+
+        m.homeScore = Math.max(0, Math.floor(Math.random() * 3 + diff + 0.5));
+        m.awayScore = Math.max(0, Math.floor(Math.random() * 3 - diff + 0.5));
+      });
+      recalculateGroup(gName);
+    });
+    saveState(); renderDashboard();
+  }
+
+  function switchTab(tabId) {
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById(`tab-${tabId}`).classList.remove('hidden');
+    document.getElementById(`tab-btn-${tabId}`).classList.add('active');
+  }
+
+  function saveState() { localStorage.setItem('winner_v3_state', JSON.stringify(state)); }
+  function loadState() {
+    const saved = localStorage.setItem ? localStorage.getItem('winner_v3_state') : null;
+    if (saved) {
+      try {
+        state = JSON.parse(saved);
+        if ((state.gironi && Object.keys(state.gironi).length > 0) || state.knockoutRounds.length > 0) renderDashboard();
+      } catch(e) {}
+    }
+  }
+
+  window.onload = async () => {
+    await loadAllData();
+    loadState();
+  };
+</script>
+</body>
+</html>
