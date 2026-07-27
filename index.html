@@ -45,6 +45,7 @@
     header h1 {
       font-size: 1.5rem; font-weight: 800;
       background: linear-gradient(135deg, #60a5fa, #c084fc);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       display: inline-flex; align-items: center; gap: 10px;
@@ -131,7 +132,7 @@
     .team-display.away { justify-content: flex-end; }
     .score-input { width: 48px !important; height: 36px; text-align: center; font-weight: 700; font-size: 1.1rem; padding: 0 !important; }
 
-    .bracket-container { display: flex; gap: 20px; overflow-x: auto; padding: 10px 0; }
+    .bracket-container { display: flex; gap: 20px; overflow-x: auto; padding: 10px 0; min-height: 250px; }
     .bracket-round { flex: 0 0 260px; display: flex; flex-direction: column; justify-content: space-around; }
     .bracket-round-title { text-align: center; font-weight: 700; color: #60a5fa; margin-bottom: 15px; }
     .bracket-match { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 10px; margin: 10px 0; }
@@ -203,7 +204,7 @@
         <p style="color:var(--text-muted); font-size:0.85rem;" id="display-tournament-info"></p>
       </div>
       <div style="display:flex; gap:8px;">
-        <button class="btn btn-purple btn-sm" onclick="simulaTuttoTorneo()">🎲 Simula Risultati (in base al Rating)</button>
+        <button class="btn btn-purple btn-sm" onclick="simulaTuttoTorneo()">🎲 Simula Risultati</button>
         <button class="btn btn-outline btn-sm" onclick="resetTournament()">🔄 Nuovo Torneo</button>
       </div>
     </div>
@@ -225,9 +226,9 @@
 
     <div id="tab-bracket" class="tab-content hidden">
       <div class="card" style="overflow-x: auto;">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; flex-wrap:wrap; gap:10px;">
           <h3>Fase ad Eliminazione Diretta</h3>
-          <button class="btn btn-sm btn-green" onclick="generateKnockoutFromGroups()" id="btn-generate-knockout">Popola dai Gironi</button>
+          <button class="btn btn-sm btn-green" onclick="generateKnockoutFromGroups()" id="btn-generate-knockout">⚡ Popola Qualificate dai Gironi</button>
         </div>
         <div class="bracket-container" id="bracket-tree"></div>
       </div>
@@ -257,46 +258,44 @@
     selectedTeamIds: [], gironi: {}, knockoutRounds: []
   };
 
-  // Caricamento Dati Esterni Robusto
+  // Caricamento dati con Anti-Cache completo
   async function loadAllData() {
     try {
-      const timestamp = new Date().getTime();
+      const ts = new Date().getTime();
 
-      // 1. Carica le squadre
-      const resTeams = await fetch('./data/teams.json?v=' + timestamp);
+      const resTeams = await fetch('./data/teams.json?v=' + ts);
       if (resTeams.ok) {
         teamsDatabase = await resTeams.json();
         renderTeamList();
       }
 
-      // 2. Carica i giocatori con Anti-Cache
       try {
-        const resPlayers = await fetch('./data/players.json?v=' + timestamp);
+        const resPlayers = await fetch('./data/players.json?v=' + ts);
         if (resPlayers.ok) playersDatabase = await resPlayers.json();
-      } catch (e) { console.log("players.json non ancora presente."); }
+      } catch (e) {}
 
-      // 3. Carica le rose con Anti-Cache
       try {
-        const resRosters = await fetch('./data/rosters.json?v=' + timestamp);
+        const resRosters = await fetch('./data/rosters.json?v=' + ts);
         if (resRosters.ok) rostersDatabase = await resRosters.json();
-      } catch (e) { console.log("rosters.json non ancora presente."); }
+      } catch (e) {}
 
+      loadState();
     } catch (e) {
-      console.error("Errore nel caricamento dei file dati:", e);
+      console.error("Errore durante il caricamento dati:", e);
     }
   }
 
   function renderTeamList() {
     const container = document.getElementById('teams-container');
     if(!teamsDatabase || teamsDatabase.length === 0) {
-      container.innerHTML = `<p style="color:var(--text-muted); padding:10px;">Nessuna squadra trovata nel file data/teams.json...</p>`;
+      container.innerHTML = `<p style="color:var(--text-muted); padding:10px;">In attesa dei dati in data/teams.json...</p>`;
       return;
     }
 
     container.innerHTML = teamsDatabase.map(t => `
       <div class="team-card-select ${state.selectedTeamIds.includes(t.id) ? 'selected' : ''}" id="card-${t.id}" onclick="toggleTeam('${t.id}')">
         <div class="team-info">
-          <span>${t.flag}</span>
+          <span>${t.flag || '🏳️'}</span>
           <span style="font-size:0.85rem; font-weight:600;">${t.name}</span>
         </div>
         <span class="rating-badge">${t.rating || '80.0'}</span>
@@ -308,7 +307,8 @@
   function toggleTeam(id) {
     if (state.selectedTeamIds.includes(id)) state.selectedTeamIds = state.selectedTeamIds.filter(x => x !== id);
     else state.selectedTeamIds.push(id);
-    document.getElementById(`card-${id}`).classList.toggle('selected', state.selectedTeamIds.includes(id));
+    const el = document.getElementById(`card-${id}`);
+    if(el) el.classList.toggle('selected', state.selectedTeamIds.includes(id));
     document.getElementById('selected-count').innerText = state.selectedTeamIds.length;
   }
 
@@ -388,11 +388,13 @@
         const hs = m.homeScore, as = m.awayScore;
         const home = group.teams.find(t => t.id === m.home.id);
         const away = group.teams.find(t => t.id === m.away.id);
-        home.P++; away.P++; home.GF += hs; home.GA += as; away.GF += as; away.GA += hs;
-        home.GD = home.GF - home.GA; away.GD = away.GF - away.GA;
-        if (hs > as) { home.W++; away.L++; home.PTS += 3; }
-        else if (as > hs) { away.W++; home.L++; away.PTS += 3; }
-        else { home.D++; away.D++; home.PTS += 1; away.PTS += 1; }
+        if (home && away) {
+          home.P++; away.P++; home.GF += hs; home.GA += as; away.GF += as; away.GA += hs;
+          home.GD = home.GF - home.GA; away.GD = away.GF - away.GA;
+          if (hs > as) { home.W++; away.L++; home.PTS += 3; }
+          else if (as > hs) { away.W++; home.L++; away.PTS += 3; }
+          else { home.D++; away.D++; home.PTS += 1; away.PTS += 1; }
+        }
       }
     });
     group.teams.sort((a,b) => b.PTS - a.PTS || b.GD - a.GD || b.GF - a.GF);
@@ -428,7 +430,7 @@
           <tbody>
             ${g.teams.map(t => `
               <tr>
-                <td class="team-col"><span>${t.flag}</span><span>${t.name}</span></td>
+                <td class="team-col"><span>${t.flag || '🏳️'}</span><span>${t.name}</span></td>
                 <td>${t.P}</td><td>${t.W}</td><td>${t.D}</td><td>${t.L}</td>
                 <td>${t.GD > 0 ? '+' + t.GD : t.GD}</td><td class="stat-badge">${t.PTS}</td>
               </tr>
@@ -448,13 +450,13 @@
         const item = document.createElement('div'); item.className = 'match-item';
         item.innerHTML = `
           <div class="match-body">
-            <div class="team-display"><span>${m.home.flag}</span><span>${m.home.name}</span></div>
+            <div class="team-display"><span>${m.home.flag || '🏳️'}</span><span>${m.home.name}</span></div>
             <div style="display:flex; gap:6px; align-items:center;">
               <input type="number" min="0" class="score-input" value="${m.homeScore !== null ? m.homeScore : ''}" onchange="updateScore('${gName}', '${m.id}', true, this.value)">
               <span>-</span>
               <input type="number" min="0" class="score-input" value="${m.awayScore !== null ? m.awayScore : ''}" onchange="updateScore('${gName}', '${m.id}', false, this.value)">
             </div>
-            <div class="team-display away"><span>${m.away.name}</span><span>${m.away.flag}</span></div>
+            <div class="team-display away"><span>${m.away.name}</span><span>${m.away.flag || '🏳️'}</span></div>
           </div>
         `;
         container.appendChild(item);
@@ -463,6 +465,7 @@
   }
 
   function setupKnockoutTree(teams) {
+    if(!teams || teams.length < 2) return;
     let size = 2; while (size < teams.length) size *= 2;
     const round1 = [];
     for (let i = 0; i < size; i += 2) {
@@ -490,6 +493,12 @@
     Object.keys(state.gironi).forEach(gName => {
       qualified.push(...state.gironi[gName].teams.slice(0, state.qualifiersPerGroup));
     });
+
+    if(qualified.length < 2) {
+      alert("Completa prima i gironi o inserisci almeno 2 qualificate!");
+      return;
+    }
+
     setupKnockoutTree(qualified);
     saveState(); switchTab('bracket'); renderBracket();
   }
@@ -516,7 +525,10 @@
 
   function renderBracket() {
     const container = document.getElementById('bracket-tree'); container.innerHTML = '';
-    if (!state.knockoutRounds || state.knockoutRounds.length === 0) return;
+    if (!state.knockoutRounds || state.knockoutRounds.length === 0) {
+      container.innerHTML = `<p style="color:var(--text-muted); padding:20px;">I gironi sono in corso. Clicca su <b>"Popola Qualificate dai Gironi"</b> dopo aver giocate le partite per sbloccare il tabellone!</p>`;
+      return;
+    }
 
     state.knockoutRounds.forEach((round, rIdx) => {
       const col = document.createElement('div'); col.className = 'bracket-round';
@@ -525,11 +537,11 @@
         const box = document.createElement('div'); box.className = 'bracket-match';
         box.innerHTML = `
           <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
-            <span class="${m.winner && m.winner.id === m.home.id ? 'winner-highlight' : ''}">${m.home.flag} ${m.home.name}</span>
+            <span class="${m.winner && m.winner.id === m.home.id ? 'winner-highlight' : ''}">${m.home.flag || '🏳️'} ${m.home.name}</span>
             <input type="number" min="0" class="score-input" style="height:28px;" value="${m.homeScore !== null ? m.homeScore : ''}" onchange="updateKnockoutScore(${rIdx}, ${mIdx}, true, this.value)">
           </div>
           <div style="display:flex; justify-content:space-between;">
-            <span class="${m.winner && m.winner.id === m.away.id ? 'winner-highlight' : ''}">${m.away.flag} ${m.away.name}</span>
+            <span class="${m.winner && m.winner.id === m.away.id ? 'winner-highlight' : ''}">${m.away.flag || '🏳️'} ${m.away.name}</span>
             <input type="number" min="0" class="score-input" style="height:28px;" value="${m.awayScore !== null ? m.awayScore : ''}" onchange="updateKnockoutScore(${rIdx}, ${mIdx}, false, this.value)">
           </div>
         `;
@@ -542,21 +554,26 @@
   function populateRosterSelector() {
     const select = document.getElementById('select-team-roster');
     const selectedTeams = teamsDatabase.filter(t => state.selectedTeamIds.includes(t.id));
-    select.innerHTML = selectedTeams.map(t => `<option value="${t.id}">${t.flag} ${t.name}</option>`).join('');
-    if (selectedTeams.length > 0) loadTeamRoster(selectedTeams[0].id);
+    if(selectedTeams.length === 0) return;
+
+    select.innerHTML = selectedTeams.map(t => `<option value="${t.id}">${t.flag || '🏳️'} ${t.name}</option>`).join('');
+    loadTeamRoster(selectedTeams[0].id);
   }
 
   function loadTeamRoster(teamId) {
     const container = document.getElementById('roster-display-container');
-    const playerIds = rostersDatabase[teamId] || [];
     
-    if(playerIds.length === 0) {
-      container.innerHTML = `<p style="color:var(--text-muted); grid-column: 1/-1;">Nessuna rosa caricata per questa squadra in data/rosters.json.</p>`;
+    // Cerca l'ID supportando sia maiuscole che minuscole
+    const normalizedKey = Object.keys(rostersDatabase).find(k => k.toLowerCase() === teamId.toLowerCase());
+    const playerIds = normalizedKey ? rostersDatabase[normalizedKey] : [];
+
+    if(!playerIds || playerIds.length === 0) {
+      container.innerHTML = `<p style="color:var(--text-muted); grid-column: 1/-1;">Nessuna rosa trovata per la squadra <b>${teamId}</b> in data/rosters.json.</p>`;
       return;
     }
 
     container.innerHTML = playerIds.map(pId => {
-      const p = playersDatabase[pId] || { name: pId, pos: "GIOC", nat: "" };
+      const p = playersDatabase[pId] || { name: pId.replace(/_/g, ' '), pos: "GIOC", nat: "" };
       return `
         <div style="background:var(--bg-input); border:1px solid var(--border); border-radius:8px; padding:10px; display:flex; justify-content:space-between; align-items:center;">
           <div>
@@ -569,7 +586,6 @@
     }).join('');
   }
 
-  // Simulazione basata sul Rating
   function simulaTuttoTorneo() {
     Object.keys(state.gironi).forEach(gName => {
       state.gironi[gName].matches.forEach(m => {
@@ -582,6 +598,11 @@
       });
       recalculateGroup(gName);
     });
+
+    if (state.format === 'groups_knockout') {
+      generateKnockoutFromGroups();
+    }
+
     saveState(); renderDashboard();
   }
 
@@ -614,7 +635,6 @@
 
   window.onload = async () => {
     await loadAllData();
-    loadState();
   };
 </script>
 </body>
