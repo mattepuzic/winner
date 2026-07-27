@@ -155,7 +155,7 @@
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
         <div class="form-group">
           <label>Nome Torneo</label>
-          <input type="text" id="tournament-name" value="World & Club Championship 2026">
+          <input type="text" id="tournament-name" value="UEFA Nations Championship 2026">
         </div>
         <div class="form-group">
           <label>Formato Torneo</label>
@@ -241,16 +241,6 @@
         </div>
         <div id="roster-display-container" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:10px;"></div>
       </div>
-
-      <div class="card">
-        <h3>📊 Classifica Marcatori</h3>
-        <table>
-          <thead>
-            <tr><th>Giocatore</th><th>Squadra</th><th>Gol</th></tr>
-          </thead>
-          <tbody id="top-scorers-body"></tbody>
-        </table>
-      </div>
     </div>
 
   </div>
@@ -267,28 +257,39 @@
     selectedTeamIds: [], gironi: {}, knockoutRounds: []
   };
 
-  // Caricamento Dati Esterni
+  // Caricamento Dati Esterni Robusto
   async function loadAllData() {
     try {
-      const resTeams = await fetch('data/teams.json');
-      if(resTeams.ok) teamsDatabase = await resTeams.json();
+      // 1. Carica le squadre (obbligatorio)
+      const resTeams = await fetch('./data/teams.json');
+      if (resTeams.ok) {
+        teamsDatabase = await resTeams.json();
+        renderTeamList();
+      } else {
+        console.error("Impossibile caricare ./data/teams.json. Verificare che il file esista.");
+      }
 
-      const resPlayers = await fetch('data/players.json');
-      if(resPlayers.ok) playersDatabase = await resPlayers.json();
+      // 2. Carica i giocatori (opzionale)
+      try {
+        const resPlayers = await fetch('./data/players.json');
+        if (resPlayers.ok) playersDatabase = await resPlayers.json();
+      } catch (e) { console.log("players.json non ancora presente."); }
 
-      const resRosters = await fetch('data/rosters.json');
-      if(resRosters.ok) rostersDatabase = await resRosters.json();
+      // 3. Carica le rose (opzionale)
+      try {
+        const resRosters = await fetch('./data/rosters.json');
+        if (resRosters.ok) rostersDatabase = await resRosters.json();
+      } catch (e) { console.log("rosters.json non ancora presente."); }
 
-      renderTeamList();
     } catch (e) {
-      console.log("In attesa dei file JSON nella cartella data/...");
+      console.error("Errore nel caricamento dei file dati:", e);
     }
   }
 
   function renderTeamList() {
     const container = document.getElementById('teams-container');
-    if(teamsDatabase.length === 0) {
-      container.innerHTML = `<p style="color:var(--text-muted); padding:10px;">Aggiungi i dati nel file data/teams.json...</p>`;
+    if(!teamsDatabase || teamsDatabase.length === 0) {
+      container.innerHTML = `<p style="color:var(--text-muted); padding:10px;">Nessuna squadra trovata nel file data/teams.json...</p>`;
       return;
     }
 
@@ -584,6 +585,13 @@
     saveState(); renderDashboard();
   }
 
+  function resetTournament() {
+    if(confirm("Sei sicuro di voler resettare il torneo e crearne uno nuovo?")) {
+      localStorage.removeItem('winner_v3_state');
+      location.reload();
+    }
+  }
+
   function switchTab(tabId) {
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
     document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
@@ -593,11 +601,13 @@
 
   function saveState() { localStorage.setItem('winner_v3_state', JSON.stringify(state)); }
   function loadState() {
-    const saved = localStorage.setItem ? localStorage.getItem('winner_v3_state') : null;
+    const saved = localStorage.getItem('winner_v3_state');
     if (saved) {
       try {
         state = JSON.parse(saved);
-        if ((state.gironi && Object.keys(state.gironi).length > 0) || state.knockoutRounds.length > 0) renderDashboard();
+        if ((state.gironi && Object.keys(state.gironi).length > 0) || (state.knockoutRounds && state.knockoutRounds.length > 0)) {
+          renderDashboard();
+        }
       } catch(e) {}
     }
   }
