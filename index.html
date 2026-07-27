@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Winner Tournament Manager - UEFA Hub</title>
+  <title>UEFA Nations League Manager</title>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -22,36 +22,25 @@
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
     body { background-color: var(--bg-dark); color: var(--text); padding-bottom: 60px; min-height: 100vh; }
     
-    header { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 18px 20px; text-align: center; sticky: top; }
-    header h1 { font-size: 1.6rem; font-weight: 800; background: linear-gradient(135deg, #60a5fa, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-    header p { color: var(--text-muted); font-size: 0.85rem; margin-top: 4px; }
+    header { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 18px 20px; text-align: center; }
+    header h1 { font-size: 1.6rem; font-weight: 800; background: linear-gradient(135deg, #a855f7, #60a5fa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
     .container { max-width: 1200px; margin: 25px auto; padding: 0 15px; }
     .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 22px; margin-bottom: 25px; box-shadow: 0 8px 32px rgba(0,0,0,0.2); }
-    .card-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 15px; color: #93c5fd; display: flex; justify-content: space-between; align-items: center; }
+    .card-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 15px; color: #c084fc; display: flex; justify-content: space-between; align-items: center; }
 
-    /* SELEZIONE MODALITÀ */
-    .modes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; margin-bottom: 20px; }
-    .mode-box { background: var(--bg-input); border: 2px solid var(--border); border-radius: 14px; padding: 18px; cursor: pointer; transition: all 0.2s; text-align: center; }
-    .mode-box:hover, .mode-box.active { border-color: var(--primary); background: rgba(59, 130, 246, 0.15); transform: translateY(-2px); }
-    .mode-box h3 { font-size: 1.1rem; color: #f8fafc; margin-bottom: 6px; }
-    .mode-box p { font-size: 0.8rem; color: var(--text-muted); }
-
-    /* BOTTONI */
     .btn { background: var(--primary); color: white; border: none; padding: 10px 18px; border-radius: 10px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
     .btn:hover { opacity: 0.9; }
-    .btn-green { background: var(--accent-green); }
     .btn-purple { background: var(--accent-purple); }
-    .btn-gold { background: var(--accent-gold); color: #000; }
+    .btn-green { background: var(--accent-green); }
     .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
     .btn-sm { padding: 6px 12px; font-size: 0.8rem; }
 
-    /* TABS E TABELLE */
     .nav-tabs { display: flex; gap: 8px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 10px; overflow-x: auto; }
     .tab-btn { padding: 10px 16px; background: transparent; border: none; color: var(--text-muted); font-weight: 600; cursor: pointer; border-radius: 8px; white-space: nowrap; }
-    .tab-btn.active { background: var(--primary); color: white; }
+    .tab-btn.active { background: var(--accent-purple); color: white; }
 
-    .groups-wrapper { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+    .groups-wrapper { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
     table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.85rem; }
     th, td { padding: 8px; text-align: center; border-bottom: 1px solid var(--border); }
     th { color: var(--text-muted); font-weight: 600; }
@@ -59,67 +48,47 @@
     .match-item { background: rgba(0,0,0,0.2); border: 1px solid var(--border); border-radius: 12px; padding: 10px 15px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
     .score-input { width: 45px !important; text-align: center; font-weight: bold; padding: 5px; background: var(--bg-input); border: 1px solid var(--border); color: white; border-radius: 6px; }
 
+    .bracket-flex { display: flex; gap: 20px; overflow-x: auto; padding: 10px 0; }
+    .bracket-col { flex: 0 0 260px; }
+    .bracket-card { background: var(--bg-input); border: 1px solid var(--border); border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+
     .hidden { display: none !important; }
+    .purple-text { color: var(--accent-purple); font-weight: bold; }
     .gold-text { color: var(--accent-gold); font-weight: bold; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>🏆 Winner Tournament Manager</h1>
-  <p>Gestione & Simulazione Tornei UEFA</p>
+  <h1>🛡️ UEFA Nations League Official Hub</h1>
 </header>
 
 <div class="container">
 
-  <div id="setup-section">
-    <div class="card">
-      <div class="card-title">1. Scegli la Modalità di Gioco</div>
-      
-      <div class="modes-grid">
-        <div class="mode-box active" id="mode-wm" onclick="selectMode('wm')">
-          <h3>🌍 Qualificazioni Mondiali</h3>
-          <p>55 Nazionali divise in gironi. Pass diretto per le 1ª e Playoff per le 2ª.</p>
-        </div>
-        <div class="mode-box" id="mode-nl" onclick="selectMode('nl')">
-          <h3>🛡️ UEFA Nations League</h3>
-          <p>Gironi da 4 squadre con andata e ritorno per conquistare la Final Four.</p>
-        </div>
-        <div class="mode-box" id="mode-custom" onclick="selectMode('custom')">
-          <h3>⚙️ Torneo Personalizzato</h3>
-          <p>Scegli manualmente le squadre e crea un torneo su misura.</p>
-        </div>
-      </div>
-
-      <div id="custom-team-selector" class="hidden" style="margin-top:20px;">
-        <label style="font-size:0.85rem; color:var(--text-muted); display:block; margin-bottom:8px;">Seleziona le Nazionali Partecipanti:</label>
-        <div style="display:flex; gap:10px; margin-bottom:10px;">
-          <button class="btn btn-outline btn-sm" onclick="selectAll(true)">Seleziona Tutte (55)</button>
-          <button class="btn btn-outline btn-sm" onclick="selectAll(false)">Azzera</button>
-        </div>
-        <div id="teams-checkbox-grid" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap:8px; max-height:200px; overflow-y:auto; padding:5px; background:var(--bg-input); border-radius:8px;"></div>
-      </div>
-
-      <button class="btn btn-green" style="width:100%; margin-top:20px; font-size:1rem; padding:12px;" onclick="startTournament()">🚀 Genera & Sorteggia Torneo</button>
-    </div>
+  <div id="setup-section" class="card">
+    <div class="card-title">Configurazione Nations League (Lega A)</div>
+    <p style="color:var(--text-muted); margin-bottom:20px; font-size:0.9rem;">
+      Carica i gironi reali della Lega A con le 16 migliori nazionali europee. Le prime 2 di ogni girone si qualificano ai <b>Quarti di Finale (Final 8)</b> per contendersi il titolo!
+    </p>
+    <button class="btn btn-purple" style="width:100%; padding:12px; font-size:1rem;" onclick="generaGironiUfficiali()">🚀 Carica Gironi Reali & Avvia Torneo</button>
   </div>
 
   <div id="dashboard-section" class="hidden">
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; flex-wrap:wrap; gap:10px;">
       <div>
-        <h2 id="tournament-title-display"></h2>
-        <span id="tournament-badge" class="gold-text" style="font-size:0.85rem;"></span>
+        <h2>🛡️ UEFA Nations League - Lega A</h2>
+        <span class="purple-text" style="font-size:0.85rem;">Fase a Gironi + Final 8 (Quarti, Semifinali, Finale)</span>
       </div>
       <div style="display:flex; gap:8px;">
-        <button class="btn btn-purple btn-sm" onclick="simulaTutto()">🎲 Simula Risultati</button>
-        <button class="btn btn-outline btn-sm" onclick="resetToHome()">🔄 Cambia Torneo</button>
+        <button class="btn btn-purple btn-sm" onclick="simulaTuttoGironi()">🎲 Simula Gironi</button>
+        <button class="btn btn-outline btn-sm" onclick="location.reload()">🔄 Reset</button>
       </div>
     </div>
 
     <div class="nav-tabs">
-      <button class="tab-btn active" id="tb-gironi" onclick="switchTab('gironi')">⚽ Classifiche Gironi</button>
-      <button class="tab-btn" id="tb-partite" onclick="switchTab('partite')">📅 Calendario Partite</button>
-      <button class="tab-btn" id="tb-rose" onclick="switchTab('rose')">👥 Rose & Giocatori</button>
+      <button class="tab-btn active" id="tb-gironi" onclick="switchTab('gironi')">⚽ Gironi Lega A</button>
+      <button class="tab-btn" id="tb-partite" onclick="switchTab('partite')">📅 Calendario Gare</button>
+      <button class="tab-btn" id="tb-final8" onclick="switchTab('final8')">🏆 Final 8 (Quarti & Final Four)</button>
     </div>
 
     <div id="tab-gironi" class="tab-content">
@@ -130,11 +99,13 @@
       <div class="card" id="fixtures-container"></div>
     </div>
 
-    <div id="tab-rose" class="tab-content hidden">
+    <div id="tab-final8" class="tab-content hidden">
       <div class="card">
-        <div class="card-title">Consulta la Rosa Ufficiale</div>
-        <select id="select-roster-team" onchange="displayRoster(this.value)" style="width:100%; padding:10px; background:var(--bg-input); color:white; border:1px solid var(--border); border-radius:8px; margin-bottom:15px;"></select>
-        <div id="roster-list-grid" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap:10px;"></div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; flex-wrap:wrap;">
+          <h3>🏆 Tabellone Final 8</h3>
+          <button class="btn btn-green btn-sm" onclick="generaFinal8DaGironi()">⚡ Popola Quarti con le 8 Qualificate</button>
+        </div>
+        <div class="bracket-flex" id="final8-tree"></div>
       </div>
     </div>
 
@@ -143,114 +114,66 @@
 </div>
 
 <script>
-  let teamsDB = [];
-  let playersDB = {};
-  let rostersDB = {};
-  
-  let currentMode = 'wm';
-  let selectedTeams = [];
-  let tournamentData = { gironi: {} };
+  // Database Gironi Reali Lega A
+  const LEAGUE_A_GROUPS = {
+    "Girone A1": [
+      { id: "POR", name: "Portogallo", flag: "🇵🇹" },
+      { id: "CRO", name: "Croazia", flag: "🇭🇷" },
+      { id: "SCO", name: "Scozia", flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿" },
+      { id: "POL", name: "Polonia", flag: "🇵🇱" }
+    ],
+    "Girone A2": [
+      { id: "FRA", name: "Francia", flag: "🇫🇷" },
+      { id: "ITA", name: "Italia", flag: "🇮🇹" },
+      { id: "BEL", name: "Belgio", flag: "🇧🇪" },
+      { id: "ISR", name: "Israele", flag: "🇮🇱" }
+    ],
+    "Girone A3": [
+      { id: "GER", name: "Germania", flag: "🇩🇪" },
+      { id: "NED", name: "Paesi Bassi", flag: "🇳🇱" },
+      { id: "HUN", name: "Ungheria", flag: "🇭🇺" },
+      { id: "BIH", name: "Bosnia-Erzegovina", flag: "🇧🇦" }
+    ],
+    "Girone A4": [
+      { id: "ESP", name: "Spagna", flag: "🇪🇸" },
+      { id: "DEN", name: "Danimarca", flag: "🇩🇰" },
+      { id: "SRB", name: "Serbia", flag: "🇷🇸" },
+      { id: "SUI", name: "Svizzera", flag: "🇨🇭" }
+    ]
+  };
 
-  async function loadData() {
-    const ts = new Date().getTime();
-    try {
-      const r1 = await fetch('./data/teams.json?v=' + ts); if(r1.ok) teamsDB = await r1.json();
-      const r2 = await fetch('./data/players.json?v=' + ts); if(r2.ok) playersDB = await r2.json();
-      const r3 = await fetch('./data/rosters.json?v=' + ts); if(r3.ok) rostersDB = await r3.json();
-      renderCustomSelector();
-    } catch(e) { console.error("Errore caricamento dati:", e); }
-  }
+  let gironiState = {};
+  let final8Rounds = [];
 
-  function selectMode(mode) {
-    currentMode = mode;
-    document.querySelectorAll('.mode-box').forEach(el => el.classList.remove('active'));
-    document.getElementById(`mode-${mode}`).classList.add('active');
-    
-    const selector = document.getElementById('custom-team-selector');
-    if(mode === 'custom') selector.classList.remove('hidden');
-    else selector.classList.add('hidden');
-  }
-
-  function renderCustomSelector() {
-    const grid = document.getElementById('teams-checkbox-grid');
-    grid.innerHTML = teamsDB.map(t => `
-      <label style="font-size:0.8rem; display:flex; align-items:center; gap:6px; cursor:pointer;">
-        <input type="checkbox" value="${t.id}" class="team-chk" checked> ${t.flag || '🏳️'} ${t.name}
-      </label>
-    `).join('');
-  }
-
-  function selectAll(val) {
-    document.querySelectorAll('.team-chk').forEach(chk => chk.checked = val);
-  }
-
-  function startTournament() {
-    let participants = [];
-    if(currentMode === 'custom') {
-      const checked = Array.from(document.querySelectorAll('.team-chk:checked')).map(c => c.value);
-      participants = teamsDB.filter(t => checked.includes(t.id));
-      if(participants.length < 2) { alert("Seleziona almeno 2 squadre!"); return; }
-    } else {
-      participants = [...teamsDB];
-    }
-
-    // Mescola per il sorteggio
-    participants.sort(() => Math.random() - 0.5);
-    tournamentData.gironi = {};
-
-    let groupSize = currentMode === 'nl' ? 4 : 5;
-    let letterCode = 65;
-
-    for(let i = 0; i < participants.length; i += groupSize) {
-      const gName = "Girone " + String.fromCharCode(letterCode++);
-      const gTeams = participants.slice(i, i + groupSize);
-      
+  function generaGironiUfficiali() {
+    gironiState = {};
+    Object.keys(LEAGUE_A_GROUPS).forEach(gName => {
+      const teams = LEAGUE_A_GROUPS[gName].map(t => ({ ...t, P:0, W:0, D:0, L:0, GF:0, GA:0, GD:0, PTS:0 }));
       const matches = [];
-      for(let a=0; a<gTeams.length; a++) {
-        for(let b=a+1; b<gTeams.length; b++) {
-          matches.push({ id: 'm_'+Math.random().toString(36).substr(2,5), home: gTeams[a], away: gTeams[b], homeScore: null, awayScore: null });
-          matches.push({ id: 'm_'+Math.random().toString(36).substr(2,5), home: gTeams[b], away: gTeams[a], homeScore: null, awayScore: null });
+
+      for(let a=0; a<teams.length; a++) {
+        for(let b=a+1; b<teams.length; b++) {
+          matches.push({ id: 'm_'+Math.random().toString(36).substr(2,5), home: teams[a], away: teams[b], homeScore: null, awayScore: null });
+          matches.push({ id: 'm_'+Math.random().toString(36).substr(2,5), home: teams[b], away: teams[a], homeScore: null, awayScore: null });
         }
       }
 
-      tournamentData.gironi[gName] = {
-        teams: gTeams.map(t => ({ ...t, P:0, W:0, D:0, L:0, GF:0, GA:0, GD:0, PTS:0 })),
-        matches: matches
-      };
-    }
+      gironiState[gName] = { teams, matches };
+    });
 
-    renderDashboard();
-  }
-
-  function renderDashboard() {
     document.getElementById('setup-section').classList.add('hidden');
     document.getElementById('dashboard-section').classList.remove('hidden');
 
-    const titleEl = document.getElementById('tournament-title-display');
-    const badgeEl = document.getElementById('tournament-badge');
-
-    if(currentMode === 'wm') {
-      titleEl.innerText = "🌍 Qualificazioni Mondiali UEFA";
-      badgeEl.innerText = "55 Nazionali • Pass Diretto + Playoff";
-    } else if(currentMode === 'nl') {
-      titleEl.innerText = "🛡️ UEFA Nations League";
-      badgeEl.innerText = "Gironi da 4 • Sfide A/R per la Final Four";
-    } else {
-      titleEl.innerText = "⚙️ Torneo Personalizzato";
-      badgeEl.innerText = "Formato su Misura";
-    }
-
     renderGironi();
     renderPartite();
-    populateRosterSelect();
   }
 
   function renderGironi() {
     const container = document.getElementById('groups-container');
     container.innerHTML = '';
 
-    Object.keys(tournamentData.gironi).forEach(gName => {
-      const g = tournamentData.gironi[gName];
+    Object.keys(gironiState).forEach(gName => {
+      const g = gironiState[gName];
       container.innerHTML += `
         <div class="card">
           <div class="card-title">${gName}</div>
@@ -258,13 +181,14 @@
             <thead><tr><th style="text-align:left;">Squadra</th><th>G</th><th>DR</th><th>Pt</th></tr></thead>
             <tbody>
               ${g.teams.map((t, idx) => `
-                <tr style="${idx === 0 ? 'background:rgba(16,185,129,0.15); font-weight:bold;' : (idx === 1 && currentMode === 'wm' ? 'background:rgba(245,158,11,0.15);' : '')}">
-                  <td style="text-align:left;">${t.flag||'🏳️'} ${t.name}</td>
-                  <td>${t.P}</td><td>${t.GD}</td><td class="gold-text">${t.PTS}</td>
+                <tr style="${idx < 2 ? 'background:rgba(168, 85, 247, 0.15); font-weight:bold;' : ''}">
+                  <td style="text-align:left;">${t.flag} ${t.name}</td>
+                  <td>${t.P}</td><td>${t.GD}</td><td class="purple-text">${t.PTS}</td>
                 </tr>
               `).join('')}
             </tbody>
           </table>
+          <p style="font-size:0.75rem; color:var(--text-muted); margin-top:8px;">🟣 1ª e 2ª Qualificate alla Final 8</p>
         </div>
       `;
     });
@@ -274,18 +198,18 @@
     const container = document.getElementById('fixtures-container');
     container.innerHTML = '<div class="card-title">Calendario Incontri</div>';
 
-    Object.keys(tournamentData.gironi).forEach(gName => {
-      container.innerHTML += `<h4 style="color:#60a5fa; margin:15px 0 10px 0;">${gName}</h4>`;
-      tournamentData.gironi[gName].matches.forEach(m => {
+    Object.keys(gironiState).forEach(gName => {
+      container.innerHTML += `<h4 style="color:#c084fc; margin:15px 0 10px 0;">${gName}</h4>`;
+      gironiState[gName].matches.forEach(m => {
         container.innerHTML += `
           <div class="match-item">
-            <span style="font-weight:600;">${m.home.flag||'🏳️'} ${m.home.name}</span>
+            <span style="font-weight:600;">${m.home.flag} ${m.home.name}</span>
             <div>
               <input type="number" class="score-input" value="${m.homeScore !== null ? m.homeScore : ''}" onchange="updateScore('${gName}', '${m.id}', true, this.value)">
               -
               <input type="number" class="score-input" value="${m.awayScore !== null ? m.awayScore : ''}" onchange="updateScore('${gName}', '${m.id}', false, this.value)">
             </div>
-            <span style="font-weight:600;">${m.away.name} ${m.away.flag||'🏳️'}</span>
+            <span style="font-weight:600;">${m.away.name} ${m.away.flag}</span>
           </div>
         `;
       });
@@ -293,7 +217,7 @@
   }
 
   function updateScore(gName, matchId, isHome, val) {
-    const match = tournamentData.gironi[gName].matches.find(m => m.id === matchId);
+    const match = gironiState[gName].matches.find(m => m.id === matchId);
     const score = val === "" ? null : parseInt(val);
     if(isHome) match.homeScore = score; else match.awayScore = score;
 
@@ -302,8 +226,8 @@
   }
 
   function recalculate() {
-    Object.keys(tournamentData.gironi).forEach(gName => {
-      const g = tournamentData.gironi[gName];
+    Object.keys(gironiState).forEach(gName => {
+      const g = gironiState[gName];
       g.teams.forEach(t => { t.P=0; t.W=0; t.D=0; t.L=0; t.GF=0; t.GA=0; t.GD=0; t.PTS=0; });
 
       g.matches.forEach(m => {
@@ -327,9 +251,9 @@
     });
   }
 
-  function simulaTutto() {
-    Object.keys(tournamentData.gironi).forEach(gName => {
-      tournamentData.gironi[gName].matches.forEach(m => {
+  function simulaTuttoGironi() {
+    Object.keys(gironiState).forEach(gName => {
+      gironiState[gName].matches.forEach(m => {
         m.homeScore = Math.floor(Math.random() * 4);
         m.awayScore = Math.floor(Math.random() * 3);
       });
@@ -339,31 +263,85 @@
     renderPartite();
   }
 
-  function populateRosterSelect() {
-    const select = document.getElementById('select-roster-team');
-    select.innerHTML = teamsDB.map(t => `<option value="${t.id}">${t.flag||'🏳️'} ${t.name}</option>`).join('');
-    if(teamsDB.length > 0) displayRoster(teamsDB[0].id);
+  function generaFinal8DaGironi() {
+    const qualified = [];
+    Object.keys(gironiState).forEach(gName => {
+      qualified.push(gironiState[gName].teams[0]);
+      qualified.push(gironiState[gName].teams[1]);
+    });
+
+    if(qualified.length < 8) { alert("Completa prima tutte le gare dei gironi!"); return; }
+
+    const qf = [
+      { id: 'qf1', home: qualified[0], away: qualified[3], homeScore: null, awayScore: null },
+      { id: 'qf2', home: qualified[2], away: qualified[1], homeScore: null, awayScore: null },
+      { id: 'qf3', home: qualified[4], away: qualified[7], homeScore: null, awayScore: null },
+      { id: 'qf4', home: qualified[6], away: qualified[5], homeScore: null, awayScore: null }
+    ];
+
+    const sf = [
+      { id: 'sf1', home: { name: 'Vinc. QF1', flag: '❓' }, away: { name: 'Vinc. QF2', flag: '❓' }, homeScore: null, awayScore: null },
+      { id: 'sf2', home: { name: 'Vinc. QF3', flag: '❓' }, away: { name: 'Vinc. QF4', flag: '❓' }, homeScore: null, awayScore: null }
+    ];
+
+    const fn = [
+      { id: 'fn1', home: { name: 'Vinc. SF1', flag: '❓' }, away: { name: 'Vinc. SF2', flag: '❓' }, homeScore: null, awayScore: null }
+    ];
+
+    final8Rounds = [qf, sf, fn];
+    renderFinal8();
   }
 
-  function displayRoster(teamId) {
-    const grid = document.getElementById('roster-list-grid');
-    const key = Object.keys(rostersDB).find(k => k.toLowerCase() === teamId.toLowerCase());
-    const squad = key ? rostersDB[key] : [];
+  function updateKnockoutScore(rIdx, mIdx, isHome, val) {
+    const match = final8Rounds[rIdx][mIdx];
+    const score = val === "" ? null : parseInt(val);
+    if(isHome) match.homeScore = score; else match.awayScore = score;
 
-    if(!squad || squad.length === 0) {
-      grid.innerHTML = '<p style="color:var(--text-muted);">Nessun giocatore trovato in rosa.</p>';
+    if(match.homeScore !== null && match.awayScore !== null) {
+      let winner = match.homeScore > match.awayScore ? match.home : match.away;
+      if(match.homeScore === match.awayScore) winner = Math.random() > 0.5 ? match.home : match.away;
+
+      if(rIdx + 1 < final8Rounds.length) {
+        const nextIdx = Math.floor(mIdx / 2);
+        if(mIdx % 2 === 0) final8Rounds[rIdx + 1][nextIdx].home = winner;
+        else final8Rounds[rIdx + 1][nextIdx].away = winner;
+      }
+    }
+    renderFinal8();
+  }
+
+  function renderFinal8() {
+    const container = document.getElementById('final8-tree');
+    container.innerHTML = '';
+
+    if(final8Rounds.length === 0) {
+      container.innerHTML = '<p style="color:var(--text-muted);">Clicca sul pulsante sopra per generare i Quarti di Finale dalle qualificate dei gironi.</p>';
       return;
     }
 
-    grid.innerHTML = squad.map(pId => {
-      const p = playersDB[pId] || { name: pId, pos: "GIOC" };
-      return `
-        <div style="background:var(--bg-input); border:1px solid var(--border); padding:10px; border-radius:8px; display:flex; justify-content:space-between; align-items:center;">
-          <span style="font-weight:600; font-size:0.85rem;">${p.name}</span>
-          <span style="font-size:0.75rem; color:var(--accent-gold); font-weight:bold;">${p.pos}</span>
-        </div>
-      `;
-    }).join('');
+    const roundTitles = ["Quarti di Finale (Final 8)", "Semifinali", "Finale"];
+
+    final8Rounds.forEach((round, rIdx) => {
+      const col = document.createElement('div');
+      col.className = 'bracket-col';
+      col.innerHTML = `<h4 style="color:#60a5fa; margin-bottom:12px; text-align:center;">${roundTitles[rIdx]}</h4>`;
+
+      round.forEach((m, mIdx) => {
+        col.innerHTML += `
+          <div class="bracket-card">
+            <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+              <span>${m.home.flag} ${m.home.name}</span>
+              <input type="number" class="score-input" style="height:26px;" value="${m.homeScore !== null ? m.homeScore : ''}" onchange="updateKnockoutScore(${rIdx}, ${mIdx}, true, this.value)">
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span>${m.away.flag} ${m.away.name}</span>
+              <input type="number" class="score-input" style="height:26px;" value="${m.awayScore !== null ? m.awayScore : ''}" onchange="updateKnockoutScore(${rIdx}, ${mIdx}, false, this.value)">
+            </div>
+          </div>
+        `;
+      });
+      container.appendChild(col);
+    });
   }
 
   function switchTab(tabId) {
@@ -372,13 +350,6 @@
     document.getElementById(`tab-${tabId}`).classList.remove('hidden');
     document.getElementById(`tb-${tabId}`).classList.add('active');
   }
-
-  function resetToHome() {
-    document.getElementById('dashboard-section').classList.add('hidden');
-    document.getElementById('setup-section').classList.remove('hidden');
-  }
-
-  window.onload = loadData;
 </script>
 </body>
 </html>
