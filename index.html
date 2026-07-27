@@ -260,24 +260,24 @@
   // Caricamento Dati Esterni Robusto
   async function loadAllData() {
     try {
-      // 1. Carica le squadre (obbligatorio)
-      const resTeams = await fetch('./data/teams.json?v=' + new Date().getTime());
+      const timestamp = new Date().getTime();
+
+      // 1. Carica le squadre
+      const resTeams = await fetch('./data/teams.json?v=' + timestamp);
       if (resTeams.ok) {
         teamsDatabase = await resTeams.json();
         renderTeamList();
-      } else {
-        console.error("Impossibile caricare ./data/teams.json. Verificare che il file esista.");
       }
 
-      // 2. Carica i giocatori (opzionale)
+      // 2. Carica i giocatori con Anti-Cache
       try {
-        const resPlayers = await fetch('./data/players.json');
+        const resPlayers = await fetch('./data/players.json?v=' + timestamp);
         if (resPlayers.ok) playersDatabase = await resPlayers.json();
       } catch (e) { console.log("players.json non ancora presente."); }
 
-      // 3. Carica le rose (opzionale)
+      // 3. Carica le rose con Anti-Cache
       try {
-        const resRosters = await fetch('./data/rosters.json');
+        const resRosters = await fetch('./data/rosters.json?v=' + timestamp);
         if (resRosters.ok) rostersDatabase = await resRosters.json();
       } catch (e) { console.log("rosters.json non ancora presente."); }
 
