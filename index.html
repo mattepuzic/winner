@@ -261,7 +261,7 @@
   async function loadAllData() {
     try {
       // 1. Carica le squadre (obbligatorio)
-      const resTeams = await fetch('./data/teams.json');
+      const resTeams = await fetch('./data/teams.json?v=' + new Date().getTime());
       if (resTeams.ok) {
         teamsDatabase = await resTeams.json();
         renderTeamList();
