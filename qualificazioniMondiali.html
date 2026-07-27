@@ -6,106 +6,259 @@
   <title>Qualificazioni Mondiali UEFA</title>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root { --bg-dark: #090d16; --bg-card: rgba(22, 30, 49, 0.75); --border: rgba(255, 255, 255, 0.08); --primary: #3b82f6; --accent-gold: #f59e0b; --accent-green: #10b981; --text: #f8fafc; --text-muted: #64748b; }
+    :root {
+      --bg-dark: #090d16;
+      --bg-card: rgba(22, 30, 49, 0.75);
+      --bg-input: #1a233a;
+      --border: rgba(255, 255, 255, 0.08);
+      --primary: #3b82f6;
+      --accent-gold: #f59e0b;
+      --accent-green: #10b981;
+      --text: #f8fafc;
+      --text-muted: #64748b;
+    }
+
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
-    body { background-color: var(--bg-dark); color: var(--text); padding: 20px; }
-    .container { max-width: 1200px; margin: 0 auto; }
-    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
-    h1 { font-size: 1.5rem; background: linear-gradient(135deg, #f59e0b, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-    .btn { background: var(--primary); color: white; border: none; padding: 10px 18px; border-radius: 10px; font-weight: 600; cursor: pointer; }
-    .btn-gold { background: var(--accent-gold); }
-    .groups-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
-    .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; margin-bottom: 20px; }
+    body { background-color: var(--bg-dark); color: var(--text); padding-bottom: 60px; min-height: 100vh; }
+
+    header { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 20px; }
+    .header-content { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    h1 { font-size: 1.8rem; font-weight: 800; background: linear-gradient(135deg, #f59e0b, #60a5fa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+    .container { max-width: 1200px; margin: 25px auto; padding: 0 15px; }
+    
+    .btn { background: var(--primary); color: white; border: none; padding: 10px 18px; border-radius: 10px; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; transition: all 0.2s; }
+    .btn:hover { opacity: 0.9; }
+    .btn-gold { background: linear-gradient(135deg, #f59e0b, #d97706); color: #000; font-weight: 700; }
+    .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+    .btn-sm { padding: 6px 12px; font-size: 0.8rem; }
+
+    .nav-tabs { display: flex; gap: 8px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 10px; overflow-x: auto; }
+    .tab-btn { padding: 10px 16px; background: transparent; border: none; color: var(--text-muted); font-weight: 600; cursor: pointer; border-radius: 8px; white-space: nowrap; }
+    .tab-btn.active { background: var(--accent-gold); color: #000; }
+
+    .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 22px; margin-bottom: 25px; box-shadow: 0 8px 32px rgba(0,0,0,0.2); }
+    .card-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 15px; color: #f59e0b; display: flex; justify-content: space-between; align-items: center; }
+
+    .groups-wrapper { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
     table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.85rem; }
     th, td { padding: 8px; text-align: center; border-bottom: 1px solid var(--border); }
-    td.team { text-align: left; font-weight: 600; }
+    th { color: var(--text-muted); font-weight: 600; }
+
+    .match-item { background: rgba(0,0,0,0.2); border: 1px solid var(--border); border-radius: 12px; padding: 10px 15px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+    .score-input { width: 45px !important; text-align: center; font-weight: bold; padding: 5px; background: var(--bg-input); border: 1px solid var(--border); color: white; border-radius: 6px; }
+
+    .roster-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; margin-top: 15px; }
+    .player-chip { background: var(--bg-input); border: 1px solid var(--border); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }
+
+    .hidden { display: none !important; }
+    .gold-text { color: var(--accent-gold); font-weight: bold; }
   </style>
 </head>
 <body>
 
-<div class="container">
-  <header>
+<header>
+  <div class="header-content">
     <h1>🌍 Qualificazioni Mondiali UEFA</h1>
     <div>
       <button class="btn btn-gold" onclick="sorteggiaEStart()">🎲 Sorteggia e Simula Tutto</button>
-      <a href="index.html" class="btn" style="text-decoration:none; display:inline-block; margin-left:8px;">⬅ Torna al Menu</a>
+      <a href="index.html" class="btn btn-outline" style="margin-left:8px;">⬅ Torna al Menu</a>
     </div>
-  </header>
+  </div>
+</header>
 
-  <div class="card" id="status-card">
-    <p>Clicca su <b>"Sorteggia e Simula Tutto"</b> per distribuire tutte e 55 le nazionali nei gironi e calcolare automaticamente i risultati e la classifica!</p>
+<div class="container">
+
+  <div class="nav-tabs">
+    <button class="tab-btn active" id="tb-gironi" onclick="switchTab('gironi')">⚽ Gironi & Classifiche</button>
+    <button class="tab-btn" id="tb-partite" onclick="switchTab('partite')">📅 Calendario Gare</button>
+    <button class="tab-btn" id="tb-rose" onclick="switchTab('rose')">👥 Rose Nazionali</button>
   </div>
 
-  <div class="groups-grid" id="groups-container"></div>
+  <div id="tab-gironi" class="tab-content">
+    <div class="card" id="info-card">
+      <p style="color:var(--text-muted);">Clicca su <b>"Sorteggia e Simula Tutto"</b> per distribuire le 55 nazionali nei gironi e simulare i risultati automatici.</p>
+    </div>
+    <div class="groups-wrapper" id="groups-container"></div>
+  </div>
+
+  <div id="tab-partite" class="tab-content hidden">
+    <div class="card" id="fixtures-container"></div>
+  </div>
+
+  <div id="tab-rose" class="tab-content hidden">
+    <div class="card">
+      <div class="card-title">Consultazione Rosa Selezionata</div>
+      <select id="select-team" onchange="displayRoster(this.value)" style="width:100%; padding:12px; background:var(--bg-input); color:white; border:1px solid var(--border); border-radius:10px; margin-bottom:15px; font-weight:600;"></select>
+      <div class="roster-grid" id="roster-container"></div>
+    </div>
+  </div>
+
 </div>
 
 <script>
-  let teams = [];
+  let teamsDB = [];
+  let playersDB = {};
+  let rostersDB = {};
+  let gironiState = {};
 
-  async function init() {
+  async function loadData() {
     const ts = new Date().getTime();
     try {
-      const res = await fetch('./data/teams.json?v=' + ts);
-      if (res.ok) teams = await res.json();
-    } catch(e){}
+      const r1 = await fetch('./data/teams.json?v=' + ts); if(r1.ok) teamsDB = await r1.json();
+      const r2 = await fetch('./data/players.json?v=' + ts); if(r2.ok) playersDB = await r2.json();
+      const r3 = await fetch('./data/rosters.json?v=' + ts); if(r3.ok) rostersDB = await r3.json();
+      populateSelect();
+    } catch(e) { console.error("Errore nel caricamento dei dati:", e); }
   }
 
   function sorteggiaEStart() {
-    if(!teams || teams.length === 0) { alert("Dati squadre non ancora caricati."); return; }
+    if(!teamsDB || teamsDB.length === 0) { alert("Dati squadre non ancora caricati."); return; }
     
-    const shuffled = [...teams].sort(() => Math.random() - 0.5);
-    const gironi = {};
+    const shuffled = [...teamsDB].sort(() => Math.random() - 0.5);
+    gironiState = {};
     let code = 65;
 
     for(let i = 0; i < shuffled.length; i += 5) {
       const gName = "Girone " + String.fromCharCode(code++);
-      const gTeams = shuffled.slice(i, i + 5).map(t => ({
-        ...t, P: 8, W: Math.floor(Math.random()*6), D: Math.floor(Math.random()*3), L: 0, GF: 0, GA: 0, PTS: 0
-      }));
+      const gTeams = shuffled.slice(i, i + 5).map(t => ({ ...t, P:0, W:0, D:0, L:0, GF:0, GA:0, GD:0, PTS:0 }));
+      const matches = [];
 
-      // Calcola punti realistici
-      gTeams.forEach(t => {
-        t.L = t.P - (t.W + t.D);
-        if(t.L < 0) { t.L = 0; t.W = t.P - t.D; }
-        t.PTS = (t.W * 3) + t.D;
-        t.GF = (t.W * 2) + Math.floor(Math.random() * 5);
-        t.GA = (t.L * 2) + Math.floor(Math.random() * 3);
-      });
+      for(let a=0; a<gTeams.length; a++) {
+        for(let b=a+1; b<gTeams.length; b++) {
+          matches.push({ id: 'm_'+Math.random().toString(36).substr(2,5), home: gTeams[a], away: gTeams[b], homeScore: Math.floor(Math.random()*4), awayScore: Math.floor(Math.random()*3) });
+          matches.push({ id: 'm_'+Math.random().toString(36).substr(2,5), home: gTeams[b], away: gTeams[a], homeScore: Math.floor(Math.random()*4), awayScore: Math.floor(Math.random()*3) });
+        }
+      }
 
-      gTeams.sort((a,b) => b.PTS - a.PTS || (b.GF - b.GA) - (a.GF - a.GA));
-      gironi[gName] = gTeams;
+      gironiState[gName] = { teams: gTeams, matches: matches };
     }
 
-    renderGironi(gironi);
+    recalculate();
+    renderGironi();
+    renderPartite();
+    document.getElementById('info-card').style.display = 'none';
   }
 
-  function renderGironi(gironi) {
+  function renderGironi() {
     const container = document.getElementById('groups-container');
     container.innerHTML = '';
-    
-    Object.keys(gironi).forEach(gName => {
+
+    Object.keys(gironiState).forEach(gName => {
+      const g = gironiState[gName];
       container.innerHTML += `
         <div class="card">
-          <h3 style="color:#93c5fd; margin-bottom:10px;">${gName}</h3>
+          <div class="card-title">${gName}</div>
           <table>
-            <thead><tr><th style="text-align:left;">Squadra</th><th>G</th><th>V</th><th>N</th><th>P</th><th>Pt</th></tr></thead>
+            <thead><tr><th style="text-align:left;">Squadra</th><th>G</th><th>DR</th><th>Pt</th></tr></thead>
             <tbody>
-              ${gironi[gName].map((t, idx) => `
-                <tr style="${idx === 0 ? 'background:rgba(16, 185, 129, 0.15); font-weight:bold;' : (idx === 1 ? 'background:rgba(245, 158, 11, 0.15);' : '')}">
-                  <td class="team">${t.flag || '🏳️'} ${t.name}</td>
-                  <td>${t.P}</td><td>${t.W}</td><td>${t.D}</td><td>${t.L}</td>
-                  <td style="color:#f59e0b; font-weight:bold;">${t.PTS}</td>
+              ${g.teams.map((t, idx) => `
+                <tr style="${idx === 0 ? 'background:rgba(16, 185, 129, 0.15); font-weight:bold;' : (idx === 1 ? 'background:rgba(245, 158, 11, 0.15); font-weight:bold;' : '')}">
+                  <td style="text-align:left;">${t.flag||'🏳️'} ${t.name}</td>
+                  <td>${t.P}</td><td>${t.GD}</td><td class="gold-text">${t.PTS}</td>
                 </tr>
               `).join('')}
             </tbody>
           </table>
-          <p style="font-size:0.75rem; color:var(--text-muted); margin-top:8px;">🟢 1ª Qualificata | 🟡 2ª Playoff</p>
+          <p style="font-size:0.75rem; color:var(--text-muted); margin-top:10px;">🟢 1ª Qualificata Diretta | 🟡 2ª Playoff</p>
         </div>
       `;
     });
   }
 
-  window.onload = init;
+  function renderPartite() {
+    const container = document.getElementById('fixtures-container');
+    container.innerHTML = '<div class="card-title">Calendario Incontri</div>';
+
+    Object.keys(gironiState).forEach(gName => {
+      container.innerHTML += `<h4 style="color:#f59e0b; margin:15px 0 10px 0;">${gName}</h4>`;
+      gironiState[gName].matches.forEach(m => {
+        container.innerHTML += `
+          <div class="match-item">
+            <span style="font-weight:600;">${m.home.flag||'🏳️'} ${m.home.name}</span>
+            <div>
+              <input type="number" class="score-input" value="${m.homeScore !== null ? m.homeScore : ''}" onchange="updateScore('${gName}', '${m.id}', true, this.value)">
+              -
+              <input type="number" class="score-input" value="${m.awayScore !== null ? m.awayScore : ''}" onchange="updateScore('${gName}', '${m.id}', false, this.value)">
+            </div>
+            <span style="font-weight:600;">${m.away.name} ${m.away.flag||'🏳️'}</span>
+          </div>
+        `;
+      });
+    });
+  }
+
+  function updateScore(gName, matchId, isHome, val) {
+    const match = gironiState[gName].matches.find(m => m.id === matchId);
+    const score = val === "" ? null : parseInt(val);
+    if(isHome) match.homeScore = score; else match.awayScore = score;
+
+    recalculate();
+    renderGironi();
+  }
+
+  function recalculate() {
+    Object.keys(gironiState).forEach(gName => {
+      const g = gironiState[gName];
+      g.teams.forEach(t => { t.P=0; t.W=0; t.D=0; t.L=0; t.GF=0; t.GA=0; t.GD=0; t.PTS=0; });
+
+      g.matches.forEach(m => {
+        if(m.homeScore !== null && m.awayScore !== null) {
+          const home = g.teams.find(t => t.id === m.home.id);
+          const away = g.teams.find(t => t.id === m.away.id);
+          if(home && away) {
+            home.P++; away.P++;
+            home.GF += m.homeScore; home.GA += m.awayScore;
+            away.GF += m.awayScore; away.GA += m.homeScore;
+            home.GD = home.GF - home.GA; away.GD = away.GF - away.GA;
+
+            if(m.homeScore > m.awayScore) { home.W++; away.L++; home.PTS += 3; }
+            else if(m.awayScore > m.homeScore) { away.W++; home.L++; away.PTS += 3; }
+            else { home.D++; away.D++; home.PTS += 1; away.PTS += 1; }
+          }
+        }
+      });
+
+      g.teams.sort((a,b) => b.PTS - a.PTS || b.GD - a.GD || b.GF - a.GF);
+    });
+  }
+
+  function populateSelect() {
+    const sel = document.getElementById('select-team');
+    if(!teamsDB || teamsDB.length === 0) return;
+    sel.innerHTML = teamsDB.map(t => `<option value="${t.id}">${t.flag||'🏳️'} ${t.name}</option>`).join('');
+    displayRoster(teamsDB[0].id);
+  }
+
+  function displayRoster(teamId) {
+    const container = document.getElementById('roster-container');
+    const key = Object.keys(rostersDB).find(k => k.toLowerCase() === teamId.toLowerCase());
+    const squad = key ? rostersDB[key] : [];
+
+    if(!squad || squad.length === 0) {
+      container.innerHTML = '<p style="color:var(--text-muted); padding:10px;">Nessun giocatore registrato per questa squadra.</p>';
+      return;
+    }
+
+    container.innerHTML = squad.map(pId => {
+      const p = playersDB[pId] || { name: pId, pos: "GIOC" };
+      return `
+        <div class="player-chip">
+          <span style="font-size:0.85rem; font-weight:600;">${p.name}</span>
+          <span style="font-size:0.75rem; color:var(--accent-gold); font-weight:bold;">${p.pos}</span>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function switchTab(tabId) {
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById(`tab-${tabId}`).classList.remove('hidden');
+    document.getElementById(`tb-${tabId}`).classList.add('active');
+  }
+
+  window.onload = loadData;
 </script>
 </body>
 </html>
