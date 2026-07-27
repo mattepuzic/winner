@@ -1,0 +1,6327 @@
+{
+  "portiere_1_albania_alb": {
+    "name": "Portiere 1 (Albania)",
+    "pos": "POR",
+    "nat": "Albania"
+  },
+  "portiere_2_albania_alb": {
+    "name": "Portiere 2 (Albania)",
+    "pos": "POR",
+    "nat": "Albania"
+  },
+  "portiere_3_albania_alb": {
+    "name": "Portiere 3 (Albania)",
+    "pos": "POR",
+    "nat": "Albania"
+  },
+  "difensore_1_albania_alb": {
+    "name": "Difensore 1 (Albania)",
+    "pos": "DIF",
+    "nat": "Albania"
+  },
+  "difensore_2_albania_alb": {
+    "name": "Difensore 2 (Albania)",
+    "pos": "DIF",
+    "nat": "Albania"
+  },
+  "difensore_3_albania_alb": {
+    "name": "Difensore 3 (Albania)",
+    "pos": "DIF",
+    "nat": "Albania"
+  },
+  "difensore_4_albania_alb": {
+    "name": "Difensore 4 (Albania)",
+    "pos": "DIF",
+    "nat": "Albania"
+  },
+  "difensore_5_albania_alb": {
+    "name": "Difensore 5 (Albania)",
+    "pos": "DIF",
+    "nat": "Albania"
+  },
+  "difensore_6_albania_alb": {
+    "name": "Difensore 6 (Albania)",
+    "pos": "DIF",
+    "nat": "Albania"
+  },
+  "difensore_7_albania_alb": {
+    "name": "Difensore 7 (Albania)",
+    "pos": "DIF",
+    "nat": "Albania"
+  },
+  "centrocampista_1_albania_alb": {
+    "name": "Centrocampista 1 (Albania)",
+    "pos": "CEN",
+    "nat": "Albania"
+  },
+  "centrocampista_2_albania_alb": {
+    "name": "Centrocampista 2 (Albania)",
+    "pos": "CEN",
+    "nat": "Albania"
+  },
+  "centrocampista_3_albania_alb": {
+    "name": "Centrocampista 3 (Albania)",
+    "pos": "CEN",
+    "nat": "Albania"
+  },
+  "centrocampista_4_albania_alb": {
+    "name": "Centrocampista 4 (Albania)",
+    "pos": "CEN",
+    "nat": "Albania"
+  },
+  "centrocampista_5_albania_alb": {
+    "name": "Centrocampista 5 (Albania)",
+    "pos": "CEN",
+    "nat": "Albania"
+  },
+  "centrocampista_6_albania_alb": {
+    "name": "Centrocampista 6 (Albania)",
+    "pos": "CEN",
+    "nat": "Albania"
+  },
+  "centrocampista_7_albania_alb": {
+    "name": "Centrocampista 7 (Albania)",
+    "pos": "CEN",
+    "nat": "Albania"
+  },
+  "centrocampista_8_albania_alb": {
+    "name": "Centrocampista 8 (Albania)",
+    "pos": "CEN",
+    "nat": "Albania"
+  },
+  "attaccante_1_albania_alb": {
+    "name": "Attaccante 1 (Albania)",
+    "pos": "ATT",
+    "nat": "Albania"
+  },
+  "attaccante_2_albania_alb": {
+    "name": "Attaccante 2 (Albania)",
+    "pos": "ATT",
+    "nat": "Albania"
+  },
+  "attaccante_3_albania_alb": {
+    "name": "Attaccante 3 (Albania)",
+    "pos": "ATT",
+    "nat": "Albania"
+  },
+  "attaccante_4_albania_alb": {
+    "name": "Attaccante 4 (Albania)",
+    "pos": "ATT",
+    "nat": "Albania"
+  },
+  "attaccante_5_albania_alb": {
+    "name": "Attaccante 5 (Albania)",
+    "pos": "ATT",
+    "nat": "Albania"
+  },
+  "portiere_1_andorra_and": {
+    "name": "Portiere 1 (Andorra)",
+    "pos": "POR",
+    "nat": "Andorra"
+  },
+  "portiere_2_andorra_and": {
+    "name": "Portiere 2 (Andorra)",
+    "pos": "POR",
+    "nat": "Andorra"
+  },
+  "portiere_3_andorra_and": {
+    "name": "Portiere 3 (Andorra)",
+    "pos": "POR",
+    "nat": "Andorra"
+  },
+  "difensore_1_andorra_and": {
+    "name": "Difensore 1 (Andorra)",
+    "pos": "DIF",
+    "nat": "Andorra"
+  },
+  "difensore_2_andorra_and": {
+    "name": "Difensore 2 (Andorra)",
+    "pos": "DIF",
+    "nat": "Andorra"
+  },
+  "difensore_3_andorra_and": {
+    "name": "Difensore 3 (Andorra)",
+    "pos": "DIF",
+    "nat": "Andorra"
+  },
+  "difensore_4_andorra_and": {
+    "name": "Difensore 4 (Andorra)",
+    "pos": "DIF",
+    "nat": "Andorra"
+  },
+  "difensore_5_andorra_and": {
+    "name": "Difensore 5 (Andorra)",
+    "pos": "DIF",
+    "nat": "Andorra"
+  },
+  "difensore_6_andorra_and": {
+    "name": "Difensore 6 (Andorra)",
+    "pos": "DIF",
+    "nat": "Andorra"
+  },
+  "difensore_7_andorra_and": {
+    "name": "Difensore 7 (Andorra)",
+    "pos": "DIF",
+    "nat": "Andorra"
+  },
+  "centrocampista_1_andorra_and": {
+    "name": "Centrocampista 1 (Andorra)",
+    "pos": "CEN",
+    "nat": "Andorra"
+  },
+  "centrocampista_2_andorra_and": {
+    "name": "Centrocampista 2 (Andorra)",
+    "pos": "CEN",
+    "nat": "Andorra"
+  },
+  "centrocampista_3_andorra_and": {
+    "name": "Centrocampista 3 (Andorra)",
+    "pos": "CEN",
+    "nat": "Andorra"
+  },
+  "centrocampista_4_andorra_and": {
+    "name": "Centrocampista 4 (Andorra)",
+    "pos": "CEN",
+    "nat": "Andorra"
+  },
+  "centrocampista_5_andorra_and": {
+    "name": "Centrocampista 5 (Andorra)",
+    "pos": "CEN",
+    "nat": "Andorra"
+  },
+  "centrocampista_6_andorra_and": {
+    "name": "Centrocampista 6 (Andorra)",
+    "pos": "CEN",
+    "nat": "Andorra"
+  },
+  "centrocampista_7_andorra_and": {
+    "name": "Centrocampista 7 (Andorra)",
+    "pos": "CEN",
+    "nat": "Andorra"
+  },
+  "centrocampista_8_andorra_and": {
+    "name": "Centrocampista 8 (Andorra)",
+    "pos": "CEN",
+    "nat": "Andorra"
+  },
+  "attaccante_1_andorra_and": {
+    "name": "Attaccante 1 (Andorra)",
+    "pos": "ATT",
+    "nat": "Andorra"
+  },
+  "attaccante_2_andorra_and": {
+    "name": "Attaccante 2 (Andorra)",
+    "pos": "ATT",
+    "nat": "Andorra"
+  },
+  "attaccante_3_andorra_and": {
+    "name": "Attaccante 3 (Andorra)",
+    "pos": "ATT",
+    "nat": "Andorra"
+  },
+  "attaccante_4_andorra_and": {
+    "name": "Attaccante 4 (Andorra)",
+    "pos": "ATT",
+    "nat": "Andorra"
+  },
+  "attaccante_5_andorra_and": {
+    "name": "Attaccante 5 (Andorra)",
+    "pos": "ATT",
+    "nat": "Andorra"
+  },
+  "portiere_1_armenia_arm": {
+    "name": "Portiere 1 (Armenia)",
+    "pos": "POR",
+    "nat": "Armenia"
+  },
+  "portiere_2_armenia_arm": {
+    "name": "Portiere 2 (Armenia)",
+    "pos": "POR",
+    "nat": "Armenia"
+  },
+  "portiere_3_armenia_arm": {
+    "name": "Portiere 3 (Armenia)",
+    "pos": "POR",
+    "nat": "Armenia"
+  },
+  "difensore_1_armenia_arm": {
+    "name": "Difensore 1 (Armenia)",
+    "pos": "DIF",
+    "nat": "Armenia"
+  },
+  "difensore_2_armenia_arm": {
+    "name": "Difensore 2 (Armenia)",
+    "pos": "DIF",
+    "nat": "Armenia"
+  },
+  "difensore_3_armenia_arm": {
+    "name": "Difensore 3 (Armenia)",
+    "pos": "DIF",
+    "nat": "Armenia"
+  },
+  "difensore_4_armenia_arm": {
+    "name": "Difensore 4 (Armenia)",
+    "pos": "DIF",
+    "nat": "Armenia"
+  },
+  "difensore_5_armenia_arm": {
+    "name": "Difensore 5 (Armenia)",
+    "pos": "DIF",
+    "nat": "Armenia"
+  },
+  "difensore_6_armenia_arm": {
+    "name": "Difensore 6 (Armenia)",
+    "pos": "DIF",
+    "nat": "Armenia"
+  },
+  "difensore_7_armenia_arm": {
+    "name": "Difensore 7 (Armenia)",
+    "pos": "DIF",
+    "nat": "Armenia"
+  },
+  "centrocampista_1_armenia_arm": {
+    "name": "Centrocampista 1 (Armenia)",
+    "pos": "CEN",
+    "nat": "Armenia"
+  },
+  "centrocampista_2_armenia_arm": {
+    "name": "Centrocampista 2 (Armenia)",
+    "pos": "CEN",
+    "nat": "Armenia"
+  },
+  "centrocampista_3_armenia_arm": {
+    "name": "Centrocampista 3 (Armenia)",
+    "pos": "CEN",
+    "nat": "Armenia"
+  },
+  "centrocampista_4_armenia_arm": {
+    "name": "Centrocampista 4 (Armenia)",
+    "pos": "CEN",
+    "nat": "Armenia"
+  },
+  "centrocampista_5_armenia_arm": {
+    "name": "Centrocampista 5 (Armenia)",
+    "pos": "CEN",
+    "nat": "Armenia"
+  },
+  "centrocampista_6_armenia_arm": {
+    "name": "Centrocampista 6 (Armenia)",
+    "pos": "CEN",
+    "nat": "Armenia"
+  },
+  "centrocampista_7_armenia_arm": {
+    "name": "Centrocampista 7 (Armenia)",
+    "pos": "CEN",
+    "nat": "Armenia"
+  },
+  "centrocampista_8_armenia_arm": {
+    "name": "Centrocampista 8 (Armenia)",
+    "pos": "CEN",
+    "nat": "Armenia"
+  },
+  "attaccante_1_armenia_arm": {
+    "name": "Attaccante 1 (Armenia)",
+    "pos": "ATT",
+    "nat": "Armenia"
+  },
+  "attaccante_2_armenia_arm": {
+    "name": "Attaccante 2 (Armenia)",
+    "pos": "ATT",
+    "nat": "Armenia"
+  },
+  "attaccante_3_armenia_arm": {
+    "name": "Attaccante 3 (Armenia)",
+    "pos": "ATT",
+    "nat": "Armenia"
+  },
+  "attaccante_4_armenia_arm": {
+    "name": "Attaccante 4 (Armenia)",
+    "pos": "ATT",
+    "nat": "Armenia"
+  },
+  "attaccante_5_armenia_arm": {
+    "name": "Attaccante 5 (Armenia)",
+    "pos": "ATT",
+    "nat": "Armenia"
+  },
+  "portiere_1_austria_aut": {
+    "name": "Portiere 1 (Austria)",
+    "pos": "POR",
+    "nat": "Austria"
+  },
+  "portiere_2_austria_aut": {
+    "name": "Portiere 2 (Austria)",
+    "pos": "POR",
+    "nat": "Austria"
+  },
+  "portiere_3_austria_aut": {
+    "name": "Portiere 3 (Austria)",
+    "pos": "POR",
+    "nat": "Austria"
+  },
+  "difensore_1_austria_aut": {
+    "name": "Difensore 1 (Austria)",
+    "pos": "DIF",
+    "nat": "Austria"
+  },
+  "difensore_2_austria_aut": {
+    "name": "Difensore 2 (Austria)",
+    "pos": "DIF",
+    "nat": "Austria"
+  },
+  "difensore_3_austria_aut": {
+    "name": "Difensore 3 (Austria)",
+    "pos": "DIF",
+    "nat": "Austria"
+  },
+  "difensore_4_austria_aut": {
+    "name": "Difensore 4 (Austria)",
+    "pos": "DIF",
+    "nat": "Austria"
+  },
+  "difensore_5_austria_aut": {
+    "name": "Difensore 5 (Austria)",
+    "pos": "DIF",
+    "nat": "Austria"
+  },
+  "difensore_6_austria_aut": {
+    "name": "Difensore 6 (Austria)",
+    "pos": "DIF",
+    "nat": "Austria"
+  },
+  "difensore_7_austria_aut": {
+    "name": "Difensore 7 (Austria)",
+    "pos": "DIF",
+    "nat": "Austria"
+  },
+  "centrocampista_1_austria_aut": {
+    "name": "Centrocampista 1 (Austria)",
+    "pos": "CEN",
+    "nat": "Austria"
+  },
+  "centrocampista_2_austria_aut": {
+    "name": "Centrocampista 2 (Austria)",
+    "pos": "CEN",
+    "nat": "Austria"
+  },
+  "centrocampista_3_austria_aut": {
+    "name": "Centrocampista 3 (Austria)",
+    "pos": "CEN",
+    "nat": "Austria"
+  },
+  "centrocampista_4_austria_aut": {
+    "name": "Centrocampista 4 (Austria)",
+    "pos": "CEN",
+    "nat": "Austria"
+  },
+  "centrocampista_5_austria_aut": {
+    "name": "Centrocampista 5 (Austria)",
+    "pos": "CEN",
+    "nat": "Austria"
+  },
+  "centrocampista_6_austria_aut": {
+    "name": "Centrocampista 6 (Austria)",
+    "pos": "CEN",
+    "nat": "Austria"
+  },
+  "centrocampista_7_austria_aut": {
+    "name": "Centrocampista 7 (Austria)",
+    "pos": "CEN",
+    "nat": "Austria"
+  },
+  "centrocampista_8_austria_aut": {
+    "name": "Centrocampista 8 (Austria)",
+    "pos": "CEN",
+    "nat": "Austria"
+  },
+  "attaccante_1_austria_aut": {
+    "name": "Attaccante 1 (Austria)",
+    "pos": "ATT",
+    "nat": "Austria"
+  },
+  "attaccante_2_austria_aut": {
+    "name": "Attaccante 2 (Austria)",
+    "pos": "ATT",
+    "nat": "Austria"
+  },
+  "attaccante_3_austria_aut": {
+    "name": "Attaccante 3 (Austria)",
+    "pos": "ATT",
+    "nat": "Austria"
+  },
+  "attaccante_4_austria_aut": {
+    "name": "Attaccante 4 (Austria)",
+    "pos": "ATT",
+    "nat": "Austria"
+  },
+  "attaccante_5_austria_aut": {
+    "name": "Attaccante 5 (Austria)",
+    "pos": "ATT",
+    "nat": "Austria"
+  },
+  "portiere_1_azerbaigian_aze": {
+    "name": "Portiere 1 (Azerbaigian)",
+    "pos": "POR",
+    "nat": "Azerbaigian"
+  },
+  "portiere_2_azerbaigian_aze": {
+    "name": "Portiere 2 (Azerbaigian)",
+    "pos": "POR",
+    "nat": "Azerbaigian"
+  },
+  "portiere_3_azerbaigian_aze": {
+    "name": "Portiere 3 (Azerbaigian)",
+    "pos": "POR",
+    "nat": "Azerbaigian"
+  },
+  "difensore_1_azerbaigian_aze": {
+    "name": "Difensore 1 (Azerbaigian)",
+    "pos": "DIF",
+    "nat": "Azerbaigian"
+  },
+  "difensore_2_azerbaigian_aze": {
+    "name": "Difensore 2 (Azerbaigian)",
+    "pos": "DIF",
+    "nat": "Azerbaigian"
+  },
+  "difensore_3_azerbaigian_aze": {
+    "name": "Difensore 3 (Azerbaigian)",
+    "pos": "DIF",
+    "nat": "Azerbaigian"
+  },
+  "difensore_4_azerbaigian_aze": {
+    "name": "Difensore 4 (Azerbaigian)",
+    "pos": "DIF",
+    "nat": "Azerbaigian"
+  },
+  "difensore_5_azerbaigian_aze": {
+    "name": "Difensore 5 (Azerbaigian)",
+    "pos": "DIF",
+    "nat": "Azerbaigian"
+  },
+  "difensore_6_azerbaigian_aze": {
+    "name": "Difensore 6 (Azerbaigian)",
+    "pos": "DIF",
+    "nat": "Azerbaigian"
+  },
+  "difensore_7_azerbaigian_aze": {
+    "name": "Difensore 7 (Azerbaigian)",
+    "pos": "DIF",
+    "nat": "Azerbaigian"
+  },
+  "centrocampista_1_azerbaigian_aze": {
+    "name": "Centrocampista 1 (Azerbaigian)",
+    "pos": "CEN",
+    "nat": "Azerbaigian"
+  },
+  "centrocampista_2_azerbaigian_aze": {
+    "name": "Centrocampista 2 (Azerbaigian)",
+    "pos": "CEN",
+    "nat": "Azerbaigian"
+  },
+  "centrocampista_3_azerbaigian_aze": {
+    "name": "Centrocampista 3 (Azerbaigian)",
+    "pos": "CEN",
+    "nat": "Azerbaigian"
+  },
+  "centrocampista_4_azerbaigian_aze": {
+    "name": "Centrocampista 4 (Azerbaigian)",
+    "pos": "CEN",
+    "nat": "Azerbaigian"
+  },
+  "centrocampista_5_azerbaigian_aze": {
+    "name": "Centrocampista 5 (Azerbaigian)",
+    "pos": "CEN",
+    "nat": "Azerbaigian"
+  },
+  "centrocampista_6_azerbaigian_aze": {
+    "name": "Centrocampista 6 (Azerbaigian)",
+    "pos": "CEN",
+    "nat": "Azerbaigian"
+  },
+  "centrocampista_7_azerbaigian_aze": {
+    "name": "Centrocampista 7 (Azerbaigian)",
+    "pos": "CEN",
+    "nat": "Azerbaigian"
+  },
+  "centrocampista_8_azerbaigian_aze": {
+    "name": "Centrocampista 8 (Azerbaigian)",
+    "pos": "CEN",
+    "nat": "Azerbaigian"
+  },
+  "attaccante_1_azerbaigian_aze": {
+    "name": "Attaccante 1 (Azerbaigian)",
+    "pos": "ATT",
+    "nat": "Azerbaigian"
+  },
+  "attaccante_2_azerbaigian_aze": {
+    "name": "Attaccante 2 (Azerbaigian)",
+    "pos": "ATT",
+    "nat": "Azerbaigian"
+  },
+  "attaccante_3_azerbaigian_aze": {
+    "name": "Attaccante 3 (Azerbaigian)",
+    "pos": "ATT",
+    "nat": "Azerbaigian"
+  },
+  "attaccante_4_azerbaigian_aze": {
+    "name": "Attaccante 4 (Azerbaigian)",
+    "pos": "ATT",
+    "nat": "Azerbaigian"
+  },
+  "attaccante_5_azerbaigian_aze": {
+    "name": "Attaccante 5 (Azerbaigian)",
+    "pos": "ATT",
+    "nat": "Azerbaigian"
+  },
+  "portiere_1_belgio_bel": {
+    "name": "Portiere 1 (Belgio)",
+    "pos": "POR",
+    "nat": "Belgio"
+  },
+  "portiere_2_belgio_bel": {
+    "name": "Portiere 2 (Belgio)",
+    "pos": "POR",
+    "nat": "Belgio"
+  },
+  "portiere_3_belgio_bel": {
+    "name": "Portiere 3 (Belgio)",
+    "pos": "POR",
+    "nat": "Belgio"
+  },
+  "difensore_1_belgio_bel": {
+    "name": "Difensore 1 (Belgio)",
+    "pos": "DIF",
+    "nat": "Belgio"
+  },
+  "difensore_2_belgio_bel": {
+    "name": "Difensore 2 (Belgio)",
+    "pos": "DIF",
+    "nat": "Belgio"
+  },
+  "difensore_3_belgio_bel": {
+    "name": "Difensore 3 (Belgio)",
+    "pos": "DIF",
+    "nat": "Belgio"
+  },
+  "difensore_4_belgio_bel": {
+    "name": "Difensore 4 (Belgio)",
+    "pos": "DIF",
+    "nat": "Belgio"
+  },
+  "difensore_5_belgio_bel": {
+    "name": "Difensore 5 (Belgio)",
+    "pos": "DIF",
+    "nat": "Belgio"
+  },
+  "difensore_6_belgio_bel": {
+    "name": "Difensore 6 (Belgio)",
+    "pos": "DIF",
+    "nat": "Belgio"
+  },
+  "difensore_7_belgio_bel": {
+    "name": "Difensore 7 (Belgio)",
+    "pos": "DIF",
+    "nat": "Belgio"
+  },
+  "centrocampista_1_belgio_bel": {
+    "name": "Centrocampista 1 (Belgio)",
+    "pos": "CEN",
+    "nat": "Belgio"
+  },
+  "centrocampista_2_belgio_bel": {
+    "name": "Centrocampista 2 (Belgio)",
+    "pos": "CEN",
+    "nat": "Belgio"
+  },
+  "centrocampista_3_belgio_bel": {
+    "name": "Centrocampista 3 (Belgio)",
+    "pos": "CEN",
+    "nat": "Belgio"
+  },
+  "centrocampista_4_belgio_bel": {
+    "name": "Centrocampista 4 (Belgio)",
+    "pos": "CEN",
+    "nat": "Belgio"
+  },
+  "centrocampista_5_belgio_bel": {
+    "name": "Centrocampista 5 (Belgio)",
+    "pos": "CEN",
+    "nat": "Belgio"
+  },
+  "centrocampista_6_belgio_bel": {
+    "name": "Centrocampista 6 (Belgio)",
+    "pos": "CEN",
+    "nat": "Belgio"
+  },
+  "centrocampista_7_belgio_bel": {
+    "name": "Centrocampista 7 (Belgio)",
+    "pos": "CEN",
+    "nat": "Belgio"
+  },
+  "centrocampista_8_belgio_bel": {
+    "name": "Centrocampista 8 (Belgio)",
+    "pos": "CEN",
+    "nat": "Belgio"
+  },
+  "attaccante_1_belgio_bel": {
+    "name": "Attaccante 1 (Belgio)",
+    "pos": "ATT",
+    "nat": "Belgio"
+  },
+  "attaccante_2_belgio_bel": {
+    "name": "Attaccante 2 (Belgio)",
+    "pos": "ATT",
+    "nat": "Belgio"
+  },
+  "attaccante_3_belgio_bel": {
+    "name": "Attaccante 3 (Belgio)",
+    "pos": "ATT",
+    "nat": "Belgio"
+  },
+  "attaccante_4_belgio_bel": {
+    "name": "Attaccante 4 (Belgio)",
+    "pos": "ATT",
+    "nat": "Belgio"
+  },
+  "attaccante_5_belgio_bel": {
+    "name": "Attaccante 5 (Belgio)",
+    "pos": "ATT",
+    "nat": "Belgio"
+  },
+  "portiere_1_bielorussia_blr": {
+    "name": "Portiere 1 (Bielorussia)",
+    "pos": "POR",
+    "nat": "Bielorussia"
+  },
+  "portiere_2_bielorussia_blr": {
+    "name": "Portiere 2 (Bielorussia)",
+    "pos": "POR",
+    "nat": "Bielorussia"
+  },
+  "portiere_3_bielorussia_blr": {
+    "name": "Portiere 3 (Bielorussia)",
+    "pos": "POR",
+    "nat": "Bielorussia"
+  },
+  "difensore_1_bielorussia_blr": {
+    "name": "Difensore 1 (Bielorussia)",
+    "pos": "DIF",
+    "nat": "Bielorussia"
+  },
+  "difensore_2_bielorussia_blr": {
+    "name": "Difensore 2 (Bielorussia)",
+    "pos": "DIF",
+    "nat": "Bielorussia"
+  },
+  "difensore_3_bielorussia_blr": {
+    "name": "Difensore 3 (Bielorussia)",
+    "pos": "DIF",
+    "nat": "Bielorussia"
+  },
+  "difensore_4_bielorussia_blr": {
+    "name": "Difensore 4 (Bielorussia)",
+    "pos": "DIF",
+    "nat": "Bielorussia"
+  },
+  "difensore_5_bielorussia_blr": {
+    "name": "Difensore 5 (Bielorussia)",
+    "pos": "DIF",
+    "nat": "Bielorussia"
+  },
+  "difensore_6_bielorussia_blr": {
+    "name": "Difensore 6 (Bielorussia)",
+    "pos": "DIF",
+    "nat": "Bielorussia"
+  },
+  "difensore_7_bielorussia_blr": {
+    "name": "Difensore 7 (Bielorussia)",
+    "pos": "DIF",
+    "nat": "Bielorussia"
+  },
+  "centrocampista_1_bielorussia_blr": {
+    "name": "Centrocampista 1 (Bielorussia)",
+    "pos": "CEN",
+    "nat": "Bielorussia"
+  },
+  "centrocampista_2_bielorussia_blr": {
+    "name": "Centrocampista 2 (Bielorussia)",
+    "pos": "CEN",
+    "nat": "Bielorussia"
+  },
+  "centrocampista_3_bielorussia_blr": {
+    "name": "Centrocampista 3 (Bielorussia)",
+    "pos": "CEN",
+    "nat": "Bielorussia"
+  },
+  "centrocampista_4_bielorussia_blr": {
+    "name": "Centrocampista 4 (Bielorussia)",
+    "pos": "CEN",
+    "nat": "Bielorussia"
+  },
+  "centrocampista_5_bielorussia_blr": {
+    "name": "Centrocampista 5 (Bielorussia)",
+    "pos": "CEN",
+    "nat": "Bielorussia"
+  },
+  "centrocampista_6_bielorussia_blr": {
+    "name": "Centrocampista 6 (Bielorussia)",
+    "pos": "CEN",
+    "nat": "Bielorussia"
+  },
+  "centrocampista_7_bielorussia_blr": {
+    "name": "Centrocampista 7 (Bielorussia)",
+    "pos": "CEN",
+    "nat": "Bielorussia"
+  },
+  "centrocampista_8_bielorussia_blr": {
+    "name": "Centrocampista 8 (Bielorussia)",
+    "pos": "CEN",
+    "nat": "Bielorussia"
+  },
+  "attaccante_1_bielorussia_blr": {
+    "name": "Attaccante 1 (Bielorussia)",
+    "pos": "ATT",
+    "nat": "Bielorussia"
+  },
+  "attaccante_2_bielorussia_blr": {
+    "name": "Attaccante 2 (Bielorussia)",
+    "pos": "ATT",
+    "nat": "Bielorussia"
+  },
+  "attaccante_3_bielorussia_blr": {
+    "name": "Attaccante 3 (Bielorussia)",
+    "pos": "ATT",
+    "nat": "Bielorussia"
+  },
+  "attaccante_4_bielorussia_blr": {
+    "name": "Attaccante 4 (Bielorussia)",
+    "pos": "ATT",
+    "nat": "Bielorussia"
+  },
+  "attaccante_5_bielorussia_blr": {
+    "name": "Attaccante 5 (Bielorussia)",
+    "pos": "ATT",
+    "nat": "Bielorussia"
+  },
+  "portiere_1_bosnia_ed_erzegovina_bih": {
+    "name": "Portiere 1 (Bosnia ed Erzegovina)",
+    "pos": "POR",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "portiere_2_bosnia_ed_erzegovina_bih": {
+    "name": "Portiere 2 (Bosnia ed Erzegovina)",
+    "pos": "POR",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "portiere_3_bosnia_ed_erzegovina_bih": {
+    "name": "Portiere 3 (Bosnia ed Erzegovina)",
+    "pos": "POR",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "difensore_1_bosnia_ed_erzegovina_bih": {
+    "name": "Difensore 1 (Bosnia ed Erzegovina)",
+    "pos": "DIF",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "difensore_2_bosnia_ed_erzegovina_bih": {
+    "name": "Difensore 2 (Bosnia ed Erzegovina)",
+    "pos": "DIF",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "difensore_3_bosnia_ed_erzegovina_bih": {
+    "name": "Difensore 3 (Bosnia ed Erzegovina)",
+    "pos": "DIF",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "difensore_4_bosnia_ed_erzegovina_bih": {
+    "name": "Difensore 4 (Bosnia ed Erzegovina)",
+    "pos": "DIF",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "difensore_5_bosnia_ed_erzegovina_bih": {
+    "name": "Difensore 5 (Bosnia ed Erzegovina)",
+    "pos": "DIF",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "difensore_6_bosnia_ed_erzegovina_bih": {
+    "name": "Difensore 6 (Bosnia ed Erzegovina)",
+    "pos": "DIF",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "difensore_7_bosnia_ed_erzegovina_bih": {
+    "name": "Difensore 7 (Bosnia ed Erzegovina)",
+    "pos": "DIF",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "centrocampista_1_bosnia_ed_erzegovina_bih": {
+    "name": "Centrocampista 1 (Bosnia ed Erzegovina)",
+    "pos": "CEN",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "centrocampista_2_bosnia_ed_erzegovina_bih": {
+    "name": "Centrocampista 2 (Bosnia ed Erzegovina)",
+    "pos": "CEN",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "centrocampista_3_bosnia_ed_erzegovina_bih": {
+    "name": "Centrocampista 3 (Bosnia ed Erzegovina)",
+    "pos": "CEN",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "centrocampista_4_bosnia_ed_erzegovina_bih": {
+    "name": "Centrocampista 4 (Bosnia ed Erzegovina)",
+    "pos": "CEN",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "centrocampista_5_bosnia_ed_erzegovina_bih": {
+    "name": "Centrocampista 5 (Bosnia ed Erzegovina)",
+    "pos": "CEN",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "centrocampista_6_bosnia_ed_erzegovina_bih": {
+    "name": "Centrocampista 6 (Bosnia ed Erzegovina)",
+    "pos": "CEN",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "centrocampista_7_bosnia_ed_erzegovina_bih": {
+    "name": "Centrocampista 7 (Bosnia ed Erzegovina)",
+    "pos": "CEN",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "centrocampista_8_bosnia_ed_erzegovina_bih": {
+    "name": "Centrocampista 8 (Bosnia ed Erzegovina)",
+    "pos": "CEN",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "attaccante_1_bosnia_ed_erzegovina_bih": {
+    "name": "Attaccante 1 (Bosnia ed Erzegovina)",
+    "pos": "ATT",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "attaccante_2_bosnia_ed_erzegovina_bih": {
+    "name": "Attaccante 2 (Bosnia ed Erzegovina)",
+    "pos": "ATT",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "attaccante_3_bosnia_ed_erzegovina_bih": {
+    "name": "Attaccante 3 (Bosnia ed Erzegovina)",
+    "pos": "ATT",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "attaccante_4_bosnia_ed_erzegovina_bih": {
+    "name": "Attaccante 4 (Bosnia ed Erzegovina)",
+    "pos": "ATT",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "attaccante_5_bosnia_ed_erzegovina_bih": {
+    "name": "Attaccante 5 (Bosnia ed Erzegovina)",
+    "pos": "ATT",
+    "nat": "Bosnia ed Erzegovina"
+  },
+  "portiere_1_bulgaria_bul": {
+    "name": "Portiere 1 (Bulgaria)",
+    "pos": "POR",
+    "nat": "Bulgaria"
+  },
+  "portiere_2_bulgaria_bul": {
+    "name": "Portiere 2 (Bulgaria)",
+    "pos": "POR",
+    "nat": "Bulgaria"
+  },
+  "portiere_3_bulgaria_bul": {
+    "name": "Portiere 3 (Bulgaria)",
+    "pos": "POR",
+    "nat": "Bulgaria"
+  },
+  "difensore_1_bulgaria_bul": {
+    "name": "Difensore 1 (Bulgaria)",
+    "pos": "DIF",
+    "nat": "Bulgaria"
+  },
+  "difensore_2_bulgaria_bul": {
+    "name": "Difensore 2 (Bulgaria)",
+    "pos": "DIF",
+    "nat": "Bulgaria"
+  },
+  "difensore_3_bulgaria_bul": {
+    "name": "Difensore 3 (Bulgaria)",
+    "pos": "DIF",
+    "nat": "Bulgaria"
+  },
+  "difensore_4_bulgaria_bul": {
+    "name": "Difensore 4 (Bulgaria)",
+    "pos": "DIF",
+    "nat": "Bulgaria"
+  },
+  "difensore_5_bulgaria_bul": {
+    "name": "Difensore 5 (Bulgaria)",
+    "pos": "DIF",
+    "nat": "Bulgaria"
+  },
+  "difensore_6_bulgaria_bul": {
+    "name": "Difensore 6 (Bulgaria)",
+    "pos": "DIF",
+    "nat": "Bulgaria"
+  },
+  "difensore_7_bulgaria_bul": {
+    "name": "Difensore 7 (Bulgaria)",
+    "pos": "DIF",
+    "nat": "Bulgaria"
+  },
+  "centrocampista_1_bulgaria_bul": {
+    "name": "Centrocampista 1 (Bulgaria)",
+    "pos": "CEN",
+    "nat": "Bulgaria"
+  },
+  "centrocampista_2_bulgaria_bul": {
+    "name": "Centrocampista 2 (Bulgaria)",
+    "pos": "CEN",
+    "nat": "Bulgaria"
+  },
+  "centrocampista_3_bulgaria_bul": {
+    "name": "Centrocampista 3 (Bulgaria)",
+    "pos": "CEN",
+    "nat": "Bulgaria"
+  },
+  "centrocampista_4_bulgaria_bul": {
+    "name": "Centrocampista 4 (Bulgaria)",
+    "pos": "CEN",
+    "nat": "Bulgaria"
+  },
+  "centrocampista_5_bulgaria_bul": {
+    "name": "Centrocampista 5 (Bulgaria)",
+    "pos": "CEN",
+    "nat": "Bulgaria"
+  },
+  "centrocampista_6_bulgaria_bul": {
+    "name": "Centrocampista 6 (Bulgaria)",
+    "pos": "CEN",
+    "nat": "Bulgaria"
+  },
+  "centrocampista_7_bulgaria_bul": {
+    "name": "Centrocampista 7 (Bulgaria)",
+    "pos": "CEN",
+    "nat": "Bulgaria"
+  },
+  "centrocampista_8_bulgaria_bul": {
+    "name": "Centrocampista 8 (Bulgaria)",
+    "pos": "CEN",
+    "nat": "Bulgaria"
+  },
+  "attaccante_1_bulgaria_bul": {
+    "name": "Attaccante 1 (Bulgaria)",
+    "pos": "ATT",
+    "nat": "Bulgaria"
+  },
+  "attaccante_2_bulgaria_bul": {
+    "name": "Attaccante 2 (Bulgaria)",
+    "pos": "ATT",
+    "nat": "Bulgaria"
+  },
+  "attaccante_3_bulgaria_bul": {
+    "name": "Attaccante 3 (Bulgaria)",
+    "pos": "ATT",
+    "nat": "Bulgaria"
+  },
+  "attaccante_4_bulgaria_bul": {
+    "name": "Attaccante 4 (Bulgaria)",
+    "pos": "ATT",
+    "nat": "Bulgaria"
+  },
+  "attaccante_5_bulgaria_bul": {
+    "name": "Attaccante 5 (Bulgaria)",
+    "pos": "ATT",
+    "nat": "Bulgaria"
+  },
+  "portiere_1_cipro_cyp": {
+    "name": "Portiere 1 (Cipro)",
+    "pos": "POR",
+    "nat": "Cipro"
+  },
+  "portiere_2_cipro_cyp": {
+    "name": "Portiere 2 (Cipro)",
+    "pos": "POR",
+    "nat": "Cipro"
+  },
+  "portiere_3_cipro_cyp": {
+    "name": "Portiere 3 (Cipro)",
+    "pos": "POR",
+    "nat": "Cipro"
+  },
+  "difensore_1_cipro_cyp": {
+    "name": "Difensore 1 (Cipro)",
+    "pos": "DIF",
+    "nat": "Cipro"
+  },
+  "difensore_2_cipro_cyp": {
+    "name": "Difensore 2 (Cipro)",
+    "pos": "DIF",
+    "nat": "Cipro"
+  },
+  "difensore_3_cipro_cyp": {
+    "name": "Difensore 3 (Cipro)",
+    "pos": "DIF",
+    "nat": "Cipro"
+  },
+  "difensore_4_cipro_cyp": {
+    "name": "Difensore 4 (Cipro)",
+    "pos": "DIF",
+    "nat": "Cipro"
+  },
+  "difensore_5_cipro_cyp": {
+    "name": "Difensore 5 (Cipro)",
+    "pos": "DIF",
+    "nat": "Cipro"
+  },
+  "difensore_6_cipro_cyp": {
+    "name": "Difensore 6 (Cipro)",
+    "pos": "DIF",
+    "nat": "Cipro"
+  },
+  "difensore_7_cipro_cyp": {
+    "name": "Difensore 7 (Cipro)",
+    "pos": "DIF",
+    "nat": "Cipro"
+  },
+  "centrocampista_1_cipro_cyp": {
+    "name": "Centrocampista 1 (Cipro)",
+    "pos": "CEN",
+    "nat": "Cipro"
+  },
+  "centrocampista_2_cipro_cyp": {
+    "name": "Centrocampista 2 (Cipro)",
+    "pos": "CEN",
+    "nat": "Cipro"
+  },
+  "centrocampista_3_cipro_cyp": {
+    "name": "Centrocampista 3 (Cipro)",
+    "pos": "CEN",
+    "nat": "Cipro"
+  },
+  "centrocampista_4_cipro_cyp": {
+    "name": "Centrocampista 4 (Cipro)",
+    "pos": "CEN",
+    "nat": "Cipro"
+  },
+  "centrocampista_5_cipro_cyp": {
+    "name": "Centrocampista 5 (Cipro)",
+    "pos": "CEN",
+    "nat": "Cipro"
+  },
+  "centrocampista_6_cipro_cyp": {
+    "name": "Centrocampista 6 (Cipro)",
+    "pos": "CEN",
+    "nat": "Cipro"
+  },
+  "centrocampista_7_cipro_cyp": {
+    "name": "Centrocampista 7 (Cipro)",
+    "pos": "CEN",
+    "nat": "Cipro"
+  },
+  "centrocampista_8_cipro_cyp": {
+    "name": "Centrocampista 8 (Cipro)",
+    "pos": "CEN",
+    "nat": "Cipro"
+  },
+  "attaccante_1_cipro_cyp": {
+    "name": "Attaccante 1 (Cipro)",
+    "pos": "ATT",
+    "nat": "Cipro"
+  },
+  "attaccante_2_cipro_cyp": {
+    "name": "Attaccante 2 (Cipro)",
+    "pos": "ATT",
+    "nat": "Cipro"
+  },
+  "attaccante_3_cipro_cyp": {
+    "name": "Attaccante 3 (Cipro)",
+    "pos": "ATT",
+    "nat": "Cipro"
+  },
+  "attaccante_4_cipro_cyp": {
+    "name": "Attaccante 4 (Cipro)",
+    "pos": "ATT",
+    "nat": "Cipro"
+  },
+  "attaccante_5_cipro_cyp": {
+    "name": "Attaccante 5 (Cipro)",
+    "pos": "ATT",
+    "nat": "Cipro"
+  },
+  "portiere_1_croazia_cro": {
+    "name": "Portiere 1 (Croazia)",
+    "pos": "POR",
+    "nat": "Croazia"
+  },
+  "portiere_2_croazia_cro": {
+    "name": "Portiere 2 (Croazia)",
+    "pos": "POR",
+    "nat": "Croazia"
+  },
+  "portiere_3_croazia_cro": {
+    "name": "Portiere 3 (Croazia)",
+    "pos": "POR",
+    "nat": "Croazia"
+  },
+  "difensore_1_croazia_cro": {
+    "name": "Difensore 1 (Croazia)",
+    "pos": "DIF",
+    "nat": "Croazia"
+  },
+  "difensore_2_croazia_cro": {
+    "name": "Difensore 2 (Croazia)",
+    "pos": "DIF",
+    "nat": "Croazia"
+  },
+  "difensore_3_croazia_cro": {
+    "name": "Difensore 3 (Croazia)",
+    "pos": "DIF",
+    "nat": "Croazia"
+  },
+  "difensore_4_croazia_cro": {
+    "name": "Difensore 4 (Croazia)",
+    "pos": "DIF",
+    "nat": "Croazia"
+  },
+  "difensore_5_croazia_cro": {
+    "name": "Difensore 5 (Croazia)",
+    "pos": "DIF",
+    "nat": "Croazia"
+  },
+  "difensore_6_croazia_cro": {
+    "name": "Difensore 6 (Croazia)",
+    "pos": "DIF",
+    "nat": "Croazia"
+  },
+  "difensore_7_croazia_cro": {
+    "name": "Difensore 7 (Croazia)",
+    "pos": "DIF",
+    "nat": "Croazia"
+  },
+  "centrocampista_1_croazia_cro": {
+    "name": "Centrocampista 1 (Croazia)",
+    "pos": "CEN",
+    "nat": "Croazia"
+  },
+  "centrocampista_2_croazia_cro": {
+    "name": "Centrocampista 2 (Croazia)",
+    "pos": "CEN",
+    "nat": "Croazia"
+  },
+  "centrocampista_3_croazia_cro": {
+    "name": "Centrocampista 3 (Croazia)",
+    "pos": "CEN",
+    "nat": "Croazia"
+  },
+  "centrocampista_4_croazia_cro": {
+    "name": "Centrocampista 4 (Croazia)",
+    "pos": "CEN",
+    "nat": "Croazia"
+  },
+  "centrocampista_5_croazia_cro": {
+    "name": "Centrocampista 5 (Croazia)",
+    "pos": "CEN",
+    "nat": "Croazia"
+  },
+  "centrocampista_6_croazia_cro": {
+    "name": "Centrocampista 6 (Croazia)",
+    "pos": "CEN",
+    "nat": "Croazia"
+  },
+  "centrocampista_7_croazia_cro": {
+    "name": "Centrocampista 7 (Croazia)",
+    "pos": "CEN",
+    "nat": "Croazia"
+  },
+  "centrocampista_8_croazia_cro": {
+    "name": "Centrocampista 8 (Croazia)",
+    "pos": "CEN",
+    "nat": "Croazia"
+  },
+  "attaccante_1_croazia_cro": {
+    "name": "Attaccante 1 (Croazia)",
+    "pos": "ATT",
+    "nat": "Croazia"
+  },
+  "attaccante_2_croazia_cro": {
+    "name": "Attaccante 2 (Croazia)",
+    "pos": "ATT",
+    "nat": "Croazia"
+  },
+  "attaccante_3_croazia_cro": {
+    "name": "Attaccante 3 (Croazia)",
+    "pos": "ATT",
+    "nat": "Croazia"
+  },
+  "attaccante_4_croazia_cro": {
+    "name": "Attaccante 4 (Croazia)",
+    "pos": "ATT",
+    "nat": "Croazia"
+  },
+  "attaccante_5_croazia_cro": {
+    "name": "Attaccante 5 (Croazia)",
+    "pos": "ATT",
+    "nat": "Croazia"
+  },
+  "portiere_1_danimarca_den": {
+    "name": "Portiere 1 (Danimarca)",
+    "pos": "POR",
+    "nat": "Danimarca"
+  },
+  "portiere_2_danimarca_den": {
+    "name": "Portiere 2 (Danimarca)",
+    "pos": "POR",
+    "nat": "Danimarca"
+  },
+  "portiere_3_danimarca_den": {
+    "name": "Portiere 3 (Danimarca)",
+    "pos": "POR",
+    "nat": "Danimarca"
+  },
+  "difensore_1_danimarca_den": {
+    "name": "Difensore 1 (Danimarca)",
+    "pos": "DIF",
+    "nat": "Danimarca"
+  },
+  "difensore_2_danimarca_den": {
+    "name": "Difensore 2 (Danimarca)",
+    "pos": "DIF",
+    "nat": "Danimarca"
+  },
+  "difensore_3_danimarca_den": {
+    "name": "Difensore 3 (Danimarca)",
+    "pos": "DIF",
+    "nat": "Danimarca"
+  },
+  "difensore_4_danimarca_den": {
+    "name": "Difensore 4 (Danimarca)",
+    "pos": "DIF",
+    "nat": "Danimarca"
+  },
+  "difensore_5_danimarca_den": {
+    "name": "Difensore 5 (Danimarca)",
+    "pos": "DIF",
+    "nat": "Danimarca"
+  },
+  "difensore_6_danimarca_den": {
+    "name": "Difensore 6 (Danimarca)",
+    "pos": "DIF",
+    "nat": "Danimarca"
+  },
+  "difensore_7_danimarca_den": {
+    "name": "Difensore 7 (Danimarca)",
+    "pos": "DIF",
+    "nat": "Danimarca"
+  },
+  "centrocampista_1_danimarca_den": {
+    "name": "Centrocampista 1 (Danimarca)",
+    "pos": "CEN",
+    "nat": "Danimarca"
+  },
+  "centrocampista_2_danimarca_den": {
+    "name": "Centrocampista 2 (Danimarca)",
+    "pos": "CEN",
+    "nat": "Danimarca"
+  },
+  "centrocampista_3_danimarca_den": {
+    "name": "Centrocampista 3 (Danimarca)",
+    "pos": "CEN",
+    "nat": "Danimarca"
+  },
+  "centrocampista_4_danimarca_den": {
+    "name": "Centrocampista 4 (Danimarca)",
+    "pos": "CEN",
+    "nat": "Danimarca"
+  },
+  "centrocampista_5_danimarca_den": {
+    "name": "Centrocampista 5 (Danimarca)",
+    "pos": "CEN",
+    "nat": "Danimarca"
+  },
+  "centrocampista_6_danimarca_den": {
+    "name": "Centrocampista 6 (Danimarca)",
+    "pos": "CEN",
+    "nat": "Danimarca"
+  },
+  "centrocampista_7_danimarca_den": {
+    "name": "Centrocampista 7 (Danimarca)",
+    "pos": "CEN",
+    "nat": "Danimarca"
+  },
+  "centrocampista_8_danimarca_den": {
+    "name": "Centrocampista 8 (Danimarca)",
+    "pos": "CEN",
+    "nat": "Danimarca"
+  },
+  "attaccante_1_danimarca_den": {
+    "name": "Attaccante 1 (Danimarca)",
+    "pos": "ATT",
+    "nat": "Danimarca"
+  },
+  "attaccante_2_danimarca_den": {
+    "name": "Attaccante 2 (Danimarca)",
+    "pos": "ATT",
+    "nat": "Danimarca"
+  },
+  "attaccante_3_danimarca_den": {
+    "name": "Attaccante 3 (Danimarca)",
+    "pos": "ATT",
+    "nat": "Danimarca"
+  },
+  "attaccante_4_danimarca_den": {
+    "name": "Attaccante 4 (Danimarca)",
+    "pos": "ATT",
+    "nat": "Danimarca"
+  },
+  "attaccante_5_danimarca_den": {
+    "name": "Attaccante 5 (Danimarca)",
+    "pos": "ATT",
+    "nat": "Danimarca"
+  },
+  "portiere_1_estonia_est": {
+    "name": "Portiere 1 (Estonia)",
+    "pos": "POR",
+    "nat": "Estonia"
+  },
+  "portiere_2_estonia_est": {
+    "name": "Portiere 2 (Estonia)",
+    "pos": "POR",
+    "nat": "Estonia"
+  },
+  "portiere_3_estonia_est": {
+    "name": "Portiere 3 (Estonia)",
+    "pos": "POR",
+    "nat": "Estonia"
+  },
+  "difensore_1_estonia_est": {
+    "name": "Difensore 1 (Estonia)",
+    "pos": "DIF",
+    "nat": "Estonia"
+  },
+  "difensore_2_estonia_est": {
+    "name": "Difensore 2 (Estonia)",
+    "pos": "DIF",
+    "nat": "Estonia"
+  },
+  "difensore_3_estonia_est": {
+    "name": "Difensore 3 (Estonia)",
+    "pos": "DIF",
+    "nat": "Estonia"
+  },
+  "difensore_4_estonia_est": {
+    "name": "Difensore 4 (Estonia)",
+    "pos": "DIF",
+    "nat": "Estonia"
+  },
+  "difensore_5_estonia_est": {
+    "name": "Difensore 5 (Estonia)",
+    "pos": "DIF",
+    "nat": "Estonia"
+  },
+  "difensore_6_estonia_est": {
+    "name": "Difensore 6 (Estonia)",
+    "pos": "DIF",
+    "nat": "Estonia"
+  },
+  "difensore_7_estonia_est": {
+    "name": "Difensore 7 (Estonia)",
+    "pos": "DIF",
+    "nat": "Estonia"
+  },
+  "centrocampista_1_estonia_est": {
+    "name": "Centrocampista 1 (Estonia)",
+    "pos": "CEN",
+    "nat": "Estonia"
+  },
+  "centrocampista_2_estonia_est": {
+    "name": "Centrocampista 2 (Estonia)",
+    "pos": "CEN",
+    "nat": "Estonia"
+  },
+  "centrocampista_3_estonia_est": {
+    "name": "Centrocampista 3 (Estonia)",
+    "pos": "CEN",
+    "nat": "Estonia"
+  },
+  "centrocampista_4_estonia_est": {
+    "name": "Centrocampista 4 (Estonia)",
+    "pos": "CEN",
+    "nat": "Estonia"
+  },
+  "centrocampista_5_estonia_est": {
+    "name": "Centrocampista 5 (Estonia)",
+    "pos": "CEN",
+    "nat": "Estonia"
+  },
+  "centrocampista_6_estonia_est": {
+    "name": "Centrocampista 6 (Estonia)",
+    "pos": "CEN",
+    "nat": "Estonia"
+  },
+  "centrocampista_7_estonia_est": {
+    "name": "Centrocampista 7 (Estonia)",
+    "pos": "CEN",
+    "nat": "Estonia"
+  },
+  "centrocampista_8_estonia_est": {
+    "name": "Centrocampista 8 (Estonia)",
+    "pos": "CEN",
+    "nat": "Estonia"
+  },
+  "attaccante_1_estonia_est": {
+    "name": "Attaccante 1 (Estonia)",
+    "pos": "ATT",
+    "nat": "Estonia"
+  },
+  "attaccante_2_estonia_est": {
+    "name": "Attaccante 2 (Estonia)",
+    "pos": "ATT",
+    "nat": "Estonia"
+  },
+  "attaccante_3_estonia_est": {
+    "name": "Attaccante 3 (Estonia)",
+    "pos": "ATT",
+    "nat": "Estonia"
+  },
+  "attaccante_4_estonia_est": {
+    "name": "Attaccante 4 (Estonia)",
+    "pos": "ATT",
+    "nat": "Estonia"
+  },
+  "attaccante_5_estonia_est": {
+    "name": "Attaccante 5 (Estonia)",
+    "pos": "ATT",
+    "nat": "Estonia"
+  },
+  "portiere_1_finlandia_fin": {
+    "name": "Portiere 1 (Finlandia)",
+    "pos": "POR",
+    "nat": "Finlandia"
+  },
+  "portiere_2_finlandia_fin": {
+    "name": "Portiere 2 (Finlandia)",
+    "pos": "POR",
+    "nat": "Finlandia"
+  },
+  "portiere_3_finlandia_fin": {
+    "name": "Portiere 3 (Finlandia)",
+    "pos": "POR",
+    "nat": "Finlandia"
+  },
+  "difensore_1_finlandia_fin": {
+    "name": "Difensore 1 (Finlandia)",
+    "pos": "DIF",
+    "nat": "Finlandia"
+  },
+  "difensore_2_finlandia_fin": {
+    "name": "Difensore 2 (Finlandia)",
+    "pos": "DIF",
+    "nat": "Finlandia"
+  },
+  "difensore_3_finlandia_fin": {
+    "name": "Difensore 3 (Finlandia)",
+    "pos": "DIF",
+    "nat": "Finlandia"
+  },
+  "difensore_4_finlandia_fin": {
+    "name": "Difensore 4 (Finlandia)",
+    "pos": "DIF",
+    "nat": "Finlandia"
+  },
+  "difensore_5_finlandia_fin": {
+    "name": "Difensore 5 (Finlandia)",
+    "pos": "DIF",
+    "nat": "Finlandia"
+  },
+  "difensore_6_finlandia_fin": {
+    "name": "Difensore 6 (Finlandia)",
+    "pos": "DIF",
+    "nat": "Finlandia"
+  },
+  "difensore_7_finlandia_fin": {
+    "name": "Difensore 7 (Finlandia)",
+    "pos": "DIF",
+    "nat": "Finlandia"
+  },
+  "centrocampista_1_finlandia_fin": {
+    "name": "Centrocampista 1 (Finlandia)",
+    "pos": "CEN",
+    "nat": "Finlandia"
+  },
+  "centrocampista_2_finlandia_fin": {
+    "name": "Centrocampista 2 (Finlandia)",
+    "pos": "CEN",
+    "nat": "Finlandia"
+  },
+  "centrocampista_3_finlandia_fin": {
+    "name": "Centrocampista 3 (Finlandia)",
+    "pos": "CEN",
+    "nat": "Finlandia"
+  },
+  "centrocampista_4_finlandia_fin": {
+    "name": "Centrocampista 4 (Finlandia)",
+    "pos": "CEN",
+    "nat": "Finlandia"
+  },
+  "centrocampista_5_finlandia_fin": {
+    "name": "Centrocampista 5 (Finlandia)",
+    "pos": "CEN",
+    "nat": "Finlandia"
+  },
+  "centrocampista_6_finlandia_fin": {
+    "name": "Centrocampista 6 (Finlandia)",
+    "pos": "CEN",
+    "nat": "Finlandia"
+  },
+  "centrocampista_7_finlandia_fin": {
+    "name": "Centrocampista 7 (Finlandia)",
+    "pos": "CEN",
+    "nat": "Finlandia"
+  },
+  "centrocampista_8_finlandia_fin": {
+    "name": "Centrocampista 8 (Finlandia)",
+    "pos": "CEN",
+    "nat": "Finlandia"
+  },
+  "attaccante_1_finlandia_fin": {
+    "name": "Attaccante 1 (Finlandia)",
+    "pos": "ATT",
+    "nat": "Finlandia"
+  },
+  "attaccante_2_finlandia_fin": {
+    "name": "Attaccante 2 (Finlandia)",
+    "pos": "ATT",
+    "nat": "Finlandia"
+  },
+  "attaccante_3_finlandia_fin": {
+    "name": "Attaccante 3 (Finlandia)",
+    "pos": "ATT",
+    "nat": "Finlandia"
+  },
+  "attaccante_4_finlandia_fin": {
+    "name": "Attaccante 4 (Finlandia)",
+    "pos": "ATT",
+    "nat": "Finlandia"
+  },
+  "attaccante_5_finlandia_fin": {
+    "name": "Attaccante 5 (Finlandia)",
+    "pos": "ATT",
+    "nat": "Finlandia"
+  },
+  "portiere_1_francia_fra": {
+    "name": "Portiere 1 (Francia)",
+    "pos": "POR",
+    "nat": "Francia"
+  },
+  "portiere_2_francia_fra": {
+    "name": "Portiere 2 (Francia)",
+    "pos": "POR",
+    "nat": "Francia"
+  },
+  "portiere_3_francia_fra": {
+    "name": "Portiere 3 (Francia)",
+    "pos": "POR",
+    "nat": "Francia"
+  },
+  "difensore_1_francia_fra": {
+    "name": "Difensore 1 (Francia)",
+    "pos": "DIF",
+    "nat": "Francia"
+  },
+  "difensore_2_francia_fra": {
+    "name": "Difensore 2 (Francia)",
+    "pos": "DIF",
+    "nat": "Francia"
+  },
+  "difensore_3_francia_fra": {
+    "name": "Difensore 3 (Francia)",
+    "pos": "DIF",
+    "nat": "Francia"
+  },
+  "difensore_4_francia_fra": {
+    "name": "Difensore 4 (Francia)",
+    "pos": "DIF",
+    "nat": "Francia"
+  },
+  "difensore_5_francia_fra": {
+    "name": "Difensore 5 (Francia)",
+    "pos": "DIF",
+    "nat": "Francia"
+  },
+  "difensore_6_francia_fra": {
+    "name": "Difensore 6 (Francia)",
+    "pos": "DIF",
+    "nat": "Francia"
+  },
+  "difensore_7_francia_fra": {
+    "name": "Difensore 7 (Francia)",
+    "pos": "DIF",
+    "nat": "Francia"
+  },
+  "centrocampista_1_francia_fra": {
+    "name": "Centrocampista 1 (Francia)",
+    "pos": "CEN",
+    "nat": "Francia"
+  },
+  "centrocampista_2_francia_fra": {
+    "name": "Centrocampista 2 (Francia)",
+    "pos": "CEN",
+    "nat": "Francia"
+  },
+  "centrocampista_3_francia_fra": {
+    "name": "Centrocampista 3 (Francia)",
+    "pos": "CEN",
+    "nat": "Francia"
+  },
+  "centrocampista_4_francia_fra": {
+    "name": "Centrocampista 4 (Francia)",
+    "pos": "CEN",
+    "nat": "Francia"
+  },
+  "centrocampista_5_francia_fra": {
+    "name": "Centrocampista 5 (Francia)",
+    "pos": "CEN",
+    "nat": "Francia"
+  },
+  "centrocampista_6_francia_fra": {
+    "name": "Centrocampista 6 (Francia)",
+    "pos": "CEN",
+    "nat": "Francia"
+  },
+  "centrocampista_7_francia_fra": {
+    "name": "Centrocampista 7 (Francia)",
+    "pos": "CEN",
+    "nat": "Francia"
+  },
+  "centrocampista_8_francia_fra": {
+    "name": "Centrocampista 8 (Francia)",
+    "pos": "CEN",
+    "nat": "Francia"
+  },
+  "attaccante_1_francia_fra": {
+    "name": "Attaccante 1 (Francia)",
+    "pos": "ATT",
+    "nat": "Francia"
+  },
+  "attaccante_2_francia_fra": {
+    "name": "Attaccante 2 (Francia)",
+    "pos": "ATT",
+    "nat": "Francia"
+  },
+  "attaccante_3_francia_fra": {
+    "name": "Attaccante 3 (Francia)",
+    "pos": "ATT",
+    "nat": "Francia"
+  },
+  "attaccante_4_francia_fra": {
+    "name": "Attaccante 4 (Francia)",
+    "pos": "ATT",
+    "nat": "Francia"
+  },
+  "attaccante_5_francia_fra": {
+    "name": "Attaccante 5 (Francia)",
+    "pos": "ATT",
+    "nat": "Francia"
+  },
+  "portiere_1_galles_wal": {
+    "name": "Portiere 1 (Galles)",
+    "pos": "POR",
+    "nat": "Galles"
+  },
+  "portiere_2_galles_wal": {
+    "name": "Portiere 2 (Galles)",
+    "pos": "POR",
+    "nat": "Galles"
+  },
+  "portiere_3_galles_wal": {
+    "name": "Portiere 3 (Galles)",
+    "pos": "POR",
+    "nat": "Galles"
+  },
+  "difensore_1_galles_wal": {
+    "name": "Difensore 1 (Galles)",
+    "pos": "DIF",
+    "nat": "Galles"
+  },
+  "difensore_2_galles_wal": {
+    "name": "Difensore 2 (Galles)",
+    "pos": "DIF",
+    "nat": "Galles"
+  },
+  "difensore_3_galles_wal": {
+    "name": "Difensore 3 (Galles)",
+    "pos": "DIF",
+    "nat": "Galles"
+  },
+  "difensore_4_galles_wal": {
+    "name": "Difensore 4 (Galles)",
+    "pos": "DIF",
+    "nat": "Galles"
+  },
+  "difensore_5_galles_wal": {
+    "name": "Difensore 5 (Galles)",
+    "pos": "DIF",
+    "nat": "Galles"
+  },
+  "difensore_6_galles_wal": {
+    "name": "Difensore 6 (Galles)",
+    "pos": "DIF",
+    "nat": "Galles"
+  },
+  "difensore_7_galles_wal": {
+    "name": "Difensore 7 (Galles)",
+    "pos": "DIF",
+    "nat": "Galles"
+  },
+  "centrocampista_1_galles_wal": {
+    "name": "Centrocampista 1 (Galles)",
+    "pos": "CEN",
+    "nat": "Galles"
+  },
+  "centrocampista_2_galles_wal": {
+    "name": "Centrocampista 2 (Galles)",
+    "pos": "CEN",
+    "nat": "Galles"
+  },
+  "centrocampista_3_galles_wal": {
+    "name": "Centrocampista 3 (Galles)",
+    "pos": "CEN",
+    "nat": "Galles"
+  },
+  "centrocampista_4_galles_wal": {
+    "name": "Centrocampista 4 (Galles)",
+    "pos": "CEN",
+    "nat": "Galles"
+  },
+  "centrocampista_5_galles_wal": {
+    "name": "Centrocampista 5 (Galles)",
+    "pos": "CEN",
+    "nat": "Galles"
+  },
+  "centrocampista_6_galles_wal": {
+    "name": "Centrocampista 6 (Galles)",
+    "pos": "CEN",
+    "nat": "Galles"
+  },
+  "centrocampista_7_galles_wal": {
+    "name": "Centrocampista 7 (Galles)",
+    "pos": "CEN",
+    "nat": "Galles"
+  },
+  "centrocampista_8_galles_wal": {
+    "name": "Centrocampista 8 (Galles)",
+    "pos": "CEN",
+    "nat": "Galles"
+  },
+  "attaccante_1_galles_wal": {
+    "name": "Attaccante 1 (Galles)",
+    "pos": "ATT",
+    "nat": "Galles"
+  },
+  "attaccante_2_galles_wal": {
+    "name": "Attaccante 2 (Galles)",
+    "pos": "ATT",
+    "nat": "Galles"
+  },
+  "attaccante_3_galles_wal": {
+    "name": "Attaccante 3 (Galles)",
+    "pos": "ATT",
+    "nat": "Galles"
+  },
+  "attaccante_4_galles_wal": {
+    "name": "Attaccante 4 (Galles)",
+    "pos": "ATT",
+    "nat": "Galles"
+  },
+  "attaccante_5_galles_wal": {
+    "name": "Attaccante 5 (Galles)",
+    "pos": "ATT",
+    "nat": "Galles"
+  },
+  "portiere_1_georgia_geo": {
+    "name": "Portiere 1 (Georgia)",
+    "pos": "POR",
+    "nat": "Georgia"
+  },
+  "portiere_2_georgia_geo": {
+    "name": "Portiere 2 (Georgia)",
+    "pos": "POR",
+    "nat": "Georgia"
+  },
+  "portiere_3_georgia_geo": {
+    "name": "Portiere 3 (Georgia)",
+    "pos": "POR",
+    "nat": "Georgia"
+  },
+  "difensore_1_georgia_geo": {
+    "name": "Difensore 1 (Georgia)",
+    "pos": "DIF",
+    "nat": "Georgia"
+  },
+  "difensore_2_georgia_geo": {
+    "name": "Difensore 2 (Georgia)",
+    "pos": "DIF",
+    "nat": "Georgia"
+  },
+  "difensore_3_georgia_geo": {
+    "name": "Difensore 3 (Georgia)",
+    "pos": "DIF",
+    "nat": "Georgia"
+  },
+  "difensore_4_georgia_geo": {
+    "name": "Difensore 4 (Georgia)",
+    "pos": "DIF",
+    "nat": "Georgia"
+  },
+  "difensore_5_georgia_geo": {
+    "name": "Difensore 5 (Georgia)",
+    "pos": "DIF",
+    "nat": "Georgia"
+  },
+  "difensore_6_georgia_geo": {
+    "name": "Difensore 6 (Georgia)",
+    "pos": "DIF",
+    "nat": "Georgia"
+  },
+  "difensore_7_georgia_geo": {
+    "name": "Difensore 7 (Georgia)",
+    "pos": "DIF",
+    "nat": "Georgia"
+  },
+  "centrocampista_1_georgia_geo": {
+    "name": "Centrocampista 1 (Georgia)",
+    "pos": "CEN",
+    "nat": "Georgia"
+  },
+  "centrocampista_2_georgia_geo": {
+    "name": "Centrocampista 2 (Georgia)",
+    "pos": "CEN",
+    "nat": "Georgia"
+  },
+  "centrocampista_3_georgia_geo": {
+    "name": "Centrocampista 3 (Georgia)",
+    "pos": "CEN",
+    "nat": "Georgia"
+  },
+  "centrocampista_4_georgia_geo": {
+    "name": "Centrocampista 4 (Georgia)",
+    "pos": "CEN",
+    "nat": "Georgia"
+  },
+  "centrocampista_5_georgia_geo": {
+    "name": "Centrocampista 5 (Georgia)",
+    "pos": "CEN",
+    "nat": "Georgia"
+  },
+  "centrocampista_6_georgia_geo": {
+    "name": "Centrocampista 6 (Georgia)",
+    "pos": "CEN",
+    "nat": "Georgia"
+  },
+  "centrocampista_7_georgia_geo": {
+    "name": "Centrocampista 7 (Georgia)",
+    "pos": "CEN",
+    "nat": "Georgia"
+  },
+  "centrocampista_8_georgia_geo": {
+    "name": "Centrocampista 8 (Georgia)",
+    "pos": "CEN",
+    "nat": "Georgia"
+  },
+  "attaccante_1_georgia_geo": {
+    "name": "Attaccante 1 (Georgia)",
+    "pos": "ATT",
+    "nat": "Georgia"
+  },
+  "attaccante_2_georgia_geo": {
+    "name": "Attaccante 2 (Georgia)",
+    "pos": "ATT",
+    "nat": "Georgia"
+  },
+  "attaccante_3_georgia_geo": {
+    "name": "Attaccante 3 (Georgia)",
+    "pos": "ATT",
+    "nat": "Georgia"
+  },
+  "attaccante_4_georgia_geo": {
+    "name": "Attaccante 4 (Georgia)",
+    "pos": "ATT",
+    "nat": "Georgia"
+  },
+  "attaccante_5_georgia_geo": {
+    "name": "Attaccante 5 (Georgia)",
+    "pos": "ATT",
+    "nat": "Georgia"
+  },
+  "portiere_1_germania_ger": {
+    "name": "Portiere 1 (Germania)",
+    "pos": "POR",
+    "nat": "Germania"
+  },
+  "portiere_2_germania_ger": {
+    "name": "Portiere 2 (Germania)",
+    "pos": "POR",
+    "nat": "Germania"
+  },
+  "portiere_3_germania_ger": {
+    "name": "Portiere 3 (Germania)",
+    "pos": "POR",
+    "nat": "Germania"
+  },
+  "difensore_1_germania_ger": {
+    "name": "Difensore 1 (Germania)",
+    "pos": "DIF",
+    "nat": "Germania"
+  },
+  "difensore_2_germania_ger": {
+    "name": "Difensore 2 (Germania)",
+    "pos": "DIF",
+    "nat": "Germania"
+  },
+  "difensore_3_germania_ger": {
+    "name": "Difensore 3 (Germania)",
+    "pos": "DIF",
+    "nat": "Germania"
+  },
+  "difensore_4_germania_ger": {
+    "name": "Difensore 4 (Germania)",
+    "pos": "DIF",
+    "nat": "Germania"
+  },
+  "difensore_5_germania_ger": {
+    "name": "Difensore 5 (Germania)",
+    "pos": "DIF",
+    "nat": "Germania"
+  },
+  "difensore_6_germania_ger": {
+    "name": "Difensore 6 (Germania)",
+    "pos": "DIF",
+    "nat": "Germania"
+  },
+  "difensore_7_germania_ger": {
+    "name": "Difensore 7 (Germania)",
+    "pos": "DIF",
+    "nat": "Germania"
+  },
+  "centrocampista_1_germania_ger": {
+    "name": "Centrocampista 1 (Germania)",
+    "pos": "CEN",
+    "nat": "Germania"
+  },
+  "centrocampista_2_germania_ger": {
+    "name": "Centrocampista 2 (Germania)",
+    "pos": "CEN",
+    "nat": "Germania"
+  },
+  "centrocampista_3_germania_ger": {
+    "name": "Centrocampista 3 (Germania)",
+    "pos": "CEN",
+    "nat": "Germania"
+  },
+  "centrocampista_4_germania_ger": {
+    "name": "Centrocampista 4 (Germania)",
+    "pos": "CEN",
+    "nat": "Germania"
+  },
+  "centrocampista_5_germania_ger": {
+    "name": "Centrocampista 5 (Germania)",
+    "pos": "CEN",
+    "nat": "Germania"
+  },
+  "centrocampista_6_germania_ger": {
+    "name": "Centrocampista 6 (Germania)",
+    "pos": "CEN",
+    "nat": "Germania"
+  },
+  "centrocampista_7_germania_ger": {
+    "name": "Centrocampista 7 (Germania)",
+    "pos": "CEN",
+    "nat": "Germania"
+  },
+  "centrocampista_8_germania_ger": {
+    "name": "Centrocampista 8 (Germania)",
+    "pos": "CEN",
+    "nat": "Germania"
+  },
+  "attaccante_1_germania_ger": {
+    "name": "Attaccante 1 (Germania)",
+    "pos": "ATT",
+    "nat": "Germania"
+  },
+  "attaccante_2_germania_ger": {
+    "name": "Attaccante 2 (Germania)",
+    "pos": "ATT",
+    "nat": "Germania"
+  },
+  "attaccante_3_germania_ger": {
+    "name": "Attaccante 3 (Germania)",
+    "pos": "ATT",
+    "nat": "Germania"
+  },
+  "attaccante_4_germania_ger": {
+    "name": "Attaccante 4 (Germania)",
+    "pos": "ATT",
+    "nat": "Germania"
+  },
+  "attaccante_5_germania_ger": {
+    "name": "Attaccante 5 (Germania)",
+    "pos": "ATT",
+    "nat": "Germania"
+  },
+  "portiere_1_gibilterra_gib": {
+    "name": "Portiere 1 (Gibilterra)",
+    "pos": "POR",
+    "nat": "Gibilterra"
+  },
+  "portiere_2_gibilterra_gib": {
+    "name": "Portiere 2 (Gibilterra)",
+    "pos": "POR",
+    "nat": "Gibilterra"
+  },
+  "portiere_3_gibilterra_gib": {
+    "name": "Portiere 3 (Gibilterra)",
+    "pos": "POR",
+    "nat": "Gibilterra"
+  },
+  "difensore_1_gibilterra_gib": {
+    "name": "Difensore 1 (Gibilterra)",
+    "pos": "DIF",
+    "nat": "Gibilterra"
+  },
+  "difensore_2_gibilterra_gib": {
+    "name": "Difensore 2 (Gibilterra)",
+    "pos": "DIF",
+    "nat": "Gibilterra"
+  },
+  "difensore_3_gibilterra_gib": {
+    "name": "Difensore 3 (Gibilterra)",
+    "pos": "DIF",
+    "nat": "Gibilterra"
+  },
+  "difensore_4_gibilterra_gib": {
+    "name": "Difensore 4 (Gibilterra)",
+    "pos": "DIF",
+    "nat": "Gibilterra"
+  },
+  "difensore_5_gibilterra_gib": {
+    "name": "Difensore 5 (Gibilterra)",
+    "pos": "DIF",
+    "nat": "Gibilterra"
+  },
+  "difensore_6_gibilterra_gib": {
+    "name": "Difensore 6 (Gibilterra)",
+    "pos": "DIF",
+    "nat": "Gibilterra"
+  },
+  "difensore_7_gibilterra_gib": {
+    "name": "Difensore 7 (Gibilterra)",
+    "pos": "DIF",
+    "nat": "Gibilterra"
+  },
+  "centrocampista_1_gibilterra_gib": {
+    "name": "Centrocampista 1 (Gibilterra)",
+    "pos": "CEN",
+    "nat": "Gibilterra"
+  },
+  "centrocampista_2_gibilterra_gib": {
+    "name": "Centrocampista 2 (Gibilterra)",
+    "pos": "CEN",
+    "nat": "Gibilterra"
+  },
+  "centrocampista_3_gibilterra_gib": {
+    "name": "Centrocampista 3 (Gibilterra)",
+    "pos": "CEN",
+    "nat": "Gibilterra"
+  },
+  "centrocampista_4_gibilterra_gib": {
+    "name": "Centrocampista 4 (Gibilterra)",
+    "pos": "CEN",
+    "nat": "Gibilterra"
+  },
+  "centrocampista_5_gibilterra_gib": {
+    "name": "Centrocampista 5 (Gibilterra)",
+    "pos": "CEN",
+    "nat": "Gibilterra"
+  },
+  "centrocampista_6_gibilterra_gib": {
+    "name": "Centrocampista 6 (Gibilterra)",
+    "pos": "CEN",
+    "nat": "Gibilterra"
+  },
+  "centrocampista_7_gibilterra_gib": {
+    "name": "Centrocampista 7 (Gibilterra)",
+    "pos": "CEN",
+    "nat": "Gibilterra"
+  },
+  "centrocampista_8_gibilterra_gib": {
+    "name": "Centrocampista 8 (Gibilterra)",
+    "pos": "CEN",
+    "nat": "Gibilterra"
+  },
+  "attaccante_1_gibilterra_gib": {
+    "name": "Attaccante 1 (Gibilterra)",
+    "pos": "ATT",
+    "nat": "Gibilterra"
+  },
+  "attaccante_2_gibilterra_gib": {
+    "name": "Attaccante 2 (Gibilterra)",
+    "pos": "ATT",
+    "nat": "Gibilterra"
+  },
+  "attaccante_3_gibilterra_gib": {
+    "name": "Attaccante 3 (Gibilterra)",
+    "pos": "ATT",
+    "nat": "Gibilterra"
+  },
+  "attaccante_4_gibilterra_gib": {
+    "name": "Attaccante 4 (Gibilterra)",
+    "pos": "ATT",
+    "nat": "Gibilterra"
+  },
+  "attaccante_5_gibilterra_gib": {
+    "name": "Attaccante 5 (Gibilterra)",
+    "pos": "ATT",
+    "nat": "Gibilterra"
+  },
+  "portiere_1_grecia_gre": {
+    "name": "Portiere 1 (Grecia)",
+    "pos": "POR",
+    "nat": "Grecia"
+  },
+  "portiere_2_grecia_gre": {
+    "name": "Portiere 2 (Grecia)",
+    "pos": "POR",
+    "nat": "Grecia"
+  },
+  "portiere_3_grecia_gre": {
+    "name": "Portiere 3 (Grecia)",
+    "pos": "POR",
+    "nat": "Grecia"
+  },
+  "difensore_1_grecia_gre": {
+    "name": "Difensore 1 (Grecia)",
+    "pos": "DIF",
+    "nat": "Grecia"
+  },
+  "difensore_2_grecia_gre": {
+    "name": "Difensore 2 (Grecia)",
+    "pos": "DIF",
+    "nat": "Grecia"
+  },
+  "difensore_3_grecia_gre": {
+    "name": "Difensore 3 (Grecia)",
+    "pos": "DIF",
+    "nat": "Grecia"
+  },
+  "difensore_4_grecia_gre": {
+    "name": "Difensore 4 (Grecia)",
+    "pos": "DIF",
+    "nat": "Grecia"
+  },
+  "difensore_5_grecia_gre": {
+    "name": "Difensore 5 (Grecia)",
+    "pos": "DIF",
+    "nat": "Grecia"
+  },
+  "difensore_6_grecia_gre": {
+    "name": "Difensore 6 (Grecia)",
+    "pos": "DIF",
+    "nat": "Grecia"
+  },
+  "difensore_7_grecia_gre": {
+    "name": "Difensore 7 (Grecia)",
+    "pos": "DIF",
+    "nat": "Grecia"
+  },
+  "centrocampista_1_grecia_gre": {
+    "name": "Centrocampista 1 (Grecia)",
+    "pos": "CEN",
+    "nat": "Grecia"
+  },
+  "centrocampista_2_grecia_gre": {
+    "name": "Centrocampista 2 (Grecia)",
+    "pos": "CEN",
+    "nat": "Grecia"
+  },
+  "centrocampista_3_grecia_gre": {
+    "name": "Centrocampista 3 (Grecia)",
+    "pos": "CEN",
+    "nat": "Grecia"
+  },
+  "centrocampista_4_grecia_gre": {
+    "name": "Centrocampista 4 (Grecia)",
+    "pos": "CEN",
+    "nat": "Grecia"
+  },
+  "centrocampista_5_grecia_gre": {
+    "name": "Centrocampista 5 (Grecia)",
+    "pos": "CEN",
+    "nat": "Grecia"
+  },
+  "centrocampista_6_grecia_gre": {
+    "name": "Centrocampista 6 (Grecia)",
+    "pos": "CEN",
+    "nat": "Grecia"
+  },
+  "centrocampista_7_grecia_gre": {
+    "name": "Centrocampista 7 (Grecia)",
+    "pos": "CEN",
+    "nat": "Grecia"
+  },
+  "centrocampista_8_grecia_gre": {
+    "name": "Centrocampista 8 (Grecia)",
+    "pos": "CEN",
+    "nat": "Grecia"
+  },
+  "attaccante_1_grecia_gre": {
+    "name": "Attaccante 1 (Grecia)",
+    "pos": "ATT",
+    "nat": "Grecia"
+  },
+  "attaccante_2_grecia_gre": {
+    "name": "Attaccante 2 (Grecia)",
+    "pos": "ATT",
+    "nat": "Grecia"
+  },
+  "attaccante_3_grecia_gre": {
+    "name": "Attaccante 3 (Grecia)",
+    "pos": "ATT",
+    "nat": "Grecia"
+  },
+  "attaccante_4_grecia_gre": {
+    "name": "Attaccante 4 (Grecia)",
+    "pos": "ATT",
+    "nat": "Grecia"
+  },
+  "attaccante_5_grecia_gre": {
+    "name": "Attaccante 5 (Grecia)",
+    "pos": "ATT",
+    "nat": "Grecia"
+  },
+  "portiere_1_inghilterra_eng": {
+    "name": "Portiere 1 (Inghilterra)",
+    "pos": "POR",
+    "nat": "Inghilterra"
+  },
+  "portiere_2_inghilterra_eng": {
+    "name": "Portiere 2 (Inghilterra)",
+    "pos": "POR",
+    "nat": "Inghilterra"
+  },
+  "portiere_3_inghilterra_eng": {
+    "name": "Portiere 3 (Inghilterra)",
+    "pos": "POR",
+    "nat": "Inghilterra"
+  },
+  "difensore_1_inghilterra_eng": {
+    "name": "Difensore 1 (Inghilterra)",
+    "pos": "DIF",
+    "nat": "Inghilterra"
+  },
+  "difensore_2_inghilterra_eng": {
+    "name": "Difensore 2 (Inghilterra)",
+    "pos": "DIF",
+    "nat": "Inghilterra"
+  },
+  "difensore_3_inghilterra_eng": {
+    "name": "Difensore 3 (Inghilterra)",
+    "pos": "DIF",
+    "nat": "Inghilterra"
+  },
+  "difensore_4_inghilterra_eng": {
+    "name": "Difensore 4 (Inghilterra)",
+    "pos": "DIF",
+    "nat": "Inghilterra"
+  },
+  "difensore_5_inghilterra_eng": {
+    "name": "Difensore 5 (Inghilterra)",
+    "pos": "DIF",
+    "nat": "Inghilterra"
+  },
+  "difensore_6_inghilterra_eng": {
+    "name": "Difensore 6 (Inghilterra)",
+    "pos": "DIF",
+    "nat": "Inghilterra"
+  },
+  "difensore_7_inghilterra_eng": {
+    "name": "Difensore 7 (Inghilterra)",
+    "pos": "DIF",
+    "nat": "Inghilterra"
+  },
+  "centrocampista_1_inghilterra_eng": {
+    "name": "Centrocampista 1 (Inghilterra)",
+    "pos": "CEN",
+    "nat": "Inghilterra"
+  },
+  "centrocampista_2_inghilterra_eng": {
+    "name": "Centrocampista 2 (Inghilterra)",
+    "pos": "CEN",
+    "nat": "Inghilterra"
+  },
+  "centrocampista_3_inghilterra_eng": {
+    "name": "Centrocampista 3 (Inghilterra)",
+    "pos": "CEN",
+    "nat": "Inghilterra"
+  },
+  "centrocampista_4_inghilterra_eng": {
+    "name": "Centrocampista 4 (Inghilterra)",
+    "pos": "CEN",
+    "nat": "Inghilterra"
+  },
+  "centrocampista_5_inghilterra_eng": {
+    "name": "Centrocampista 5 (Inghilterra)",
+    "pos": "CEN",
+    "nat": "Inghilterra"
+  },
+  "centrocampista_6_inghilterra_eng": {
+    "name": "Centrocampista 6 (Inghilterra)",
+    "pos": "CEN",
+    "nat": "Inghilterra"
+  },
+  "centrocampista_7_inghilterra_eng": {
+    "name": "Centrocampista 7 (Inghilterra)",
+    "pos": "CEN",
+    "nat": "Inghilterra"
+  },
+  "centrocampista_8_inghilterra_eng": {
+    "name": "Centrocampista 8 (Inghilterra)",
+    "pos": "CEN",
+    "nat": "Inghilterra"
+  },
+  "attaccante_1_inghilterra_eng": {
+    "name": "Attaccante 1 (Inghilterra)",
+    "pos": "ATT",
+    "nat": "Inghilterra"
+  },
+  "attaccante_2_inghilterra_eng": {
+    "name": "Attaccante 2 (Inghilterra)",
+    "pos": "ATT",
+    "nat": "Inghilterra"
+  },
+  "attaccante_3_inghilterra_eng": {
+    "name": "Attaccante 3 (Inghilterra)",
+    "pos": "ATT",
+    "nat": "Inghilterra"
+  },
+  "attaccante_4_inghilterra_eng": {
+    "name": "Attaccante 4 (Inghilterra)",
+    "pos": "ATT",
+    "nat": "Inghilterra"
+  },
+  "attaccante_5_inghilterra_eng": {
+    "name": "Attaccante 5 (Inghilterra)",
+    "pos": "ATT",
+    "nat": "Inghilterra"
+  },
+  "portiere_1_irlanda_irl": {
+    "name": "Portiere 1 (Irlanda)",
+    "pos": "POR",
+    "nat": "Irlanda"
+  },
+  "portiere_2_irlanda_irl": {
+    "name": "Portiere 2 (Irlanda)",
+    "pos": "POR",
+    "nat": "Irlanda"
+  },
+  "portiere_3_irlanda_irl": {
+    "name": "Portiere 3 (Irlanda)",
+    "pos": "POR",
+    "nat": "Irlanda"
+  },
+  "difensore_1_irlanda_irl": {
+    "name": "Difensore 1 (Irlanda)",
+    "pos": "DIF",
+    "nat": "Irlanda"
+  },
+  "difensore_2_irlanda_irl": {
+    "name": "Difensore 2 (Irlanda)",
+    "pos": "DIF",
+    "nat": "Irlanda"
+  },
+  "difensore_3_irlanda_irl": {
+    "name": "Difensore 3 (Irlanda)",
+    "pos": "DIF",
+    "nat": "Irlanda"
+  },
+  "difensore_4_irlanda_irl": {
+    "name": "Difensore 4 (Irlanda)",
+    "pos": "DIF",
+    "nat": "Irlanda"
+  },
+  "difensore_5_irlanda_irl": {
+    "name": "Difensore 5 (Irlanda)",
+    "pos": "DIF",
+    "nat": "Irlanda"
+  },
+  "difensore_6_irlanda_irl": {
+    "name": "Difensore 6 (Irlanda)",
+    "pos": "DIF",
+    "nat": "Irlanda"
+  },
+  "difensore_7_irlanda_irl": {
+    "name": "Difensore 7 (Irlanda)",
+    "pos": "DIF",
+    "nat": "Irlanda"
+  },
+  "centrocampista_1_irlanda_irl": {
+    "name": "Centrocampista 1 (Irlanda)",
+    "pos": "CEN",
+    "nat": "Irlanda"
+  },
+  "centrocampista_2_irlanda_irl": {
+    "name": "Centrocampista 2 (Irlanda)",
+    "pos": "CEN",
+    "nat": "Irlanda"
+  },
+  "centrocampista_3_irlanda_irl": {
+    "name": "Centrocampista 3 (Irlanda)",
+    "pos": "CEN",
+    "nat": "Irlanda"
+  },
+  "centrocampista_4_irlanda_irl": {
+    "name": "Centrocampista 4 (Irlanda)",
+    "pos": "CEN",
+    "nat": "Irlanda"
+  },
+  "centrocampista_5_irlanda_irl": {
+    "name": "Centrocampista 5 (Irlanda)",
+    "pos": "CEN",
+    "nat": "Irlanda"
+  },
+  "centrocampista_6_irlanda_irl": {
+    "name": "Centrocampista 6 (Irlanda)",
+    "pos": "CEN",
+    "nat": "Irlanda"
+  },
+  "centrocampista_7_irlanda_irl": {
+    "name": "Centrocampista 7 (Irlanda)",
+    "pos": "CEN",
+    "nat": "Irlanda"
+  },
+  "centrocampista_8_irlanda_irl": {
+    "name": "Centrocampista 8 (Irlanda)",
+    "pos": "CEN",
+    "nat": "Irlanda"
+  },
+  "attaccante_1_irlanda_irl": {
+    "name": "Attaccante 1 (Irlanda)",
+    "pos": "ATT",
+    "nat": "Irlanda"
+  },
+  "attaccante_2_irlanda_irl": {
+    "name": "Attaccante 2 (Irlanda)",
+    "pos": "ATT",
+    "nat": "Irlanda"
+  },
+  "attaccante_3_irlanda_irl": {
+    "name": "Attaccante 3 (Irlanda)",
+    "pos": "ATT",
+    "nat": "Irlanda"
+  },
+  "attaccante_4_irlanda_irl": {
+    "name": "Attaccante 4 (Irlanda)",
+    "pos": "ATT",
+    "nat": "Irlanda"
+  },
+  "attaccante_5_irlanda_irl": {
+    "name": "Attaccante 5 (Irlanda)",
+    "pos": "ATT",
+    "nat": "Irlanda"
+  },
+  "portiere_1_irlanda_del_nord_nir": {
+    "name": "Portiere 1 (Irlanda del Nord)",
+    "pos": "POR",
+    "nat": "Irlanda del Nord"
+  },
+  "portiere_2_irlanda_del_nord_nir": {
+    "name": "Portiere 2 (Irlanda del Nord)",
+    "pos": "POR",
+    "nat": "Irlanda del Nord"
+  },
+  "portiere_3_irlanda_del_nord_nir": {
+    "name": "Portiere 3 (Irlanda del Nord)",
+    "pos": "POR",
+    "nat": "Irlanda del Nord"
+  },
+  "difensore_1_irlanda_del_nord_nir": {
+    "name": "Difensore 1 (Irlanda del Nord)",
+    "pos": "DIF",
+    "nat": "Irlanda del Nord"
+  },
+  "difensore_2_irlanda_del_nord_nir": {
+    "name": "Difensore 2 (Irlanda del Nord)",
+    "pos": "DIF",
+    "nat": "Irlanda del Nord"
+  },
+  "difensore_3_irlanda_del_nord_nir": {
+    "name": "Difensore 3 (Irlanda del Nord)",
+    "pos": "DIF",
+    "nat": "Irlanda del Nord"
+  },
+  "difensore_4_irlanda_del_nord_nir": {
+    "name": "Difensore 4 (Irlanda del Nord)",
+    "pos": "DIF",
+    "nat": "Irlanda del Nord"
+  },
+  "difensore_5_irlanda_del_nord_nir": {
+    "name": "Difensore 5 (Irlanda del Nord)",
+    "pos": "DIF",
+    "nat": "Irlanda del Nord"
+  },
+  "difensore_6_irlanda_del_nord_nir": {
+    "name": "Difensore 6 (Irlanda del Nord)",
+    "pos": "DIF",
+    "nat": "Irlanda del Nord"
+  },
+  "difensore_7_irlanda_del_nord_nir": {
+    "name": "Difensore 7 (Irlanda del Nord)",
+    "pos": "DIF",
+    "nat": "Irlanda del Nord"
+  },
+  "centrocampista_1_irlanda_del_nord_nir": {
+    "name": "Centrocampista 1 (Irlanda del Nord)",
+    "pos": "CEN",
+    "nat": "Irlanda del Nord"
+  },
+  "centrocampista_2_irlanda_del_nord_nir": {
+    "name": "Centrocampista 2 (Irlanda del Nord)",
+    "pos": "CEN",
+    "nat": "Irlanda del Nord"
+  },
+  "centrocampista_3_irlanda_del_nord_nir": {
+    "name": "Centrocampista 3 (Irlanda del Nord)",
+    "pos": "CEN",
+    "nat": "Irlanda del Nord"
+  },
+  "centrocampista_4_irlanda_del_nord_nir": {
+    "name": "Centrocampista 4 (Irlanda del Nord)",
+    "pos": "CEN",
+    "nat": "Irlanda del Nord"
+  },
+  "centrocampista_5_irlanda_del_nord_nir": {
+    "name": "Centrocampista 5 (Irlanda del Nord)",
+    "pos": "CEN",
+    "nat": "Irlanda del Nord"
+  },
+  "centrocampista_6_irlanda_del_nord_nir": {
+    "name": "Centrocampista 6 (Irlanda del Nord)",
+    "pos": "CEN",
+    "nat": "Irlanda del Nord"
+  },
+  "centrocampista_7_irlanda_del_nord_nir": {
+    "name": "Centrocampista 7 (Irlanda del Nord)",
+    "pos": "CEN",
+    "nat": "Irlanda del Nord"
+  },
+  "centrocampista_8_irlanda_del_nord_nir": {
+    "name": "Centrocampista 8 (Irlanda del Nord)",
+    "pos": "CEN",
+    "nat": "Irlanda del Nord"
+  },
+  "attaccante_1_irlanda_del_nord_nir": {
+    "name": "Attaccante 1 (Irlanda del Nord)",
+    "pos": "ATT",
+    "nat": "Irlanda del Nord"
+  },
+  "attaccante_2_irlanda_del_nord_nir": {
+    "name": "Attaccante 2 (Irlanda del Nord)",
+    "pos": "ATT",
+    "nat": "Irlanda del Nord"
+  },
+  "attaccante_3_irlanda_del_nord_nir": {
+    "name": "Attaccante 3 (Irlanda del Nord)",
+    "pos": "ATT",
+    "nat": "Irlanda del Nord"
+  },
+  "attaccante_4_irlanda_del_nord_nir": {
+    "name": "Attaccante 4 (Irlanda del Nord)",
+    "pos": "ATT",
+    "nat": "Irlanda del Nord"
+  },
+  "attaccante_5_irlanda_del_nord_nir": {
+    "name": "Attaccante 5 (Irlanda del Nord)",
+    "pos": "ATT",
+    "nat": "Irlanda del Nord"
+  },
+  "portiere_1_islanda_isl": {
+    "name": "Portiere 1 (Islanda)",
+    "pos": "POR",
+    "nat": "Islanda"
+  },
+  "portiere_2_islanda_isl": {
+    "name": "Portiere 2 (Islanda)",
+    "pos": "POR",
+    "nat": "Islanda"
+  },
+  "portiere_3_islanda_isl": {
+    "name": "Portiere 3 (Islanda)",
+    "pos": "POR",
+    "nat": "Islanda"
+  },
+  "difensore_1_islanda_isl": {
+    "name": "Difensore 1 (Islanda)",
+    "pos": "DIF",
+    "nat": "Islanda"
+  },
+  "difensore_2_islanda_isl": {
+    "name": "Difensore 2 (Islanda)",
+    "pos": "DIF",
+    "nat": "Islanda"
+  },
+  "difensore_3_islanda_isl": {
+    "name": "Difensore 3 (Islanda)",
+    "pos": "DIF",
+    "nat": "Islanda"
+  },
+  "difensore_4_islanda_isl": {
+    "name": "Difensore 4 (Islanda)",
+    "pos": "DIF",
+    "nat": "Islanda"
+  },
+  "difensore_5_islanda_isl": {
+    "name": "Difensore 5 (Islanda)",
+    "pos": "DIF",
+    "nat": "Islanda"
+  },
+  "difensore_6_islanda_isl": {
+    "name": "Difensore 6 (Islanda)",
+    "pos": "DIF",
+    "nat": "Islanda"
+  },
+  "difensore_7_islanda_isl": {
+    "name": "Difensore 7 (Islanda)",
+    "pos": "DIF",
+    "nat": "Islanda"
+  },
+  "centrocampista_1_islanda_isl": {
+    "name": "Centrocampista 1 (Islanda)",
+    "pos": "CEN",
+    "nat": "Islanda"
+  },
+  "centrocampista_2_islanda_isl": {
+    "name": "Centrocampista 2 (Islanda)",
+    "pos": "CEN",
+    "nat": "Islanda"
+  },
+  "centrocampista_3_islanda_isl": {
+    "name": "Centrocampista 3 (Islanda)",
+    "pos": "CEN",
+    "nat": "Islanda"
+  },
+  "centrocampista_4_islanda_isl": {
+    "name": "Centrocampista 4 (Islanda)",
+    "pos": "CEN",
+    "nat": "Islanda"
+  },
+  "centrocampista_5_islanda_isl": {
+    "name": "Centrocampista 5 (Islanda)",
+    "pos": "CEN",
+    "nat": "Islanda"
+  },
+  "centrocampista_6_islanda_isl": {
+    "name": "Centrocampista 6 (Islanda)",
+    "pos": "CEN",
+    "nat": "Islanda"
+  },
+  "centrocampista_7_islanda_isl": {
+    "name": "Centrocampista 7 (Islanda)",
+    "pos": "CEN",
+    "nat": "Islanda"
+  },
+  "centrocampista_8_islanda_isl": {
+    "name": "Centrocampista 8 (Islanda)",
+    "pos": "CEN",
+    "nat": "Islanda"
+  },
+  "attaccante_1_islanda_isl": {
+    "name": "Attaccante 1 (Islanda)",
+    "pos": "ATT",
+    "nat": "Islanda"
+  },
+  "attaccante_2_islanda_isl": {
+    "name": "Attaccante 2 (Islanda)",
+    "pos": "ATT",
+    "nat": "Islanda"
+  },
+  "attaccante_3_islanda_isl": {
+    "name": "Attaccante 3 (Islanda)",
+    "pos": "ATT",
+    "nat": "Islanda"
+  },
+  "attaccante_4_islanda_isl": {
+    "name": "Attaccante 4 (Islanda)",
+    "pos": "ATT",
+    "nat": "Islanda"
+  },
+  "attaccante_5_islanda_isl": {
+    "name": "Attaccante 5 (Islanda)",
+    "pos": "ATT",
+    "nat": "Islanda"
+  },
+  "portiere_1_isole_fær_øer_fro": {
+    "name": "Portiere 1 (Isole Fær Øer)",
+    "pos": "POR",
+    "nat": "Isole Fær Øer"
+  },
+  "portiere_2_isole_fær_øer_fro": {
+    "name": "Portiere 2 (Isole Fær Øer)",
+    "pos": "POR",
+    "nat": "Isole Fær Øer"
+  },
+  "portiere_3_isole_fær_øer_fro": {
+    "name": "Portiere 3 (Isole Fær Øer)",
+    "pos": "POR",
+    "nat": "Isole Fær Øer"
+  },
+  "difensore_1_isole_fær_øer_fro": {
+    "name": "Difensore 1 (Isole Fær Øer)",
+    "pos": "DIF",
+    "nat": "Isole Fær Øer"
+  },
+  "difensore_2_isole_fær_øer_fro": {
+    "name": "Difensore 2 (Isole Fær Øer)",
+    "pos": "DIF",
+    "nat": "Isole Fær Øer"
+  },
+  "difensore_3_isole_fær_øer_fro": {
+    "name": "Difensore 3 (Isole Fær Øer)",
+    "pos": "DIF",
+    "nat": "Isole Fær Øer"
+  },
+  "difensore_4_isole_fær_øer_fro": {
+    "name": "Difensore 4 (Isole Fær Øer)",
+    "pos": "DIF",
+    "nat": "Isole Fær Øer"
+  },
+  "difensore_5_isole_fær_øer_fro": {
+    "name": "Difensore 5 (Isole Fær Øer)",
+    "pos": "DIF",
+    "nat": "Isole Fær Øer"
+  },
+  "difensore_6_isole_fær_øer_fro": {
+    "name": "Difensore 6 (Isole Fær Øer)",
+    "pos": "DIF",
+    "nat": "Isole Fær Øer"
+  },
+  "difensore_7_isole_fær_øer_fro": {
+    "name": "Difensore 7 (Isole Fær Øer)",
+    "pos": "DIF",
+    "nat": "Isole Fær Øer"
+  },
+  "centrocampista_1_isole_fær_øer_fro": {
+    "name": "Centrocampista 1 (Isole Fær Øer)",
+    "pos": "CEN",
+    "nat": "Isole Fær Øer"
+  },
+  "centrocampista_2_isole_fær_øer_fro": {
+    "name": "Centrocampista 2 (Isole Fær Øer)",
+    "pos": "CEN",
+    "nat": "Isole Fær Øer"
+  },
+  "centrocampista_3_isole_fær_øer_fro": {
+    "name": "Centrocampista 3 (Isole Fær Øer)",
+    "pos": "CEN",
+    "nat": "Isole Fær Øer"
+  },
+  "centrocampista_4_isole_fær_øer_fro": {
+    "name": "Centrocampista 4 (Isole Fær Øer)",
+    "pos": "CEN",
+    "nat": "Isole Fær Øer"
+  },
+  "centrocampista_5_isole_fær_øer_fro": {
+    "name": "Centrocampista 5 (Isole Fær Øer)",
+    "pos": "CEN",
+    "nat": "Isole Fær Øer"
+  },
+  "centrocampista_6_isole_fær_øer_fro": {
+    "name": "Centrocampista 6 (Isole Fær Øer)",
+    "pos": "CEN",
+    "nat": "Isole Fær Øer"
+  },
+  "centrocampista_7_isole_fær_øer_fro": {
+    "name": "Centrocampista 7 (Isole Fær Øer)",
+    "pos": "CEN",
+    "nat": "Isole Fær Øer"
+  },
+  "centrocampista_8_isole_fær_øer_fro": {
+    "name": "Centrocampista 8 (Isole Fær Øer)",
+    "pos": "CEN",
+    "nat": "Isole Fær Øer"
+  },
+  "attaccante_1_isole_fær_øer_fro": {
+    "name": "Attaccante 1 (Isole Fær Øer)",
+    "pos": "ATT",
+    "nat": "Isole Fær Øer"
+  },
+  "attaccante_2_isole_fær_øer_fro": {
+    "name": "Attaccante 2 (Isole Fær Øer)",
+    "pos": "ATT",
+    "nat": "Isole Fær Øer"
+  },
+  "attaccante_3_isole_fær_øer_fro": {
+    "name": "Attaccante 3 (Isole Fær Øer)",
+    "pos": "ATT",
+    "nat": "Isole Fær Øer"
+  },
+  "attaccante_4_isole_fær_øer_fro": {
+    "name": "Attaccante 4 (Isole Fær Øer)",
+    "pos": "ATT",
+    "nat": "Isole Fær Øer"
+  },
+  "attaccante_5_isole_fær_øer_fro": {
+    "name": "Attaccante 5 (Isole Fær Øer)",
+    "pos": "ATT",
+    "nat": "Isole Fær Øer"
+  },
+  "portiere_1_israele_isr": {
+    "name": "Portiere 1 (Israele)",
+    "pos": "POR",
+    "nat": "Israele"
+  },
+  "portiere_2_israele_isr": {
+    "name": "Portiere 2 (Israele)",
+    "pos": "POR",
+    "nat": "Israele"
+  },
+  "portiere_3_israele_isr": {
+    "name": "Portiere 3 (Israele)",
+    "pos": "POR",
+    "nat": "Israele"
+  },
+  "difensore_1_israele_isr": {
+    "name": "Difensore 1 (Israele)",
+    "pos": "DIF",
+    "nat": "Israele"
+  },
+  "difensore_2_israele_isr": {
+    "name": "Difensore 2 (Israele)",
+    "pos": "DIF",
+    "nat": "Israele"
+  },
+  "difensore_3_israele_isr": {
+    "name": "Difensore 3 (Israele)",
+    "pos": "DIF",
+    "nat": "Israele"
+  },
+  "difensore_4_israele_isr": {
+    "name": "Difensore 4 (Israele)",
+    "pos": "DIF",
+    "nat": "Israele"
+  },
+  "difensore_5_israele_isr": {
+    "name": "Difensore 5 (Israele)",
+    "pos": "DIF",
+    "nat": "Israele"
+  },
+  "difensore_6_israele_isr": {
+    "name": "Difensore 6 (Israele)",
+    "pos": "DIF",
+    "nat": "Israele"
+  },
+  "difensore_7_israele_isr": {
+    "name": "Difensore 7 (Israele)",
+    "pos": "DIF",
+    "nat": "Israele"
+  },
+  "centrocampista_1_israele_isr": {
+    "name": "Centrocampista 1 (Israele)",
+    "pos": "CEN",
+    "nat": "Israele"
+  },
+  "centrocampista_2_israele_isr": {
+    "name": "Centrocampista 2 (Israele)",
+    "pos": "CEN",
+    "nat": "Israele"
+  },
+  "centrocampista_3_israele_isr": {
+    "name": "Centrocampista 3 (Israele)",
+    "pos": "CEN",
+    "nat": "Israele"
+  },
+  "centrocampista_4_israele_isr": {
+    "name": "Centrocampista 4 (Israele)",
+    "pos": "CEN",
+    "nat": "Israele"
+  },
+  "centrocampista_5_israele_isr": {
+    "name": "Centrocampista 5 (Israele)",
+    "pos": "CEN",
+    "nat": "Israele"
+  },
+  "centrocampista_6_israele_isr": {
+    "name": "Centrocampista 6 (Israele)",
+    "pos": "CEN",
+    "nat": "Israele"
+  },
+  "centrocampista_7_israele_isr": {
+    "name": "Centrocampista 7 (Israele)",
+    "pos": "CEN",
+    "nat": "Israele"
+  },
+  "centrocampista_8_israele_isr": {
+    "name": "Centrocampista 8 (Israele)",
+    "pos": "CEN",
+    "nat": "Israele"
+  },
+  "attaccante_1_israele_isr": {
+    "name": "Attaccante 1 (Israele)",
+    "pos": "ATT",
+    "nat": "Israele"
+  },
+  "attaccante_2_israele_isr": {
+    "name": "Attaccante 2 (Israele)",
+    "pos": "ATT",
+    "nat": "Israele"
+  },
+  "attaccante_3_israele_isr": {
+    "name": "Attaccante 3 (Israele)",
+    "pos": "ATT",
+    "nat": "Israele"
+  },
+  "attaccante_4_israele_isr": {
+    "name": "Attaccante 4 (Israele)",
+    "pos": "ATT",
+    "nat": "Israele"
+  },
+  "attaccante_5_israele_isr": {
+    "name": "Attaccante 5 (Israele)",
+    "pos": "ATT",
+    "nat": "Israele"
+  },
+  "portiere_1_italia_ita": {
+    "name": "Portiere 1 (Italia)",
+    "pos": "POR",
+    "nat": "Italia"
+  },
+  "portiere_2_italia_ita": {
+    "name": "Portiere 2 (Italia)",
+    "pos": "POR",
+    "nat": "Italia"
+  },
+  "portiere_3_italia_ita": {
+    "name": "Portiere 3 (Italia)",
+    "pos": "POR",
+    "nat": "Italia"
+  },
+  "difensore_1_italia_ita": {
+    "name": "Difensore 1 (Italia)",
+    "pos": "DIF",
+    "nat": "Italia"
+  },
+  "difensore_2_italia_ita": {
+    "name": "Difensore 2 (Italia)",
+    "pos": "DIF",
+    "nat": "Italia"
+  },
+  "difensore_3_italia_ita": {
+    "name": "Difensore 3 (Italia)",
+    "pos": "DIF",
+    "nat": "Italia"
+  },
+  "difensore_4_italia_ita": {
+    "name": "Difensore 4 (Italia)",
+    "pos": "DIF",
+    "nat": "Italia"
+  },
+  "difensore_5_italia_ita": {
+    "name": "Difensore 5 (Italia)",
+    "pos": "DIF",
+    "nat": "Italia"
+  },
+  "difensore_6_italia_ita": {
+    "name": "Difensore 6 (Italia)",
+    "pos": "DIF",
+    "nat": "Italia"
+  },
+  "difensore_7_italia_ita": {
+    "name": "Difensore 7 (Italia)",
+    "pos": "DIF",
+    "nat": "Italia"
+  },
+  "centrocampista_1_italia_ita": {
+    "name": "Centrocampista 1 (Italia)",
+    "pos": "CEN",
+    "nat": "Italia"
+  },
+  "centrocampista_2_italia_ita": {
+    "name": "Centrocampista 2 (Italia)",
+    "pos": "CEN",
+    "nat": "Italia"
+  },
+  "centrocampista_3_italia_ita": {
+    "name": "Centrocampista 3 (Italia)",
+    "pos": "CEN",
+    "nat": "Italia"
+  },
+  "centrocampista_4_italia_ita": {
+    "name": "Centrocampista 4 (Italia)",
+    "pos": "CEN",
+    "nat": "Italia"
+  },
+  "centrocampista_5_italia_ita": {
+    "name": "Centrocampista 5 (Italia)",
+    "pos": "CEN",
+    "nat": "Italia"
+  },
+  "centrocampista_6_italia_ita": {
+    "name": "Centrocampista 6 (Italia)",
+    "pos": "CEN",
+    "nat": "Italia"
+  },
+  "centrocampista_7_italia_ita": {
+    "name": "Centrocampista 7 (Italia)",
+    "pos": "CEN",
+    "nat": "Italia"
+  },
+  "centrocampista_8_italia_ita": {
+    "name": "Centrocampista 8 (Italia)",
+    "pos": "CEN",
+    "nat": "Italia"
+  },
+  "attaccante_1_italia_ita": {
+    "name": "Attaccante 1 (Italia)",
+    "pos": "ATT",
+    "nat": "Italia"
+  },
+  "attaccante_2_italia_ita": {
+    "name": "Attaccante 2 (Italia)",
+    "pos": "ATT",
+    "nat": "Italia"
+  },
+  "attaccante_3_italia_ita": {
+    "name": "Attaccante 3 (Italia)",
+    "pos": "ATT",
+    "nat": "Italia"
+  },
+  "attaccante_4_italia_ita": {
+    "name": "Attaccante 4 (Italia)",
+    "pos": "ATT",
+    "nat": "Italia"
+  },
+  "attaccante_5_italia_ita": {
+    "name": "Attaccante 5 (Italia)",
+    "pos": "ATT",
+    "nat": "Italia"
+  },
+  "portiere_1_kazakistan_kaz": {
+    "name": "Portiere 1 (Kazakistan)",
+    "pos": "POR",
+    "nat": "Kazakistan"
+  },
+  "portiere_2_kazakistan_kaz": {
+    "name": "Portiere 2 (Kazakistan)",
+    "pos": "POR",
+    "nat": "Kazakistan"
+  },
+  "portiere_3_kazakistan_kaz": {
+    "name": "Portiere 3 (Kazakistan)",
+    "pos": "POR",
+    "nat": "Kazakistan"
+  },
+  "difensore_1_kazakistan_kaz": {
+    "name": "Difensore 1 (Kazakistan)",
+    "pos": "DIF",
+    "nat": "Kazakistan"
+  },
+  "difensore_2_kazakistan_kaz": {
+    "name": "Difensore 2 (Kazakistan)",
+    "pos": "DIF",
+    "nat": "Kazakistan"
+  },
+  "difensore_3_kazakistan_kaz": {
+    "name": "Difensore 3 (Kazakistan)",
+    "pos": "DIF",
+    "nat": "Kazakistan"
+  },
+  "difensore_4_kazakistan_kaz": {
+    "name": "Difensore 4 (Kazakistan)",
+    "pos": "DIF",
+    "nat": "Kazakistan"
+  },
+  "difensore_5_kazakistan_kaz": {
+    "name": "Difensore 5 (Kazakistan)",
+    "pos": "DIF",
+    "nat": "Kazakistan"
+  },
+  "difensore_6_kazakistan_kaz": {
+    "name": "Difensore 6 (Kazakistan)",
+    "pos": "DIF",
+    "nat": "Kazakistan"
+  },
+  "difensore_7_kazakistan_kaz": {
+    "name": "Difensore 7 (Kazakistan)",
+    "pos": "DIF",
+    "nat": "Kazakistan"
+  },
+  "centrocampista_1_kazakistan_kaz": {
+    "name": "Centrocampista 1 (Kazakistan)",
+    "pos": "CEN",
+    "nat": "Kazakistan"
+  },
+  "centrocampista_2_kazakistan_kaz": {
+    "name": "Centrocampista 2 (Kazakistan)",
+    "pos": "CEN",
+    "nat": "Kazakistan"
+  },
+  "centrocampista_3_kazakistan_kaz": {
+    "name": "Centrocampista 3 (Kazakistan)",
+    "pos": "CEN",
+    "nat": "Kazakistan"
+  },
+  "centrocampista_4_kazakistan_kaz": {
+    "name": "Centrocampista 4 (Kazakistan)",
+    "pos": "CEN",
+    "nat": "Kazakistan"
+  },
+  "centrocampista_5_kazakistan_kaz": {
+    "name": "Centrocampista 5 (Kazakistan)",
+    "pos": "CEN",
+    "nat": "Kazakistan"
+  },
+  "centrocampista_6_kazakistan_kaz": {
+    "name": "Centrocampista 6 (Kazakistan)",
+    "pos": "CEN",
+    "nat": "Kazakistan"
+  },
+  "centrocampista_7_kazakistan_kaz": {
+    "name": "Centrocampista 7 (Kazakistan)",
+    "pos": "CEN",
+    "nat": "Kazakistan"
+  },
+  "centrocampista_8_kazakistan_kaz": {
+    "name": "Centrocampista 8 (Kazakistan)",
+    "pos": "CEN",
+    "nat": "Kazakistan"
+  },
+  "attaccante_1_kazakistan_kaz": {
+    "name": "Attaccante 1 (Kazakistan)",
+    "pos": "ATT",
+    "nat": "Kazakistan"
+  },
+  "attaccante_2_kazakistan_kaz": {
+    "name": "Attaccante 2 (Kazakistan)",
+    "pos": "ATT",
+    "nat": "Kazakistan"
+  },
+  "attaccante_3_kazakistan_kaz": {
+    "name": "Attaccante 3 (Kazakistan)",
+    "pos": "ATT",
+    "nat": "Kazakistan"
+  },
+  "attaccante_4_kazakistan_kaz": {
+    "name": "Attaccante 4 (Kazakistan)",
+    "pos": "ATT",
+    "nat": "Kazakistan"
+  },
+  "attaccante_5_kazakistan_kaz": {
+    "name": "Attaccante 5 (Kazakistan)",
+    "pos": "ATT",
+    "nat": "Kazakistan"
+  },
+  "portiere_1_kosovo_kos": {
+    "name": "Portiere 1 (Kosovo)",
+    "pos": "POR",
+    "nat": "Kosovo"
+  },
+  "portiere_2_kosovo_kos": {
+    "name": "Portiere 2 (Kosovo)",
+    "pos": "POR",
+    "nat": "Kosovo"
+  },
+  "portiere_3_kosovo_kos": {
+    "name": "Portiere 3 (Kosovo)",
+    "pos": "POR",
+    "nat": "Kosovo"
+  },
+  "difensore_1_kosovo_kos": {
+    "name": "Difensore 1 (Kosovo)",
+    "pos": "DIF",
+    "nat": "Kosovo"
+  },
+  "difensore_2_kosovo_kos": {
+    "name": "Difensore 2 (Kosovo)",
+    "pos": "DIF",
+    "nat": "Kosovo"
+  },
+  "difensore_3_kosovo_kos": {
+    "name": "Difensore 3 (Kosovo)",
+    "pos": "DIF",
+    "nat": "Kosovo"
+  },
+  "difensore_4_kosovo_kos": {
+    "name": "Difensore 4 (Kosovo)",
+    "pos": "DIF",
+    "nat": "Kosovo"
+  },
+  "difensore_5_kosovo_kos": {
+    "name": "Difensore 5 (Kosovo)",
+    "pos": "DIF",
+    "nat": "Kosovo"
+  },
+  "difensore_6_kosovo_kos": {
+    "name": "Difensore 6 (Kosovo)",
+    "pos": "DIF",
+    "nat": "Kosovo"
+  },
+  "difensore_7_kosovo_kos": {
+    "name": "Difensore 7 (Kosovo)",
+    "pos": "DIF",
+    "nat": "Kosovo"
+  },
+  "centrocampista_1_kosovo_kos": {
+    "name": "Centrocampista 1 (Kosovo)",
+    "pos": "CEN",
+    "nat": "Kosovo"
+  },
+  "centrocampista_2_kosovo_kos": {
+    "name": "Centrocampista 2 (Kosovo)",
+    "pos": "CEN",
+    "nat": "Kosovo"
+  },
+  "centrocampista_3_kosovo_kos": {
+    "name": "Centrocampista 3 (Kosovo)",
+    "pos": "CEN",
+    "nat": "Kosovo"
+  },
+  "centrocampista_4_kosovo_kos": {
+    "name": "Centrocampista 4 (Kosovo)",
+    "pos": "CEN",
+    "nat": "Kosovo"
+  },
+  "centrocampista_5_kosovo_kos": {
+    "name": "Centrocampista 5 (Kosovo)",
+    "pos": "CEN",
+    "nat": "Kosovo"
+  },
+  "centrocampista_6_kosovo_kos": {
+    "name": "Centrocampista 6 (Kosovo)",
+    "pos": "CEN",
+    "nat": "Kosovo"
+  },
+  "centrocampista_7_kosovo_kos": {
+    "name": "Centrocampista 7 (Kosovo)",
+    "pos": "CEN",
+    "nat": "Kosovo"
+  },
+  "centrocampista_8_kosovo_kos": {
+    "name": "Centrocampista 8 (Kosovo)",
+    "pos": "CEN",
+    "nat": "Kosovo"
+  },
+  "attaccante_1_kosovo_kos": {
+    "name": "Attaccante 1 (Kosovo)",
+    "pos": "ATT",
+    "nat": "Kosovo"
+  },
+  "attaccante_2_kosovo_kos": {
+    "name": "Attaccante 2 (Kosovo)",
+    "pos": "ATT",
+    "nat": "Kosovo"
+  },
+  "attaccante_3_kosovo_kos": {
+    "name": "Attaccante 3 (Kosovo)",
+    "pos": "ATT",
+    "nat": "Kosovo"
+  },
+  "attaccante_4_kosovo_kos": {
+    "name": "Attaccante 4 (Kosovo)",
+    "pos": "ATT",
+    "nat": "Kosovo"
+  },
+  "attaccante_5_kosovo_kos": {
+    "name": "Attaccante 5 (Kosovo)",
+    "pos": "ATT",
+    "nat": "Kosovo"
+  },
+  "portiere_1_lettonia_lva": {
+    "name": "Portiere 1 (Lettonia)",
+    "pos": "POR",
+    "nat": "Lettonia"
+  },
+  "portiere_2_lettonia_lva": {
+    "name": "Portiere 2 (Lettonia)",
+    "pos": "POR",
+    "nat": "Lettonia"
+  },
+  "portiere_3_lettonia_lva": {
+    "name": "Portiere 3 (Lettonia)",
+    "pos": "POR",
+    "nat": "Lettonia"
+  },
+  "difensore_1_lettonia_lva": {
+    "name": "Difensore 1 (Lettonia)",
+    "pos": "DIF",
+    "nat": "Lettonia"
+  },
+  "difensore_2_lettonia_lva": {
+    "name": "Difensore 2 (Lettonia)",
+    "pos": "DIF",
+    "nat": "Lettonia"
+  },
+  "difensore_3_lettonia_lva": {
+    "name": "Difensore 3 (Lettonia)",
+    "pos": "DIF",
+    "nat": "Lettonia"
+  },
+  "difensore_4_lettonia_lva": {
+    "name": "Difensore 4 (Lettonia)",
+    "pos": "DIF",
+    "nat": "Lettonia"
+  },
+  "difensore_5_lettonia_lva": {
+    "name": "Difensore 5 (Lettonia)",
+    "pos": "DIF",
+    "nat": "Lettonia"
+  },
+  "difensore_6_lettonia_lva": {
+    "name": "Difensore 6 (Lettonia)",
+    "pos": "DIF",
+    "nat": "Lettonia"
+  },
+  "difensore_7_lettonia_lva": {
+    "name": "Difensore 7 (Lettonia)",
+    "pos": "DIF",
+    "nat": "Lettonia"
+  },
+  "centrocampista_1_lettonia_lva": {
+    "name": "Centrocampista 1 (Lettonia)",
+    "pos": "CEN",
+    "nat": "Lettonia"
+  },
+  "centrocampista_2_lettonia_lva": {
+    "name": "Centrocampista 2 (Lettonia)",
+    "pos": "CEN",
+    "nat": "Lettonia"
+  },
+  "centrocampista_3_lettonia_lva": {
+    "name": "Centrocampista 3 (Lettonia)",
+    "pos": "CEN",
+    "nat": "Lettonia"
+  },
+  "centrocampista_4_lettonia_lva": {
+    "name": "Centrocampista 4 (Lettonia)",
+    "pos": "CEN",
+    "nat": "Lettonia"
+  },
+  "centrocampista_5_lettonia_lva": {
+    "name": "Centrocampista 5 (Lettonia)",
+    "pos": "CEN",
+    "nat": "Lettonia"
+  },
+  "centrocampista_6_lettonia_lva": {
+    "name": "Centrocampista 6 (Lettonia)",
+    "pos": "CEN",
+    "nat": "Lettonia"
+  },
+  "centrocampista_7_lettonia_lva": {
+    "name": "Centrocampista 7 (Lettonia)",
+    "pos": "CEN",
+    "nat": "Lettonia"
+  },
+  "centrocampista_8_lettonia_lva": {
+    "name": "Centrocampista 8 (Lettonia)",
+    "pos": "CEN",
+    "nat": "Lettonia"
+  },
+  "attaccante_1_lettonia_lva": {
+    "name": "Attaccante 1 (Lettonia)",
+    "pos": "ATT",
+    "nat": "Lettonia"
+  },
+  "attaccante_2_lettonia_lva": {
+    "name": "Attaccante 2 (Lettonia)",
+    "pos": "ATT",
+    "nat": "Lettonia"
+  },
+  "attaccante_3_lettonia_lva": {
+    "name": "Attaccante 3 (Lettonia)",
+    "pos": "ATT",
+    "nat": "Lettonia"
+  },
+  "attaccante_4_lettonia_lva": {
+    "name": "Attaccante 4 (Lettonia)",
+    "pos": "ATT",
+    "nat": "Lettonia"
+  },
+  "attaccante_5_lettonia_lva": {
+    "name": "Attaccante 5 (Lettonia)",
+    "pos": "ATT",
+    "nat": "Lettonia"
+  },
+  "portiere_1_liechtenstein_lie": {
+    "name": "Portiere 1 (Liechtenstein)",
+    "pos": "POR",
+    "nat": "Liechtenstein"
+  },
+  "portiere_2_liechtenstein_lie": {
+    "name": "Portiere 2 (Liechtenstein)",
+    "pos": "POR",
+    "nat": "Liechtenstein"
+  },
+  "portiere_3_liechtenstein_lie": {
+    "name": "Portiere 3 (Liechtenstein)",
+    "pos": "POR",
+    "nat": "Liechtenstein"
+  },
+  "difensore_1_liechtenstein_lie": {
+    "name": "Difensore 1 (Liechtenstein)",
+    "pos": "DIF",
+    "nat": "Liechtenstein"
+  },
+  "difensore_2_liechtenstein_lie": {
+    "name": "Difensore 2 (Liechtenstein)",
+    "pos": "DIF",
+    "nat": "Liechtenstein"
+  },
+  "difensore_3_liechtenstein_lie": {
+    "name": "Difensore 3 (Liechtenstein)",
+    "pos": "DIF",
+    "nat": "Liechtenstein"
+  },
+  "difensore_4_liechtenstein_lie": {
+    "name": "Difensore 4 (Liechtenstein)",
+    "pos": "DIF",
+    "nat": "Liechtenstein"
+  },
+  "difensore_5_liechtenstein_lie": {
+    "name": "Difensore 5 (Liechtenstein)",
+    "pos": "DIF",
+    "nat": "Liechtenstein"
+  },
+  "difensore_6_liechtenstein_lie": {
+    "name": "Difensore 6 (Liechtenstein)",
+    "pos": "DIF",
+    "nat": "Liechtenstein"
+  },
+  "difensore_7_liechtenstein_lie": {
+    "name": "Difensore 7 (Liechtenstein)",
+    "pos": "DIF",
+    "nat": "Liechtenstein"
+  },
+  "centrocampista_1_liechtenstein_lie": {
+    "name": "Centrocampista 1 (Liechtenstein)",
+    "pos": "CEN",
+    "nat": "Liechtenstein"
+  },
+  "centrocampista_2_liechtenstein_lie": {
+    "name": "Centrocampista 2 (Liechtenstein)",
+    "pos": "CEN",
+    "nat": "Liechtenstein"
+  },
+  "centrocampista_3_liechtenstein_lie": {
+    "name": "Centrocampista 3 (Liechtenstein)",
+    "pos": "CEN",
+    "nat": "Liechtenstein"
+  },
+  "centrocampista_4_liechtenstein_lie": {
+    "name": "Centrocampista 4 (Liechtenstein)",
+    "pos": "CEN",
+    "nat": "Liechtenstein"
+  },
+  "centrocampista_5_liechtenstein_lie": {
+    "name": "Centrocampista 5 (Liechtenstein)",
+    "pos": "CEN",
+    "nat": "Liechtenstein"
+  },
+  "centrocampista_6_liechtenstein_lie": {
+    "name": "Centrocampista 6 (Liechtenstein)",
+    "pos": "CEN",
+    "nat": "Liechtenstein"
+  },
+  "centrocampista_7_liechtenstein_lie": {
+    "name": "Centrocampista 7 (Liechtenstein)",
+    "pos": "CEN",
+    "nat": "Liechtenstein"
+  },
+  "centrocampista_8_liechtenstein_lie": {
+    "name": "Centrocampista 8 (Liechtenstein)",
+    "pos": "CEN",
+    "nat": "Liechtenstein"
+  },
+  "attaccante_1_liechtenstein_lie": {
+    "name": "Attaccante 1 (Liechtenstein)",
+    "pos": "ATT",
+    "nat": "Liechtenstein"
+  },
+  "attaccante_2_liechtenstein_lie": {
+    "name": "Attaccante 2 (Liechtenstein)",
+    "pos": "ATT",
+    "nat": "Liechtenstein"
+  },
+  "attaccante_3_liechtenstein_lie": {
+    "name": "Attaccante 3 (Liechtenstein)",
+    "pos": "ATT",
+    "nat": "Liechtenstein"
+  },
+  "attaccante_4_liechtenstein_lie": {
+    "name": "Attaccante 4 (Liechtenstein)",
+    "pos": "ATT",
+    "nat": "Liechtenstein"
+  },
+  "attaccante_5_liechtenstein_lie": {
+    "name": "Attaccante 5 (Liechtenstein)",
+    "pos": "ATT",
+    "nat": "Liechtenstein"
+  },
+  "portiere_1_lituania_lta": {
+    "name": "Portiere 1 (Lituania)",
+    "pos": "POR",
+    "nat": "Lituania"
+  },
+  "portiere_2_lituania_lta": {
+    "name": "Portiere 2 (Lituania)",
+    "pos": "POR",
+    "nat": "Lituania"
+  },
+  "portiere_3_lituania_lta": {
+    "name": "Portiere 3 (Lituania)",
+    "pos": "POR",
+    "nat": "Lituania"
+  },
+  "difensore_1_lituania_lta": {
+    "name": "Difensore 1 (Lituania)",
+    "pos": "DIF",
+    "nat": "Lituania"
+  },
+  "difensore_2_lituania_lta": {
+    "name": "Difensore 2 (Lituania)",
+    "pos": "DIF",
+    "nat": "Lituania"
+  },
+  "difensore_3_lituania_lta": {
+    "name": "Difensore 3 (Lituania)",
+    "pos": "DIF",
+    "nat": "Lituania"
+  },
+  "difensore_4_lituania_lta": {
+    "name": "Difensore 4 (Lituania)",
+    "pos": "DIF",
+    "nat": "Lituania"
+  },
+  "difensore_5_lituania_lta": {
+    "name": "Difensore 5 (Lituania)",
+    "pos": "DIF",
+    "nat": "Lituania"
+  },
+  "difensore_6_lituania_lta": {
+    "name": "Difensore 6 (Lituania)",
+    "pos": "DIF",
+    "nat": "Lituania"
+  },
+  "difensore_7_lituania_lta": {
+    "name": "Difensore 7 (Lituania)",
+    "pos": "DIF",
+    "nat": "Lituania"
+  },
+  "centrocampista_1_lituania_lta": {
+    "name": "Centrocampista 1 (Lituania)",
+    "pos": "CEN",
+    "nat": "Lituania"
+  },
+  "centrocampista_2_lituania_lta": {
+    "name": "Centrocampista 2 (Lituania)",
+    "pos": "CEN",
+    "nat": "Lituania"
+  },
+  "centrocampista_3_lituania_lta": {
+    "name": "Centrocampista 3 (Lituania)",
+    "pos": "CEN",
+    "nat": "Lituania"
+  },
+  "centrocampista_4_lituania_lta": {
+    "name": "Centrocampista 4 (Lituania)",
+    "pos": "CEN",
+    "nat": "Lituania"
+  },
+  "centrocampista_5_lituania_lta": {
+    "name": "Centrocampista 5 (Lituania)",
+    "pos": "CEN",
+    "nat": "Lituania"
+  },
+  "centrocampista_6_lituania_lta": {
+    "name": "Centrocampista 6 (Lituania)",
+    "pos": "CEN",
+    "nat": "Lituania"
+  },
+  "centrocampista_7_lituania_lta": {
+    "name": "Centrocampista 7 (Lituania)",
+    "pos": "CEN",
+    "nat": "Lituania"
+  },
+  "centrocampista_8_lituania_lta": {
+    "name": "Centrocampista 8 (Lituania)",
+    "pos": "CEN",
+    "nat": "Lituania"
+  },
+  "attaccante_1_lituania_lta": {
+    "name": "Attaccante 1 (Lituania)",
+    "pos": "ATT",
+    "nat": "Lituania"
+  },
+  "attaccante_2_lituania_lta": {
+    "name": "Attaccante 2 (Lituania)",
+    "pos": "ATT",
+    "nat": "Lituania"
+  },
+  "attaccante_3_lituania_lta": {
+    "name": "Attaccante 3 (Lituania)",
+    "pos": "ATT",
+    "nat": "Lituania"
+  },
+  "attaccante_4_lituania_lta": {
+    "name": "Attaccante 4 (Lituania)",
+    "pos": "ATT",
+    "nat": "Lituania"
+  },
+  "attaccante_5_lituania_lta": {
+    "name": "Attaccante 5 (Lituania)",
+    "pos": "ATT",
+    "nat": "Lituania"
+  },
+  "portiere_1_lussemburgo_lux": {
+    "name": "Portiere 1 (Lussemburgo)",
+    "pos": "POR",
+    "nat": "Lussemburgo"
+  },
+  "portiere_2_lussemburgo_lux": {
+    "name": "Portiere 2 (Lussemburgo)",
+    "pos": "POR",
+    "nat": "Lussemburgo"
+  },
+  "portiere_3_lussemburgo_lux": {
+    "name": "Portiere 3 (Lussemburgo)",
+    "pos": "POR",
+    "nat": "Lussemburgo"
+  },
+  "difensore_1_lussemburgo_lux": {
+    "name": "Difensore 1 (Lussemburgo)",
+    "pos": "DIF",
+    "nat": "Lussemburgo"
+  },
+  "difensore_2_lussemburgo_lux": {
+    "name": "Difensore 2 (Lussemburgo)",
+    "pos": "DIF",
+    "nat": "Lussemburgo"
+  },
+  "difensore_3_lussemburgo_lux": {
+    "name": "Difensore 3 (Lussemburgo)",
+    "pos": "DIF",
+    "nat": "Lussemburgo"
+  },
+  "difensore_4_lussemburgo_lux": {
+    "name": "Difensore 4 (Lussemburgo)",
+    "pos": "DIF",
+    "nat": "Lussemburgo"
+  },
+  "difensore_5_lussemburgo_lux": {
+    "name": "Difensore 5 (Lussemburgo)",
+    "pos": "DIF",
+    "nat": "Lussemburgo"
+  },
+  "difensore_6_lussemburgo_lux": {
+    "name": "Difensore 6 (Lussemburgo)",
+    "pos": "DIF",
+    "nat": "Lussemburgo"
+  },
+  "difensore_7_lussemburgo_lux": {
+    "name": "Difensore 7 (Lussemburgo)",
+    "pos": "DIF",
+    "nat": "Lussemburgo"
+  },
+  "centrocampista_1_lussemburgo_lux": {
+    "name": "Centrocampista 1 (Lussemburgo)",
+    "pos": "CEN",
+    "nat": "Lussemburgo"
+  },
+  "centrocampista_2_lussemburgo_lux": {
+    "name": "Centrocampista 2 (Lussemburgo)",
+    "pos": "CEN",
+    "nat": "Lussemburgo"
+  },
+  "centrocampista_3_lussemburgo_lux": {
+    "name": "Centrocampista 3 (Lussemburgo)",
+    "pos": "CEN",
+    "nat": "Lussemburgo"
+  },
+  "centrocampista_4_lussemburgo_lux": {
+    "name": "Centrocampista 4 (Lussemburgo)",
+    "pos": "CEN",
+    "nat": "Lussemburgo"
+  },
+  "centrocampista_5_lussemburgo_lux": {
+    "name": "Centrocampista 5 (Lussemburgo)",
+    "pos": "CEN",
+    "nat": "Lussemburgo"
+  },
+  "centrocampista_6_lussemburgo_lux": {
+    "name": "Centrocampista 6 (Lussemburgo)",
+    "pos": "CEN",
+    "nat": "Lussemburgo"
+  },
+  "centrocampista_7_lussemburgo_lux": {
+    "name": "Centrocampista 7 (Lussemburgo)",
+    "pos": "CEN",
+    "nat": "Lussemburgo"
+  },
+  "centrocampista_8_lussemburgo_lux": {
+    "name": "Centrocampista 8 (Lussemburgo)",
+    "pos": "CEN",
+    "nat": "Lussemburgo"
+  },
+  "attaccante_1_lussemburgo_lux": {
+    "name": "Attaccante 1 (Lussemburgo)",
+    "pos": "ATT",
+    "nat": "Lussemburgo"
+  },
+  "attaccante_2_lussemburgo_lux": {
+    "name": "Attaccante 2 (Lussemburgo)",
+    "pos": "ATT",
+    "nat": "Lussemburgo"
+  },
+  "attaccante_3_lussemburgo_lux": {
+    "name": "Attaccante 3 (Lussemburgo)",
+    "pos": "ATT",
+    "nat": "Lussemburgo"
+  },
+  "attaccante_4_lussemburgo_lux": {
+    "name": "Attaccante 4 (Lussemburgo)",
+    "pos": "ATT",
+    "nat": "Lussemburgo"
+  },
+  "attaccante_5_lussemburgo_lux": {
+    "name": "Attaccante 5 (Lussemburgo)",
+    "pos": "ATT",
+    "nat": "Lussemburgo"
+  },
+  "portiere_1_macedonia_del_nord_mkd": {
+    "name": "Portiere 1 (Macedonia del Nord)",
+    "pos": "POR",
+    "nat": "Macedonia del Nord"
+  },
+  "portiere_2_macedonia_del_nord_mkd": {
+    "name": "Portiere 2 (Macedonia del Nord)",
+    "pos": "POR",
+    "nat": "Macedonia del Nord"
+  },
+  "portiere_3_macedonia_del_nord_mkd": {
+    "name": "Portiere 3 (Macedonia del Nord)",
+    "pos": "POR",
+    "nat": "Macedonia del Nord"
+  },
+  "difensore_1_macedonia_del_nord_mkd": {
+    "name": "Difensore 1 (Macedonia del Nord)",
+    "pos": "DIF",
+    "nat": "Macedonia del Nord"
+  },
+  "difensore_2_macedonia_del_nord_mkd": {
+    "name": "Difensore 2 (Macedonia del Nord)",
+    "pos": "DIF",
+    "nat": "Macedonia del Nord"
+  },
+  "difensore_3_macedonia_del_nord_mkd": {
+    "name": "Difensore 3 (Macedonia del Nord)",
+    "pos": "DIF",
+    "nat": "Macedonia del Nord"
+  },
+  "difensore_4_macedonia_del_nord_mkd": {
+    "name": "Difensore 4 (Macedonia del Nord)",
+    "pos": "DIF",
+    "nat": "Macedonia del Nord"
+  },
+  "difensore_5_macedonia_del_nord_mkd": {
+    "name": "Difensore 5 (Macedonia del Nord)",
+    "pos": "DIF",
+    "nat": "Macedonia del Nord"
+  },
+  "difensore_6_macedonia_del_nord_mkd": {
+    "name": "Difensore 6 (Macedonia del Nord)",
+    "pos": "DIF",
+    "nat": "Macedonia del Nord"
+  },
+  "difensore_7_macedonia_del_nord_mkd": {
+    "name": "Difensore 7 (Macedonia del Nord)",
+    "pos": "DIF",
+    "nat": "Macedonia del Nord"
+  },
+  "centrocampista_1_macedonia_del_nord_mkd": {
+    "name": "Centrocampista 1 (Macedonia del Nord)",
+    "pos": "CEN",
+    "nat": "Macedonia del Nord"
+  },
+  "centrocampista_2_macedonia_del_nord_mkd": {
+    "name": "Centrocampista 2 (Macedonia del Nord)",
+    "pos": "CEN",
+    "nat": "Macedonia del Nord"
+  },
+  "centrocampista_3_macedonia_del_nord_mkd": {
+    "name": "Centrocampista 3 (Macedonia del Nord)",
+    "pos": "CEN",
+    "nat": "Macedonia del Nord"
+  },
+  "centrocampista_4_macedonia_del_nord_mkd": {
+    "name": "Centrocampista 4 (Macedonia del Nord)",
+    "pos": "CEN",
+    "nat": "Macedonia del Nord"
+  },
+  "centrocampista_5_macedonia_del_nord_mkd": {
+    "name": "Centrocampista 5 (Macedonia del Nord)",
+    "pos": "CEN",
+    "nat": "Macedonia del Nord"
+  },
+  "centrocampista_6_macedonia_del_nord_mkd": {
+    "name": "Centrocampista 6 (Macedonia del Nord)",
+    "pos": "CEN",
+    "nat": "Macedonia del Nord"
+  },
+  "centrocampista_7_macedonia_del_nord_mkd": {
+    "name": "Centrocampista 7 (Macedonia del Nord)",
+    "pos": "CEN",
+    "nat": "Macedonia del Nord"
+  },
+  "centrocampista_8_macedonia_del_nord_mkd": {
+    "name": "Centrocampista 8 (Macedonia del Nord)",
+    "pos": "CEN",
+    "nat": "Macedonia del Nord"
+  },
+  "attaccante_1_macedonia_del_nord_mkd": {
+    "name": "Attaccante 1 (Macedonia del Nord)",
+    "pos": "ATT",
+    "nat": "Macedonia del Nord"
+  },
+  "attaccante_2_macedonia_del_nord_mkd": {
+    "name": "Attaccante 2 (Macedonia del Nord)",
+    "pos": "ATT",
+    "nat": "Macedonia del Nord"
+  },
+  "attaccante_3_macedonia_del_nord_mkd": {
+    "name": "Attaccante 3 (Macedonia del Nord)",
+    "pos": "ATT",
+    "nat": "Macedonia del Nord"
+  },
+  "attaccante_4_macedonia_del_nord_mkd": {
+    "name": "Attaccante 4 (Macedonia del Nord)",
+    "pos": "ATT",
+    "nat": "Macedonia del Nord"
+  },
+  "attaccante_5_macedonia_del_nord_mkd": {
+    "name": "Attaccante 5 (Macedonia del Nord)",
+    "pos": "ATT",
+    "nat": "Macedonia del Nord"
+  },
+  "portiere_1_malta_mlt": {
+    "name": "Portiere 1 (Malta)",
+    "pos": "POR",
+    "nat": "Malta"
+  },
+  "portiere_2_malta_mlt": {
+    "name": "Portiere 2 (Malta)",
+    "pos": "POR",
+    "nat": "Malta"
+  },
+  "portiere_3_malta_mlt": {
+    "name": "Portiere 3 (Malta)",
+    "pos": "POR",
+    "nat": "Malta"
+  },
+  "difensore_1_malta_mlt": {
+    "name": "Difensore 1 (Malta)",
+    "pos": "DIF",
+    "nat": "Malta"
+  },
+  "difensore_2_malta_mlt": {
+    "name": "Difensore 2 (Malta)",
+    "pos": "DIF",
+    "nat": "Malta"
+  },
+  "difensore_3_malta_mlt": {
+    "name": "Difensore 3 (Malta)",
+    "pos": "DIF",
+    "nat": "Malta"
+  },
+  "difensore_4_malta_mlt": {
+    "name": "Difensore 4 (Malta)",
+    "pos": "DIF",
+    "nat": "Malta"
+  },
+  "difensore_5_malta_mlt": {
+    "name": "Difensore 5 (Malta)",
+    "pos": "DIF",
+    "nat": "Malta"
+  },
+  "difensore_6_malta_mlt": {
+    "name": "Difensore 6 (Malta)",
+    "pos": "DIF",
+    "nat": "Malta"
+  },
+  "difensore_7_malta_mlt": {
+    "name": "Difensore 7 (Malta)",
+    "pos": "DIF",
+    "nat": "Malta"
+  },
+  "centrocampista_1_malta_mlt": {
+    "name": "Centrocampista 1 (Malta)",
+    "pos": "CEN",
+    "nat": "Malta"
+  },
+  "centrocampista_2_malta_mlt": {
+    "name": "Centrocampista 2 (Malta)",
+    "pos": "CEN",
+    "nat": "Malta"
+  },
+  "centrocampista_3_malta_mlt": {
+    "name": "Centrocampista 3 (Malta)",
+    "pos": "CEN",
+    "nat": "Malta"
+  },
+  "centrocampista_4_malta_mlt": {
+    "name": "Centrocampista 4 (Malta)",
+    "pos": "CEN",
+    "nat": "Malta"
+  },
+  "centrocampista_5_malta_mlt": {
+    "name": "Centrocampista 5 (Malta)",
+    "pos": "CEN",
+    "nat": "Malta"
+  },
+  "centrocampista_6_malta_mlt": {
+    "name": "Centrocampista 6 (Malta)",
+    "pos": "CEN",
+    "nat": "Malta"
+  },
+  "centrocampista_7_malta_mlt": {
+    "name": "Centrocampista 7 (Malta)",
+    "pos": "CEN",
+    "nat": "Malta"
+  },
+  "centrocampista_8_malta_mlt": {
+    "name": "Centrocampista 8 (Malta)",
+    "pos": "CEN",
+    "nat": "Malta"
+  },
+  "attaccante_1_malta_mlt": {
+    "name": "Attaccante 1 (Malta)",
+    "pos": "ATT",
+    "nat": "Malta"
+  },
+  "attaccante_2_malta_mlt": {
+    "name": "Attaccante 2 (Malta)",
+    "pos": "ATT",
+    "nat": "Malta"
+  },
+  "attaccante_3_malta_mlt": {
+    "name": "Attaccante 3 (Malta)",
+    "pos": "ATT",
+    "nat": "Malta"
+  },
+  "attaccante_4_malta_mlt": {
+    "name": "Attaccante 4 (Malta)",
+    "pos": "ATT",
+    "nat": "Malta"
+  },
+  "attaccante_5_malta_mlt": {
+    "name": "Attaccante 5 (Malta)",
+    "pos": "ATT",
+    "nat": "Malta"
+  },
+  "portiere_1_moldavia_mda": {
+    "name": "Portiere 1 (Moldavia)",
+    "pos": "POR",
+    "nat": "Moldavia"
+  },
+  "portiere_2_moldavia_mda": {
+    "name": "Portiere 2 (Moldavia)",
+    "pos": "POR",
+    "nat": "Moldavia"
+  },
+  "portiere_3_moldavia_mda": {
+    "name": "Portiere 3 (Moldavia)",
+    "pos": "POR",
+    "nat": "Moldavia"
+  },
+  "difensore_1_moldavia_mda": {
+    "name": "Difensore 1 (Moldavia)",
+    "pos": "DIF",
+    "nat": "Moldavia"
+  },
+  "difensore_2_moldavia_mda": {
+    "name": "Difensore 2 (Moldavia)",
+    "pos": "DIF",
+    "nat": "Moldavia"
+  },
+  "difensore_3_moldavia_mda": {
+    "name": "Difensore 3 (Moldavia)",
+    "pos": "DIF",
+    "nat": "Moldavia"
+  },
+  "difensore_4_moldavia_mda": {
+    "name": "Difensore 4 (Moldavia)",
+    "pos": "DIF",
+    "nat": "Moldavia"
+  },
+  "difensore_5_moldavia_mda": {
+    "name": "Difensore 5 (Moldavia)",
+    "pos": "DIF",
+    "nat": "Moldavia"
+  },
+  "difensore_6_moldavia_mda": {
+    "name": "Difensore 6 (Moldavia)",
+    "pos": "DIF",
+    "nat": "Moldavia"
+  },
+  "difensore_7_moldavia_mda": {
+    "name": "Difensore 7 (Moldavia)",
+    "pos": "DIF",
+    "nat": "Moldavia"
+  },
+  "centrocampista_1_moldavia_mda": {
+    "name": "Centrocampista 1 (Moldavia)",
+    "pos": "CEN",
+    "nat": "Moldavia"
+  },
+  "centrocampista_2_moldavia_mda": {
+    "name": "Centrocampista 2 (Moldavia)",
+    "pos": "CEN",
+    "nat": "Moldavia"
+  },
+  "centrocampista_3_moldavia_mda": {
+    "name": "Centrocampista 3 (Moldavia)",
+    "pos": "CEN",
+    "nat": "Moldavia"
+  },
+  "centrocampista_4_moldavia_mda": {
+    "name": "Centrocampista 4 (Moldavia)",
+    "pos": "CEN",
+    "nat": "Moldavia"
+  },
+  "centrocampista_5_moldavia_mda": {
+    "name": "Centrocampista 5 (Moldavia)",
+    "pos": "CEN",
+    "nat": "Moldavia"
+  },
+  "centrocampista_6_moldavia_mda": {
+    "name": "Centrocampista 6 (Moldavia)",
+    "pos": "CEN",
+    "nat": "Moldavia"
+  },
+  "centrocampista_7_moldavia_mda": {
+    "name": "Centrocampista 7 (Moldavia)",
+    "pos": "CEN",
+    "nat": "Moldavia"
+  },
+  "centrocampista_8_moldavia_mda": {
+    "name": "Centrocampista 8 (Moldavia)",
+    "pos": "CEN",
+    "nat": "Moldavia"
+  },
+  "attaccante_1_moldavia_mda": {
+    "name": "Attaccante 1 (Moldavia)",
+    "pos": "ATT",
+    "nat": "Moldavia"
+  },
+  "attaccante_2_moldavia_mda": {
+    "name": "Attaccante 2 (Moldavia)",
+    "pos": "ATT",
+    "nat": "Moldavia"
+  },
+  "attaccante_3_moldavia_mda": {
+    "name": "Attaccante 3 (Moldavia)",
+    "pos": "ATT",
+    "nat": "Moldavia"
+  },
+  "attaccante_4_moldavia_mda": {
+    "name": "Attaccante 4 (Moldavia)",
+    "pos": "ATT",
+    "nat": "Moldavia"
+  },
+  "attaccante_5_moldavia_mda": {
+    "name": "Attaccante 5 (Moldavia)",
+    "pos": "ATT",
+    "nat": "Moldavia"
+  },
+  "portiere_1_montenegro_mne": {
+    "name": "Portiere 1 (Montenegro)",
+    "pos": "POR",
+    "nat": "Montenegro"
+  },
+  "portiere_2_montenegro_mne": {
+    "name": "Portiere 2 (Montenegro)",
+    "pos": "POR",
+    "nat": "Montenegro"
+  },
+  "portiere_3_montenegro_mne": {
+    "name": "Portiere 3 (Montenegro)",
+    "pos": "POR",
+    "nat": "Montenegro"
+  },
+  "difensore_1_montenegro_mne": {
+    "name": "Difensore 1 (Montenegro)",
+    "pos": "DIF",
+    "nat": "Montenegro"
+  },
+  "difensore_2_montenegro_mne": {
+    "name": "Difensore 2 (Montenegro)",
+    "pos": "DIF",
+    "nat": "Montenegro"
+  },
+  "difensore_3_montenegro_mne": {
+    "name": "Difensore 3 (Montenegro)",
+    "pos": "DIF",
+    "nat": "Montenegro"
+  },
+  "difensore_4_montenegro_mne": {
+    "name": "Difensore 4 (Montenegro)",
+    "pos": "DIF",
+    "nat": "Montenegro"
+  },
+  "difensore_5_montenegro_mne": {
+    "name": "Difensore 5 (Montenegro)",
+    "pos": "DIF",
+    "nat": "Montenegro"
+  },
+  "difensore_6_montenegro_mne": {
+    "name": "Difensore 6 (Montenegro)",
+    "pos": "DIF",
+    "nat": "Montenegro"
+  },
+  "difensore_7_montenegro_mne": {
+    "name": "Difensore 7 (Montenegro)",
+    "pos": "DIF",
+    "nat": "Montenegro"
+  },
+  "centrocampista_1_montenegro_mne": {
+    "name": "Centrocampista 1 (Montenegro)",
+    "pos": "CEN",
+    "nat": "Montenegro"
+  },
+  "centrocampista_2_montenegro_mne": {
+    "name": "Centrocampista 2 (Montenegro)",
+    "pos": "CEN",
+    "nat": "Montenegro"
+  },
+  "centrocampista_3_montenegro_mne": {
+    "name": "Centrocampista 3 (Montenegro)",
+    "pos": "CEN",
+    "nat": "Montenegro"
+  },
+  "centrocampista_4_montenegro_mne": {
+    "name": "Centrocampista 4 (Montenegro)",
+    "pos": "CEN",
+    "nat": "Montenegro"
+  },
+  "centrocampista_5_montenegro_mne": {
+    "name": "Centrocampista 5 (Montenegro)",
+    "pos": "CEN",
+    "nat": "Montenegro"
+  },
+  "centrocampista_6_montenegro_mne": {
+    "name": "Centrocampista 6 (Montenegro)",
+    "pos": "CEN",
+    "nat": "Montenegro"
+  },
+  "centrocampista_7_montenegro_mne": {
+    "name": "Centrocampista 7 (Montenegro)",
+    "pos": "CEN",
+    "nat": "Montenegro"
+  },
+  "centrocampista_8_montenegro_mne": {
+    "name": "Centrocampista 8 (Montenegro)",
+    "pos": "CEN",
+    "nat": "Montenegro"
+  },
+  "attaccante_1_montenegro_mne": {
+    "name": "Attaccante 1 (Montenegro)",
+    "pos": "ATT",
+    "nat": "Montenegro"
+  },
+  "attaccante_2_montenegro_mne": {
+    "name": "Attaccante 2 (Montenegro)",
+    "pos": "ATT",
+    "nat": "Montenegro"
+  },
+  "attaccante_3_montenegro_mne": {
+    "name": "Attaccante 3 (Montenegro)",
+    "pos": "ATT",
+    "nat": "Montenegro"
+  },
+  "attaccante_4_montenegro_mne": {
+    "name": "Attaccante 4 (Montenegro)",
+    "pos": "ATT",
+    "nat": "Montenegro"
+  },
+  "attaccante_5_montenegro_mne": {
+    "name": "Attaccante 5 (Montenegro)",
+    "pos": "ATT",
+    "nat": "Montenegro"
+  },
+  "portiere_1_norvegia_nor": {
+    "name": "Portiere 1 (Norvegia)",
+    "pos": "POR",
+    "nat": "Norvegia"
+  },
+  "portiere_2_norvegia_nor": {
+    "name": "Portiere 2 (Norvegia)",
+    "pos": "POR",
+    "nat": "Norvegia"
+  },
+  "portiere_3_norvegia_nor": {
+    "name": "Portiere 3 (Norvegia)",
+    "pos": "POR",
+    "nat": "Norvegia"
+  },
+  "difensore_1_norvegia_nor": {
+    "name": "Difensore 1 (Norvegia)",
+    "pos": "DIF",
+    "nat": "Norvegia"
+  },
+  "difensore_2_norvegia_nor": {
+    "name": "Difensore 2 (Norvegia)",
+    "pos": "DIF",
+    "nat": "Norvegia"
+  },
+  "difensore_3_norvegia_nor": {
+    "name": "Difensore 3 (Norvegia)",
+    "pos": "DIF",
+    "nat": "Norvegia"
+  },
+  "difensore_4_norvegia_nor": {
+    "name": "Difensore 4 (Norvegia)",
+    "pos": "DIF",
+    "nat": "Norvegia"
+  },
+  "difensore_5_norvegia_nor": {
+    "name": "Difensore 5 (Norvegia)",
+    "pos": "DIF",
+    "nat": "Norvegia"
+  },
+  "difensore_6_norvegia_nor": {
+    "name": "Difensore 6 (Norvegia)",
+    "pos": "DIF",
+    "nat": "Norvegia"
+  },
+  "difensore_7_norvegia_nor": {
+    "name": "Difensore 7 (Norvegia)",
+    "pos": "DIF",
+    "nat": "Norvegia"
+  },
+  "centrocampista_1_norvegia_nor": {
+    "name": "Centrocampista 1 (Norvegia)",
+    "pos": "CEN",
+    "nat": "Norvegia"
+  },
+  "centrocampista_2_norvegia_nor": {
+    "name": "Centrocampista 2 (Norvegia)",
+    "pos": "CEN",
+    "nat": "Norvegia"
+  },
+  "centrocampista_3_norvegia_nor": {
+    "name": "Centrocampista 3 (Norvegia)",
+    "pos": "CEN",
+    "nat": "Norvegia"
+  },
+  "centrocampista_4_norvegia_nor": {
+    "name": "Centrocampista 4 (Norvegia)",
+    "pos": "CEN",
+    "nat": "Norvegia"
+  },
+  "centrocampista_5_norvegia_nor": {
+    "name": "Centrocampista 5 (Norvegia)",
+    "pos": "CEN",
+    "nat": "Norvegia"
+  },
+  "centrocampista_6_norvegia_nor": {
+    "name": "Centrocampista 6 (Norvegia)",
+    "pos": "CEN",
+    "nat": "Norvegia"
+  },
+  "centrocampista_7_norvegia_nor": {
+    "name": "Centrocampista 7 (Norvegia)",
+    "pos": "CEN",
+    "nat": "Norvegia"
+  },
+  "centrocampista_8_norvegia_nor": {
+    "name": "Centrocampista 8 (Norvegia)",
+    "pos": "CEN",
+    "nat": "Norvegia"
+  },
+  "attaccante_1_norvegia_nor": {
+    "name": "Attaccante 1 (Norvegia)",
+    "pos": "ATT",
+    "nat": "Norvegia"
+  },
+  "attaccante_2_norvegia_nor": {
+    "name": "Attaccante 2 (Norvegia)",
+    "pos": "ATT",
+    "nat": "Norvegia"
+  },
+  "attaccante_3_norvegia_nor": {
+    "name": "Attaccante 3 (Norvegia)",
+    "pos": "ATT",
+    "nat": "Norvegia"
+  },
+  "attaccante_4_norvegia_nor": {
+    "name": "Attaccante 4 (Norvegia)",
+    "pos": "ATT",
+    "nat": "Norvegia"
+  },
+  "attaccante_5_norvegia_nor": {
+    "name": "Attaccante 5 (Norvegia)",
+    "pos": "ATT",
+    "nat": "Norvegia"
+  },
+  "portiere_1_paesi_bassi_ned": {
+    "name": "Portiere 1 (Paesi Bassi)",
+    "pos": "POR",
+    "nat": "Paesi Bassi"
+  },
+  "portiere_2_paesi_bassi_ned": {
+    "name": "Portiere 2 (Paesi Bassi)",
+    "pos": "POR",
+    "nat": "Paesi Bassi"
+  },
+  "portiere_3_paesi_bassi_ned": {
+    "name": "Portiere 3 (Paesi Bassi)",
+    "pos": "POR",
+    "nat": "Paesi Bassi"
+  },
+  "difensore_1_paesi_bassi_ned": {
+    "name": "Difensore 1 (Paesi Bassi)",
+    "pos": "DIF",
+    "nat": "Paesi Bassi"
+  },
+  "difensore_2_paesi_bassi_ned": {
+    "name": "Difensore 2 (Paesi Bassi)",
+    "pos": "DIF",
+    "nat": "Paesi Bassi"
+  },
+  "difensore_3_paesi_bassi_ned": {
+    "name": "Difensore 3 (Paesi Bassi)",
+    "pos": "DIF",
+    "nat": "Paesi Bassi"
+  },
+  "difensore_4_paesi_bassi_ned": {
+    "name": "Difensore 4 (Paesi Bassi)",
+    "pos": "DIF",
+    "nat": "Paesi Bassi"
+  },
+  "difensore_5_paesi_bassi_ned": {
+    "name": "Difensore 5 (Paesi Bassi)",
+    "pos": "DIF",
+    "nat": "Paesi Bassi"
+  },
+  "difensore_6_paesi_bassi_ned": {
+    "name": "Difensore 6 (Paesi Bassi)",
+    "pos": "DIF",
+    "nat": "Paesi Bassi"
+  },
+  "difensore_7_paesi_bassi_ned": {
+    "name": "Difensore 7 (Paesi Bassi)",
+    "pos": "DIF",
+    "nat": "Paesi Bassi"
+  },
+  "centrocampista_1_paesi_bassi_ned": {
+    "name": "Centrocampista 1 (Paesi Bassi)",
+    "pos": "CEN",
+    "nat": "Paesi Bassi"
+  },
+  "centrocampista_2_paesi_bassi_ned": {
+    "name": "Centrocampista 2 (Paesi Bassi)",
+    "pos": "CEN",
+    "nat": "Paesi Bassi"
+  },
+  "centrocampista_3_paesi_bassi_ned": {
+    "name": "Centrocampista 3 (Paesi Bassi)",
+    "pos": "CEN",
+    "nat": "Paesi Bassi"
+  },
+  "centrocampista_4_paesi_bassi_ned": {
+    "name": "Centrocampista 4 (Paesi Bassi)",
+    "pos": "CEN",
+    "nat": "Paesi Bassi"
+  },
+  "centrocampista_5_paesi_bassi_ned": {
+    "name": "Centrocampista 5 (Paesi Bassi)",
+    "pos": "CEN",
+    "nat": "Paesi Bassi"
+  },
+  "centrocampista_6_paesi_bassi_ned": {
+    "name": "Centrocampista 6 (Paesi Bassi)",
+    "pos": "CEN",
+    "nat": "Paesi Bassi"
+  },
+  "centrocampista_7_paesi_bassi_ned": {
+    "name": "Centrocampista 7 (Paesi Bassi)",
+    "pos": "CEN",
+    "nat": "Paesi Bassi"
+  },
+  "centrocampista_8_paesi_bassi_ned": {
+    "name": "Centrocampista 8 (Paesi Bassi)",
+    "pos": "CEN",
+    "nat": "Paesi Bassi"
+  },
+  "attaccante_1_paesi_bassi_ned": {
+    "name": "Attaccante 1 (Paesi Bassi)",
+    "pos": "ATT",
+    "nat": "Paesi Bassi"
+  },
+  "attaccante_2_paesi_bassi_ned": {
+    "name": "Attaccante 2 (Paesi Bassi)",
+    "pos": "ATT",
+    "nat": "Paesi Bassi"
+  },
+  "attaccante_3_paesi_bassi_ned": {
+    "name": "Attaccante 3 (Paesi Bassi)",
+    "pos": "ATT",
+    "nat": "Paesi Bassi"
+  },
+  "attaccante_4_paesi_bassi_ned": {
+    "name": "Attaccante 4 (Paesi Bassi)",
+    "pos": "ATT",
+    "nat": "Paesi Bassi"
+  },
+  "attaccante_5_paesi_bassi_ned": {
+    "name": "Attaccante 5 (Paesi Bassi)",
+    "pos": "ATT",
+    "nat": "Paesi Bassi"
+  },
+  "portiere_1_polonia_pol": {
+    "name": "Portiere 1 (Polonia)",
+    "pos": "POR",
+    "nat": "Polonia"
+  },
+  "portiere_2_polonia_pol": {
+    "name": "Portiere 2 (Polonia)",
+    "pos": "POR",
+    "nat": "Polonia"
+  },
+  "portiere_3_polonia_pol": {
+    "name": "Portiere 3 (Polonia)",
+    "pos": "POR",
+    "nat": "Polonia"
+  },
+  "difensore_1_polonia_pol": {
+    "name": "Difensore 1 (Polonia)",
+    "pos": "DIF",
+    "nat": "Polonia"
+  },
+  "difensore_2_polonia_pol": {
+    "name": "Difensore 2 (Polonia)",
+    "pos": "DIF",
+    "nat": "Polonia"
+  },
+  "difensore_3_polonia_pol": {
+    "name": "Difensore 3 (Polonia)",
+    "pos": "DIF",
+    "nat": "Polonia"
+  },
+  "difensore_4_polonia_pol": {
+    "name": "Difensore 4 (Polonia)",
+    "pos": "DIF",
+    "nat": "Polonia"
+  },
+  "difensore_5_polonia_pol": {
+    "name": "Difensore 5 (Polonia)",
+    "pos": "DIF",
+    "nat": "Polonia"
+  },
+  "difensore_6_polonia_pol": {
+    "name": "Difensore 6 (Polonia)",
+    "pos": "DIF",
+    "nat": "Polonia"
+  },
+  "difensore_7_polonia_pol": {
+    "name": "Difensore 7 (Polonia)",
+    "pos": "DIF",
+    "nat": "Polonia"
+  },
+  "centrocampista_1_polonia_pol": {
+    "name": "Centrocampista 1 (Polonia)",
+    "pos": "CEN",
+    "nat": "Polonia"
+  },
+  "centrocampista_2_polonia_pol": {
+    "name": "Centrocampista 2 (Polonia)",
+    "pos": "CEN",
+    "nat": "Polonia"
+  },
+  "centrocampista_3_polonia_pol": {
+    "name": "Centrocampista 3 (Polonia)",
+    "pos": "CEN",
+    "nat": "Polonia"
+  },
+  "centrocampista_4_polonia_pol": {
+    "name": "Centrocampista 4 (Polonia)",
+    "pos": "CEN",
+    "nat": "Polonia"
+  },
+  "centrocampista_5_polonia_pol": {
+    "name": "Centrocampista 5 (Polonia)",
+    "pos": "CEN",
+    "nat": "Polonia"
+  },
+  "centrocampista_6_polonia_pol": {
+    "name": "Centrocampista 6 (Polonia)",
+    "pos": "CEN",
+    "nat": "Polonia"
+  },
+  "centrocampista_7_polonia_pol": {
+    "name": "Centrocampista 7 (Polonia)",
+    "pos": "CEN",
+    "nat": "Polonia"
+  },
+  "centrocampista_8_polonia_pol": {
+    "name": "Centrocampista 8 (Polonia)",
+    "pos": "CEN",
+    "nat": "Polonia"
+  },
+  "attaccante_1_polonia_pol": {
+    "name": "Attaccante 1 (Polonia)",
+    "pos": "ATT",
+    "nat": "Polonia"
+  },
+  "attaccante_2_polonia_pol": {
+    "name": "Attaccante 2 (Polonia)",
+    "pos": "ATT",
+    "nat": "Polonia"
+  },
+  "attaccante_3_polonia_pol": {
+    "name": "Attaccante 3 (Polonia)",
+    "pos": "ATT",
+    "nat": "Polonia"
+  },
+  "attaccante_4_polonia_pol": {
+    "name": "Attaccante 4 (Polonia)",
+    "pos": "ATT",
+    "nat": "Polonia"
+  },
+  "attaccante_5_polonia_pol": {
+    "name": "Attaccante 5 (Polonia)",
+    "pos": "ATT",
+    "nat": "Polonia"
+  },
+  "portiere_1_portogallo_por": {
+    "name": "Portiere 1 (Portogallo)",
+    "pos": "POR",
+    "nat": "Portogallo"
+  },
+  "portiere_2_portogallo_por": {
+    "name": "Portiere 2 (Portogallo)",
+    "pos": "POR",
+    "nat": "Portogallo"
+  },
+  "portiere_3_portogallo_por": {
+    "name": "Portiere 3 (Portogallo)",
+    "pos": "POR",
+    "nat": "Portogallo"
+  },
+  "difensore_1_portogallo_por": {
+    "name": "Difensore 1 (Portogallo)",
+    "pos": "DIF",
+    "nat": "Portogallo"
+  },
+  "difensore_2_portogallo_por": {
+    "name": "Difensore 2 (Portogallo)",
+    "pos": "DIF",
+    "nat": "Portogallo"
+  },
+  "difensore_3_portogallo_por": {
+    "name": "Difensore 3 (Portogallo)",
+    "pos": "DIF",
+    "nat": "Portogallo"
+  },
+  "difensore_4_portogallo_por": {
+    "name": "Difensore 4 (Portogallo)",
+    "pos": "DIF",
+    "nat": "Portogallo"
+  },
+  "difensore_5_portogallo_por": {
+    "name": "Difensore 5 (Portogallo)",
+    "pos": "DIF",
+    "nat": "Portogallo"
+  },
+  "difensore_6_portogallo_por": {
+    "name": "Difensore 6 (Portogallo)",
+    "pos": "DIF",
+    "nat": "Portogallo"
+  },
+  "difensore_7_portogallo_por": {
+    "name": "Difensore 7 (Portogallo)",
+    "pos": "DIF",
+    "nat": "Portogallo"
+  },
+  "centrocampista_1_portogallo_por": {
+    "name": "Centrocampista 1 (Portogallo)",
+    "pos": "CEN",
+    "nat": "Portogallo"
+  },
+  "centrocampista_2_portogallo_por": {
+    "name": "Centrocampista 2 (Portogallo)",
+    "pos": "CEN",
+    "nat": "Portogallo"
+  },
+  "centrocampista_3_portogallo_por": {
+    "name": "Centrocampista 3 (Portogallo)",
+    "pos": "CEN",
+    "nat": "Portogallo"
+  },
+  "centrocampista_4_portogallo_por": {
+    "name": "Centrocampista 4 (Portogallo)",
+    "pos": "CEN",
+    "nat": "Portogallo"
+  },
+  "centrocampista_5_portogallo_por": {
+    "name": "Centrocampista 5 (Portogallo)",
+    "pos": "CEN",
+    "nat": "Portogallo"
+  },
+  "centrocampista_6_portogallo_por": {
+    "name": "Centrocampista 6 (Portogallo)",
+    "pos": "CEN",
+    "nat": "Portogallo"
+  },
+  "centrocampista_7_portogallo_por": {
+    "name": "Centrocampista 7 (Portogallo)",
+    "pos": "CEN",
+    "nat": "Portogallo"
+  },
+  "centrocampista_8_portogallo_por": {
+    "name": "Centrocampista 8 (Portogallo)",
+    "pos": "CEN",
+    "nat": "Portogallo"
+  },
+  "attaccante_1_portogallo_por": {
+    "name": "Attaccante 1 (Portogallo)",
+    "pos": "ATT",
+    "nat": "Portogallo"
+  },
+  "attaccante_2_portogallo_por": {
+    "name": "Attaccante 2 (Portogallo)",
+    "pos": "ATT",
+    "nat": "Portogallo"
+  },
+  "attaccante_3_portogallo_por": {
+    "name": "Attaccante 3 (Portogallo)",
+    "pos": "ATT",
+    "nat": "Portogallo"
+  },
+  "attaccante_4_portogallo_por": {
+    "name": "Attaccante 4 (Portogallo)",
+    "pos": "ATT",
+    "nat": "Portogallo"
+  },
+  "attaccante_5_portogallo_por": {
+    "name": "Attaccante 5 (Portogallo)",
+    "pos": "ATT",
+    "nat": "Portogallo"
+  },
+  "portiere_1_repubblica_ceca_cze": {
+    "name": "Portiere 1 (Repubblica Ceca)",
+    "pos": "POR",
+    "nat": "Repubblica Ceca"
+  },
+  "portiere_2_repubblica_ceca_cze": {
+    "name": "Portiere 2 (Repubblica Ceca)",
+    "pos": "POR",
+    "nat": "Repubblica Ceca"
+  },
+  "portiere_3_repubblica_ceca_cze": {
+    "name": "Portiere 3 (Repubblica Ceca)",
+    "pos": "POR",
+    "nat": "Repubblica Ceca"
+  },
+  "difensore_1_repubblica_ceca_cze": {
+    "name": "Difensore 1 (Repubblica Ceca)",
+    "pos": "DIF",
+    "nat": "Repubblica Ceca"
+  },
+  "difensore_2_repubblica_ceca_cze": {
+    "name": "Difensore 2 (Repubblica Ceca)",
+    "pos": "DIF",
+    "nat": "Repubblica Ceca"
+  },
+  "difensore_3_repubblica_ceca_cze": {
+    "name": "Difensore 3 (Repubblica Ceca)",
+    "pos": "DIF",
+    "nat": "Repubblica Ceca"
+  },
+  "difensore_4_repubblica_ceca_cze": {
+    "name": "Difensore 4 (Repubblica Ceca)",
+    "pos": "DIF",
+    "nat": "Repubblica Ceca"
+  },
+  "difensore_5_repubblica_ceca_cze": {
+    "name": "Difensore 5 (Repubblica Ceca)",
+    "pos": "DIF",
+    "nat": "Repubblica Ceca"
+  },
+  "difensore_6_repubblica_ceca_cze": {
+    "name": "Difensore 6 (Repubblica Ceca)",
+    "pos": "DIF",
+    "nat": "Repubblica Ceca"
+  },
+  "difensore_7_repubblica_ceca_cze": {
+    "name": "Difensore 7 (Repubblica Ceca)",
+    "pos": "DIF",
+    "nat": "Repubblica Ceca"
+  },
+  "centrocampista_1_repubblica_ceca_cze": {
+    "name": "Centrocampista 1 (Repubblica Ceca)",
+    "pos": "CEN",
+    "nat": "Repubblica Ceca"
+  },
+  "centrocampista_2_repubblica_ceca_cze": {
+    "name": "Centrocampista 2 (Repubblica Ceca)",
+    "pos": "CEN",
+    "nat": "Repubblica Ceca"
+  },
+  "centrocampista_3_repubblica_ceca_cze": {
+    "name": "Centrocampista 3 (Repubblica Ceca)",
+    "pos": "CEN",
+    "nat": "Repubblica Ceca"
+  },
+  "centrocampista_4_repubblica_ceca_cze": {
+    "name": "Centrocampista 4 (Repubblica Ceca)",
+    "pos": "CEN",
+    "nat": "Repubblica Ceca"
+  },
+  "centrocampista_5_repubblica_ceca_cze": {
+    "name": "Centrocampista 5 (Repubblica Ceca)",
+    "pos": "CEN",
+    "nat": "Repubblica Ceca"
+  },
+  "centrocampista_6_repubblica_ceca_cze": {
+    "name": "Centrocampista 6 (Repubblica Ceca)",
+    "pos": "CEN",
+    "nat": "Repubblica Ceca"
+  },
+  "centrocampista_7_repubblica_ceca_cze": {
+    "name": "Centrocampista 7 (Repubblica Ceca)",
+    "pos": "CEN",
+    "nat": "Repubblica Ceca"
+  },
+  "centrocampista_8_repubblica_ceca_cze": {
+    "name": "Centrocampista 8 (Repubblica Ceca)",
+    "pos": "CEN",
+    "nat": "Repubblica Ceca"
+  },
+  "attaccante_1_repubblica_ceca_cze": {
+    "name": "Attaccante 1 (Repubblica Ceca)",
+    "pos": "ATT",
+    "nat": "Repubblica Ceca"
+  },
+  "attaccante_2_repubblica_ceca_cze": {
+    "name": "Attaccante 2 (Repubblica Ceca)",
+    "pos": "ATT",
+    "nat": "Repubblica Ceca"
+  },
+  "attaccante_3_repubblica_ceca_cze": {
+    "name": "Attaccante 3 (Repubblica Ceca)",
+    "pos": "ATT",
+    "nat": "Repubblica Ceca"
+  },
+  "attaccante_4_repubblica_ceca_cze": {
+    "name": "Attaccante 4 (Repubblica Ceca)",
+    "pos": "ATT",
+    "nat": "Repubblica Ceca"
+  },
+  "attaccante_5_repubblica_ceca_cze": {
+    "name": "Attaccante 5 (Repubblica Ceca)",
+    "pos": "ATT",
+    "nat": "Repubblica Ceca"
+  },
+  "portiere_1_romania_rou": {
+    "name": "Portiere 1 (Romania)",
+    "pos": "POR",
+    "nat": "Romania"
+  },
+  "portiere_2_romania_rou": {
+    "name": "Portiere 2 (Romania)",
+    "pos": "POR",
+    "nat": "Romania"
+  },
+  "portiere_3_romania_rou": {
+    "name": "Portiere 3 (Romania)",
+    "pos": "POR",
+    "nat": "Romania"
+  },
+  "difensore_1_romania_rou": {
+    "name": "Difensore 1 (Romania)",
+    "pos": "DIF",
+    "nat": "Romania"
+  },
+  "difensore_2_romania_rou": {
+    "name": "Difensore 2 (Romania)",
+    "pos": "DIF",
+    "nat": "Romania"
+  },
+  "difensore_3_romania_rou": {
+    "name": "Difensore 3 (Romania)",
+    "pos": "DIF",
+    "nat": "Romania"
+  },
+  "difensore_4_romania_rou": {
+    "name": "Difensore 4 (Romania)",
+    "pos": "DIF",
+    "nat": "Romania"
+  },
+  "difensore_5_romania_rou": {
+    "name": "Difensore 5 (Romania)",
+    "pos": "DIF",
+    "nat": "Romania"
+  },
+  "difensore_6_romania_rou": {
+    "name": "Difensore 6 (Romania)",
+    "pos": "DIF",
+    "nat": "Romania"
+  },
+  "difensore_7_romania_rou": {
+    "name": "Difensore 7 (Romania)",
+    "pos": "DIF",
+    "nat": "Romania"
+  },
+  "centrocampista_1_romania_rou": {
+    "name": "Centrocampista 1 (Romania)",
+    "pos": "CEN",
+    "nat": "Romania"
+  },
+  "centrocampista_2_romania_rou": {
+    "name": "Centrocampista 2 (Romania)",
+    "pos": "CEN",
+    "nat": "Romania"
+  },
+  "centrocampista_3_romania_rou": {
+    "name": "Centrocampista 3 (Romania)",
+    "pos": "CEN",
+    "nat": "Romania"
+  },
+  "centrocampista_4_romania_rou": {
+    "name": "Centrocampista 4 (Romania)",
+    "pos": "CEN",
+    "nat": "Romania"
+  },
+  "centrocampista_5_romania_rou": {
+    "name": "Centrocampista 5 (Romania)",
+    "pos": "CEN",
+    "nat": "Romania"
+  },
+  "centrocampista_6_romania_rou": {
+    "name": "Centrocampista 6 (Romania)",
+    "pos": "CEN",
+    "nat": "Romania"
+  },
+  "centrocampista_7_romania_rou": {
+    "name": "Centrocampista 7 (Romania)",
+    "pos": "CEN",
+    "nat": "Romania"
+  },
+  "centrocampista_8_romania_rou": {
+    "name": "Centrocampista 8 (Romania)",
+    "pos": "CEN",
+    "nat": "Romania"
+  },
+  "attaccante_1_romania_rou": {
+    "name": "Attaccante 1 (Romania)",
+    "pos": "ATT",
+    "nat": "Romania"
+  },
+  "attaccante_2_romania_rou": {
+    "name": "Attaccante 2 (Romania)",
+    "pos": "ATT",
+    "nat": "Romania"
+  },
+  "attaccante_3_romania_rou": {
+    "name": "Attaccante 3 (Romania)",
+    "pos": "ATT",
+    "nat": "Romania"
+  },
+  "attaccante_4_romania_rou": {
+    "name": "Attaccante 4 (Romania)",
+    "pos": "ATT",
+    "nat": "Romania"
+  },
+  "attaccante_5_romania_rou": {
+    "name": "Attaccante 5 (Romania)",
+    "pos": "ATT",
+    "nat": "Romania"
+  },
+  "portiere_1_russia_rus": {
+    "name": "Portiere 1 (Russia)",
+    "pos": "POR",
+    "nat": "Russia"
+  },
+  "portiere_2_russia_rus": {
+    "name": "Portiere 2 (Russia)",
+    "pos": "POR",
+    "nat": "Russia"
+  },
+  "portiere_3_russia_rus": {
+    "name": "Portiere 3 (Russia)",
+    "pos": "POR",
+    "nat": "Russia"
+  },
+  "difensore_1_russia_rus": {
+    "name": "Difensore 1 (Russia)",
+    "pos": "DIF",
+    "nat": "Russia"
+  },
+  "difensore_2_russia_rus": {
+    "name": "Difensore 2 (Russia)",
+    "pos": "DIF",
+    "nat": "Russia"
+  },
+  "difensore_3_russia_rus": {
+    "name": "Difensore 3 (Russia)",
+    "pos": "DIF",
+    "nat": "Russia"
+  },
+  "difensore_4_russia_rus": {
+    "name": "Difensore 4 (Russia)",
+    "pos": "DIF",
+    "nat": "Russia"
+  },
+  "difensore_5_russia_rus": {
+    "name": "Difensore 5 (Russia)",
+    "pos": "DIF",
+    "nat": "Russia"
+  },
+  "difensore_6_russia_rus": {
+    "name": "Difensore 6 (Russia)",
+    "pos": "DIF",
+    "nat": "Russia"
+  },
+  "difensore_7_russia_rus": {
+    "name": "Difensore 7 (Russia)",
+    "pos": "DIF",
+    "nat": "Russia"
+  },
+  "centrocampista_1_russia_rus": {
+    "name": "Centrocampista 1 (Russia)",
+    "pos": "CEN",
+    "nat": "Russia"
+  },
+  "centrocampista_2_russia_rus": {
+    "name": "Centrocampista 2 (Russia)",
+    "pos": "CEN",
+    "nat": "Russia"
+  },
+  "centrocampista_3_russia_rus": {
+    "name": "Centrocampista 3 (Russia)",
+    "pos": "CEN",
+    "nat": "Russia"
+  },
+  "centrocampista_4_russia_rus": {
+    "name": "Centrocampista 4 (Russia)",
+    "pos": "CEN",
+    "nat": "Russia"
+  },
+  "centrocampista_5_russia_rus": {
+    "name": "Centrocampista 5 (Russia)",
+    "pos": "CEN",
+    "nat": "Russia"
+  },
+  "centrocampista_6_russia_rus": {
+    "name": "Centrocampista 6 (Russia)",
+    "pos": "CEN",
+    "nat": "Russia"
+  },
+  "centrocampista_7_russia_rus": {
+    "name": "Centrocampista 7 (Russia)",
+    "pos": "CEN",
+    "nat": "Russia"
+  },
+  "centrocampista_8_russia_rus": {
+    "name": "Centrocampista 8 (Russia)",
+    "pos": "CEN",
+    "nat": "Russia"
+  },
+  "attaccante_1_russia_rus": {
+    "name": "Attaccante 1 (Russia)",
+    "pos": "ATT",
+    "nat": "Russia"
+  },
+  "attaccante_2_russia_rus": {
+    "name": "Attaccante 2 (Russia)",
+    "pos": "ATT",
+    "nat": "Russia"
+  },
+  "attaccante_3_russia_rus": {
+    "name": "Attaccante 3 (Russia)",
+    "pos": "ATT",
+    "nat": "Russia"
+  },
+  "attaccante_4_russia_rus": {
+    "name": "Attaccante 4 (Russia)",
+    "pos": "ATT",
+    "nat": "Russia"
+  },
+  "attaccante_5_russia_rus": {
+    "name": "Attaccante 5 (Russia)",
+    "pos": "ATT",
+    "nat": "Russia"
+  },
+  "portiere_1_san_marino_smr": {
+    "name": "Portiere 1 (San Marino)",
+    "pos": "POR",
+    "nat": "San Marino"
+  },
+  "portiere_2_san_marino_smr": {
+    "name": "Portiere 2 (San Marino)",
+    "pos": "POR",
+    "nat": "San Marino"
+  },
+  "portiere_3_san_marino_smr": {
+    "name": "Portiere 3 (San Marino)",
+    "pos": "POR",
+    "nat": "San Marino"
+  },
+  "difensore_1_san_marino_smr": {
+    "name": "Difensore 1 (San Marino)",
+    "pos": "DIF",
+    "nat": "San Marino"
+  },
+  "difensore_2_san_marino_smr": {
+    "name": "Difensore 2 (San Marino)",
+    "pos": "DIF",
+    "nat": "San Marino"
+  },
+  "difensore_3_san_marino_smr": {
+    "name": "Difensore 3 (San Marino)",
+    "pos": "DIF",
+    "nat": "San Marino"
+  },
+  "difensore_4_san_marino_smr": {
+    "name": "Difensore 4 (San Marino)",
+    "pos": "DIF",
+    "nat": "San Marino"
+  },
+  "difensore_5_san_marino_smr": {
+    "name": "Difensore 5 (San Marino)",
+    "pos": "DIF",
+    "nat": "San Marino"
+  },
+  "difensore_6_san_marino_smr": {
+    "name": "Difensore 6 (San Marino)",
+    "pos": "DIF",
+    "nat": "San Marino"
+  },
+  "difensore_7_san_marino_smr": {
+    "name": "Difensore 7 (San Marino)",
+    "pos": "DIF",
+    "nat": "San Marino"
+  },
+  "centrocampista_1_san_marino_smr": {
+    "name": "Centrocampista 1 (San Marino)",
+    "pos": "CEN",
+    "nat": "San Marino"
+  },
+  "centrocampista_2_san_marino_smr": {
+    "name": "Centrocampista 2 (San Marino)",
+    "pos": "CEN",
+    "nat": "San Marino"
+  },
+  "centrocampista_3_san_marino_smr": {
+    "name": "Centrocampista 3 (San Marino)",
+    "pos": "CEN",
+    "nat": "San Marino"
+  },
+  "centrocampista_4_san_marino_smr": {
+    "name": "Centrocampista 4 (San Marino)",
+    "pos": "CEN",
+    "nat": "San Marino"
+  },
+  "centrocampista_5_san_marino_smr": {
+    "name": "Centrocampista 5 (San Marino)",
+    "pos": "CEN",
+    "nat": "San Marino"
+  },
+  "centrocampista_6_san_marino_smr": {
+    "name": "Centrocampista 6 (San Marino)",
+    "pos": "CEN",
+    "nat": "San Marino"
+  },
+  "centrocampista_7_san_marino_smr": {
+    "name": "Centrocampista 7 (San Marino)",
+    "pos": "CEN",
+    "nat": "San Marino"
+  },
+  "centrocampista_8_san_marino_smr": {
+    "name": "Centrocampista 8 (San Marino)",
+    "pos": "CEN",
+    "nat": "San Marino"
+  },
+  "attaccante_1_san_marino_smr": {
+    "name": "Attaccante 1 (San Marino)",
+    "pos": "ATT",
+    "nat": "San Marino"
+  },
+  "attaccante_2_san_marino_smr": {
+    "name": "Attaccante 2 (San Marino)",
+    "pos": "ATT",
+    "nat": "San Marino"
+  },
+  "attaccante_3_san_marino_smr": {
+    "name": "Attaccante 3 (San Marino)",
+    "pos": "ATT",
+    "nat": "San Marino"
+  },
+  "attaccante_4_san_marino_smr": {
+    "name": "Attaccante 4 (San Marino)",
+    "pos": "ATT",
+    "nat": "San Marino"
+  },
+  "attaccante_5_san_marino_smr": {
+    "name": "Attaccante 5 (San Marino)",
+    "pos": "ATT",
+    "nat": "San Marino"
+  },
+  "portiere_1_scozia_sco": {
+    "name": "Portiere 1 (Scozia)",
+    "pos": "POR",
+    "nat": "Scozia"
+  },
+  "portiere_2_scozia_sco": {
+    "name": "Portiere 2 (Scozia)",
+    "pos": "POR",
+    "nat": "Scozia"
+  },
+  "portiere_3_scozia_sco": {
+    "name": "Portiere 3 (Scozia)",
+    "pos": "POR",
+    "nat": "Scozia"
+  },
+  "difensore_1_scozia_sco": {
+    "name": "Difensore 1 (Scozia)",
+    "pos": "DIF",
+    "nat": "Scozia"
+  },
+  "difensore_2_scozia_sco": {
+    "name": "Difensore 2 (Scozia)",
+    "pos": "DIF",
+    "nat": "Scozia"
+  },
+  "difensore_3_scozia_sco": {
+    "name": "Difensore 3 (Scozia)",
+    "pos": "DIF",
+    "nat": "Scozia"
+  },
+  "difensore_4_scozia_sco": {
+    "name": "Difensore 4 (Scozia)",
+    "pos": "DIF",
+    "nat": "Scozia"
+  },
+  "difensore_5_scozia_sco": {
+    "name": "Difensore 5 (Scozia)",
+    "pos": "DIF",
+    "nat": "Scozia"
+  },
+  "difensore_6_scozia_sco": {
+    "name": "Difensore 6 (Scozia)",
+    "pos": "DIF",
+    "nat": "Scozia"
+  },
+  "difensore_7_scozia_sco": {
+    "name": "Difensore 7 (Scozia)",
+    "pos": "DIF",
+    "nat": "Scozia"
+  },
+  "centrocampista_1_scozia_sco": {
+    "name": "Centrocampista 1 (Scozia)",
+    "pos": "CEN",
+    "nat": "Scozia"
+  },
+  "centrocampista_2_scozia_sco": {
+    "name": "Centrocampista 2 (Scozia)",
+    "pos": "CEN",
+    "nat": "Scozia"
+  },
+  "centrocampista_3_scozia_sco": {
+    "name": "Centrocampista 3 (Scozia)",
+    "pos": "CEN",
+    "nat": "Scozia"
+  },
+  "centrocampista_4_scozia_sco": {
+    "name": "Centrocampista 4 (Scozia)",
+    "pos": "CEN",
+    "nat": "Scozia"
+  },
+  "centrocampista_5_scozia_sco": {
+    "name": "Centrocampista 5 (Scozia)",
+    "pos": "CEN",
+    "nat": "Scozia"
+  },
+  "centrocampista_6_scozia_sco": {
+    "name": "Centrocampista 6 (Scozia)",
+    "pos": "CEN",
+    "nat": "Scozia"
+  },
+  "centrocampista_7_scozia_sco": {
+    "name": "Centrocampista 7 (Scozia)",
+    "pos": "CEN",
+    "nat": "Scozia"
+  },
+  "centrocampista_8_scozia_sco": {
+    "name": "Centrocampista 8 (Scozia)",
+    "pos": "CEN",
+    "nat": "Scozia"
+  },
+  "attaccante_1_scozia_sco": {
+    "name": "Attaccante 1 (Scozia)",
+    "pos": "ATT",
+    "nat": "Scozia"
+  },
+  "attaccante_2_scozia_sco": {
+    "name": "Attaccante 2 (Scozia)",
+    "pos": "ATT",
+    "nat": "Scozia"
+  },
+  "attaccante_3_scozia_sco": {
+    "name": "Attaccante 3 (Scozia)",
+    "pos": "ATT",
+    "nat": "Scozia"
+  },
+  "attaccante_4_scozia_sco": {
+    "name": "Attaccante 4 (Scozia)",
+    "pos": "ATT",
+    "nat": "Scozia"
+  },
+  "attaccante_5_scozia_sco": {
+    "name": "Attaccante 5 (Scozia)",
+    "pos": "ATT",
+    "nat": "Scozia"
+  },
+  "portiere_1_serbia_srb": {
+    "name": "Portiere 1 (Serbia)",
+    "pos": "POR",
+    "nat": "Serbia"
+  },
+  "portiere_2_serbia_srb": {
+    "name": "Portiere 2 (Serbia)",
+    "pos": "POR",
+    "nat": "Serbia"
+  },
+  "portiere_3_serbia_srb": {
+    "name": "Portiere 3 (Serbia)",
+    "pos": "POR",
+    "nat": "Serbia"
+  },
+  "difensore_1_serbia_srb": {
+    "name": "Difensore 1 (Serbia)",
+    "pos": "DIF",
+    "nat": "Serbia"
+  },
+  "difensore_2_serbia_srb": {
+    "name": "Difensore 2 (Serbia)",
+    "pos": "DIF",
+    "nat": "Serbia"
+  },
+  "difensore_3_serbia_srb": {
+    "name": "Difensore 3 (Serbia)",
+    "pos": "DIF",
+    "nat": "Serbia"
+  },
+  "difensore_4_serbia_srb": {
+    "name": "Difensore 4 (Serbia)",
+    "pos": "DIF",
+    "nat": "Serbia"
+  },
+  "difensore_5_serbia_srb": {
+    "name": "Difensore 5 (Serbia)",
+    "pos": "DIF",
+    "nat": "Serbia"
+  },
+  "difensore_6_serbia_srb": {
+    "name": "Difensore 6 (Serbia)",
+    "pos": "DIF",
+    "nat": "Serbia"
+  },
+  "difensore_7_serbia_srb": {
+    "name": "Difensore 7 (Serbia)",
+    "pos": "DIF",
+    "nat": "Serbia"
+  },
+  "centrocampista_1_serbia_srb": {
+    "name": "Centrocampista 1 (Serbia)",
+    "pos": "CEN",
+    "nat": "Serbia"
+  },
+  "centrocampista_2_serbia_srb": {
+    "name": "Centrocampista 2 (Serbia)",
+    "pos": "CEN",
+    "nat": "Serbia"
+  },
+  "centrocampista_3_serbia_srb": {
+    "name": "Centrocampista 3 (Serbia)",
+    "pos": "CEN",
+    "nat": "Serbia"
+  },
+  "centrocampista_4_serbia_srb": {
+    "name": "Centrocampista 4 (Serbia)",
+    "pos": "CEN",
+    "nat": "Serbia"
+  },
+  "centrocampista_5_serbia_srb": {
+    "name": "Centrocampista 5 (Serbia)",
+    "pos": "CEN",
+    "nat": "Serbia"
+  },
+  "centrocampista_6_serbia_srb": {
+    "name": "Centrocampista 6 (Serbia)",
+    "pos": "CEN",
+    "nat": "Serbia"
+  },
+  "centrocampista_7_serbia_srb": {
+    "name": "Centrocampista 7 (Serbia)",
+    "pos": "CEN",
+    "nat": "Serbia"
+  },
+  "centrocampista_8_serbia_srb": {
+    "name": "Centrocampista 8 (Serbia)",
+    "pos": "CEN",
+    "nat": "Serbia"
+  },
+  "attaccante_1_serbia_srb": {
+    "name": "Attaccante 1 (Serbia)",
+    "pos": "ATT",
+    "nat": "Serbia"
+  },
+  "attaccante_2_serbia_srb": {
+    "name": "Attaccante 2 (Serbia)",
+    "pos": "ATT",
+    "nat": "Serbia"
+  },
+  "attaccante_3_serbia_srb": {
+    "name": "Attaccante 3 (Serbia)",
+    "pos": "ATT",
+    "nat": "Serbia"
+  },
+  "attaccante_4_serbia_srb": {
+    "name": "Attaccante 4 (Serbia)",
+    "pos": "ATT",
+    "nat": "Serbia"
+  },
+  "attaccante_5_serbia_srb": {
+    "name": "Attaccante 5 (Serbia)",
+    "pos": "ATT",
+    "nat": "Serbia"
+  },
+  "portiere_1_slovacchia_svk": {
+    "name": "Portiere 1 (Slovacchia)",
+    "pos": "POR",
+    "nat": "Slovacchia"
+  },
+  "portiere_2_slovacchia_svk": {
+    "name": "Portiere 2 (Slovacchia)",
+    "pos": "POR",
+    "nat": "Slovacchia"
+  },
+  "portiere_3_slovacchia_svk": {
+    "name": "Portiere 3 (Slovacchia)",
+    "pos": "POR",
+    "nat": "Slovacchia"
+  },
+  "difensore_1_slovacchia_svk": {
+    "name": "Difensore 1 (Slovacchia)",
+    "pos": "DIF",
+    "nat": "Slovacchia"
+  },
+  "difensore_2_slovacchia_svk": {
+    "name": "Difensore 2 (Slovacchia)",
+    "pos": "DIF",
+    "nat": "Slovacchia"
+  },
+  "difensore_3_slovacchia_svk": {
+    "name": "Difensore 3 (Slovacchia)",
+    "pos": "DIF",
+    "nat": "Slovacchia"
+  },
+  "difensore_4_slovacchia_svk": {
+    "name": "Difensore 4 (Slovacchia)",
+    "pos": "DIF",
+    "nat": "Slovacchia"
+  },
+  "difensore_5_slovacchia_svk": {
+    "name": "Difensore 5 (Slovacchia)",
+    "pos": "DIF",
+    "nat": "Slovacchia"
+  },
+  "difensore_6_slovacchia_svk": {
+    "name": "Difensore 6 (Slovacchia)",
+    "pos": "DIF",
+    "nat": "Slovacchia"
+  },
+  "difensore_7_slovacchia_svk": {
+    "name": "Difensore 7 (Slovacchia)",
+    "pos": "DIF",
+    "nat": "Slovacchia"
+  },
+  "centrocampista_1_slovacchia_svk": {
+    "name": "Centrocampista 1 (Slovacchia)",
+    "pos": "CEN",
+    "nat": "Slovacchia"
+  },
+  "centrocampista_2_slovacchia_svk": {
+    "name": "Centrocampista 2 (Slovacchia)",
+    "pos": "CEN",
+    "nat": "Slovacchia"
+  },
+  "centrocampista_3_slovacchia_svk": {
+    "name": "Centrocampista 3 (Slovacchia)",
+    "pos": "CEN",
+    "nat": "Slovacchia"
+  },
+  "centrocampista_4_slovacchia_svk": {
+    "name": "Centrocampista 4 (Slovacchia)",
+    "pos": "CEN",
+    "nat": "Slovacchia"
+  },
+  "centrocampista_5_slovacchia_svk": {
+    "name": "Centrocampista 5 (Slovacchia)",
+    "pos": "CEN",
+    "nat": "Slovacchia"
+  },
+  "centrocampista_6_slovacchia_svk": {
+    "name": "Centrocampista 6 (Slovacchia)",
+    "pos": "CEN",
+    "nat": "Slovacchia"
+  },
+  "centrocampista_7_slovacchia_svk": {
+    "name": "Centrocampista 7 (Slovacchia)",
+    "pos": "CEN",
+    "nat": "Slovacchia"
+  },
+  "centrocampista_8_slovacchia_svk": {
+    "name": "Centrocampista 8 (Slovacchia)",
+    "pos": "CEN",
+    "nat": "Slovacchia"
+  },
+  "attaccante_1_slovacchia_svk": {
+    "name": "Attaccante 1 (Slovacchia)",
+    "pos": "ATT",
+    "nat": "Slovacchia"
+  },
+  "attaccante_2_slovacchia_svk": {
+    "name": "Attaccante 2 (Slovacchia)",
+    "pos": "ATT",
+    "nat": "Slovacchia"
+  },
+  "attaccante_3_slovacchia_svk": {
+    "name": "Attaccante 3 (Slovacchia)",
+    "pos": "ATT",
+    "nat": "Slovacchia"
+  },
+  "attaccante_4_slovacchia_svk": {
+    "name": "Attaccante 4 (Slovacchia)",
+    "pos": "ATT",
+    "nat": "Slovacchia"
+  },
+  "attaccante_5_slovacchia_svk": {
+    "name": "Attaccante 5 (Slovacchia)",
+    "pos": "ATT",
+    "nat": "Slovacchia"
+  },
+  "portiere_1_slovenia_svn": {
+    "name": "Portiere 1 (Slovenia)",
+    "pos": "POR",
+    "nat": "Slovenia"
+  },
+  "portiere_2_slovenia_svn": {
+    "name": "Portiere 2 (Slovenia)",
+    "pos": "POR",
+    "nat": "Slovenia"
+  },
+  "portiere_3_slovenia_svn": {
+    "name": "Portiere 3 (Slovenia)",
+    "pos": "POR",
+    "nat": "Slovenia"
+  },
+  "difensore_1_slovenia_svn": {
+    "name": "Difensore 1 (Slovenia)",
+    "pos": "DIF",
+    "nat": "Slovenia"
+  },
+  "difensore_2_slovenia_svn": {
+    "name": "Difensore 2 (Slovenia)",
+    "pos": "DIF",
+    "nat": "Slovenia"
+  },
+  "difensore_3_slovenia_svn": {
+    "name": "Difensore 3 (Slovenia)",
+    "pos": "DIF",
+    "nat": "Slovenia"
+  },
+  "difensore_4_slovenia_svn": {
+    "name": "Difensore 4 (Slovenia)",
+    "pos": "DIF",
+    "nat": "Slovenia"
+  },
+  "difensore_5_slovenia_svn": {
+    "name": "Difensore 5 (Slovenia)",
+    "pos": "DIF",
+    "nat": "Slovenia"
+  },
+  "difensore_6_slovenia_svn": {
+    "name": "Difensore 6 (Slovenia)",
+    "pos": "DIF",
+    "nat": "Slovenia"
+  },
+  "difensore_7_slovenia_svn": {
+    "name": "Difensore 7 (Slovenia)",
+    "pos": "DIF",
+    "nat": "Slovenia"
+  },
+  "centrocampista_1_slovenia_svn": {
+    "name": "Centrocampista 1 (Slovenia)",
+    "pos": "CEN",
+    "nat": "Slovenia"
+  },
+  "centrocampista_2_slovenia_svn": {
+    "name": "Centrocampista 2 (Slovenia)",
+    "pos": "CEN",
+    "nat": "Slovenia"
+  },
+  "centrocampista_3_slovenia_svn": {
+    "name": "Centrocampista 3 (Slovenia)",
+    "pos": "CEN",
+    "nat": "Slovenia"
+  },
+  "centrocampista_4_slovenia_svn": {
+    "name": "Centrocampista 4 (Slovenia)",
+    "pos": "CEN",
+    "nat": "Slovenia"
+  },
+  "centrocampista_5_slovenia_svn": {
+    "name": "Centrocampista 5 (Slovenia)",
+    "pos": "CEN",
+    "nat": "Slovenia"
+  },
+  "centrocampista_6_slovenia_svn": {
+    "name": "Centrocampista 6 (Slovenia)",
+    "pos": "CEN",
+    "nat": "Slovenia"
+  },
+  "centrocampista_7_slovenia_svn": {
+    "name": "Centrocampista 7 (Slovenia)",
+    "pos": "CEN",
+    "nat": "Slovenia"
+  },
+  "centrocampista_8_slovenia_svn": {
+    "name": "Centrocampista 8 (Slovenia)",
+    "pos": "CEN",
+    "nat": "Slovenia"
+  },
+  "attaccante_1_slovenia_svn": {
+    "name": "Attaccante 1 (Slovenia)",
+    "pos": "ATT",
+    "nat": "Slovenia"
+  },
+  "attaccante_2_slovenia_svn": {
+    "name": "Attaccante 2 (Slovenia)",
+    "pos": "ATT",
+    "nat": "Slovenia"
+  },
+  "attaccante_3_slovenia_svn": {
+    "name": "Attaccante 3 (Slovenia)",
+    "pos": "ATT",
+    "nat": "Slovenia"
+  },
+  "attaccante_4_slovenia_svn": {
+    "name": "Attaccante 4 (Slovenia)",
+    "pos": "ATT",
+    "nat": "Slovenia"
+  },
+  "attaccante_5_slovenia_svn": {
+    "name": "Attaccante 5 (Slovenia)",
+    "pos": "ATT",
+    "nat": "Slovenia"
+  },
+  "portiere_1_spagna_esp": {
+    "name": "Portiere 1 (Spagna)",
+    "pos": "POR",
+    "nat": "Spagna"
+  },
+  "portiere_2_spagna_esp": {
+    "name": "Portiere 2 (Spagna)",
+    "pos": "POR",
+    "nat": "Spagna"
+  },
+  "portiere_3_spagna_esp": {
+    "name": "Portiere 3 (Spagna)",
+    "pos": "POR",
+    "nat": "Spagna"
+  },
+  "difensore_1_spagna_esp": {
+    "name": "Difensore 1 (Spagna)",
+    "pos": "DIF",
+    "nat": "Spagna"
+  },
+  "difensore_2_spagna_esp": {
+    "name": "Difensore 2 (Spagna)",
+    "pos": "DIF",
+    "nat": "Spagna"
+  },
+  "difensore_3_spagna_esp": {
+    "name": "Difensore 3 (Spagna)",
+    "pos": "DIF",
+    "nat": "Spagna"
+  },
+  "difensore_4_spagna_esp": {
+    "name": "Difensore 4 (Spagna)",
+    "pos": "DIF",
+    "nat": "Spagna"
+  },
+  "difensore_5_spagna_esp": {
+    "name": "Difensore 5 (Spagna)",
+    "pos": "DIF",
+    "nat": "Spagna"
+  },
+  "difensore_6_spagna_esp": {
+    "name": "Difensore 6 (Spagna)",
+    "pos": "DIF",
+    "nat": "Spagna"
+  },
+  "difensore_7_spagna_esp": {
+    "name": "Difensore 7 (Spagna)",
+    "pos": "DIF",
+    "nat": "Spagna"
+  },
+  "centrocampista_1_spagna_esp": {
+    "name": "Centrocampista 1 (Spagna)",
+    "pos": "CEN",
+    "nat": "Spagna"
+  },
+  "centrocampista_2_spagna_esp": {
+    "name": "Centrocampista 2 (Spagna)",
+    "pos": "CEN",
+    "nat": "Spagna"
+  },
+  "centrocampista_3_spagna_esp": {
+    "name": "Centrocampista 3 (Spagna)",
+    "pos": "CEN",
+    "nat": "Spagna"
+  },
+  "centrocampista_4_spagna_esp": {
+    "name": "Centrocampista 4 (Spagna)",
+    "pos": "CEN",
+    "nat": "Spagna"
+  },
+  "centrocampista_5_spagna_esp": {
+    "name": "Centrocampista 5 (Spagna)",
+    "pos": "CEN",
+    "nat": "Spagna"
+  },
+  "centrocampista_6_spagna_esp": {
+    "name": "Centrocampista 6 (Spagna)",
+    "pos": "CEN",
+    "nat": "Spagna"
+  },
+  "centrocampista_7_spagna_esp": {
+    "name": "Centrocampista 7 (Spagna)",
+    "pos": "CEN",
+    "nat": "Spagna"
+  },
+  "centrocampista_8_spagna_esp": {
+    "name": "Centrocampista 8 (Spagna)",
+    "pos": "CEN",
+    "nat": "Spagna"
+  },
+  "attaccante_1_spagna_esp": {
+    "name": "Attaccante 1 (Spagna)",
+    "pos": "ATT",
+    "nat": "Spagna"
+  },
+  "attaccante_2_spagna_esp": {
+    "name": "Attaccante 2 (Spagna)",
+    "pos": "ATT",
+    "nat": "Spagna"
+  },
+  "attaccante_3_spagna_esp": {
+    "name": "Attaccante 3 (Spagna)",
+    "pos": "ATT",
+    "nat": "Spagna"
+  },
+  "attaccante_4_spagna_esp": {
+    "name": "Attaccante 4 (Spagna)",
+    "pos": "ATT",
+    "nat": "Spagna"
+  },
+  "attaccante_5_spagna_esp": {
+    "name": "Attaccante 5 (Spagna)",
+    "pos": "ATT",
+    "nat": "Spagna"
+  },
+  "portiere_1_svezia_swe": {
+    "name": "Portiere 1 (Svezia)",
+    "pos": "POR",
+    "nat": "Svezia"
+  },
+  "portiere_2_svezia_swe": {
+    "name": "Portiere 2 (Svezia)",
+    "pos": "POR",
+    "nat": "Svezia"
+  },
+  "portiere_3_svezia_swe": {
+    "name": "Portiere 3 (Svezia)",
+    "pos": "POR",
+    "nat": "Svezia"
+  },
+  "difensore_1_svezia_swe": {
+    "name": "Difensore 1 (Svezia)",
+    "pos": "DIF",
+    "nat": "Svezia"
+  },
+  "difensore_2_svezia_swe": {
+    "name": "Difensore 2 (Svezia)",
+    "pos": "DIF",
+    "nat": "Svezia"
+  },
+  "difensore_3_svezia_swe": {
+    "name": "Difensore 3 (Svezia)",
+    "pos": "DIF",
+    "nat": "Svezia"
+  },
+  "difensore_4_svezia_swe": {
+    "name": "Difensore 4 (Svezia)",
+    "pos": "DIF",
+    "nat": "Svezia"
+  },
+  "difensore_5_svezia_swe": {
+    "name": "Difensore 5 (Svezia)",
+    "pos": "DIF",
+    "nat": "Svezia"
+  },
+  "difensore_6_svezia_swe": {
+    "name": "Difensore 6 (Svezia)",
+    "pos": "DIF",
+    "nat": "Svezia"
+  },
+  "difensore_7_svezia_swe": {
+    "name": "Difensore 7 (Svezia)",
+    "pos": "DIF",
+    "nat": "Svezia"
+  },
+  "centrocampista_1_svezia_swe": {
+    "name": "Centrocampista 1 (Svezia)",
+    "pos": "CEN",
+    "nat": "Svezia"
+  },
+  "centrocampista_2_svezia_swe": {
+    "name": "Centrocampista 2 (Svezia)",
+    "pos": "CEN",
+    "nat": "Svezia"
+  },
+  "centrocampista_3_svezia_swe": {
+    "name": "Centrocampista 3 (Svezia)",
+    "pos": "CEN",
+    "nat": "Svezia"
+  },
+  "centrocampista_4_svezia_swe": {
+    "name": "Centrocampista 4 (Svezia)",
+    "pos": "CEN",
+    "nat": "Svezia"
+  },
+  "centrocampista_5_svezia_swe": {
+    "name": "Centrocampista 5 (Svezia)",
+    "pos": "CEN",
+    "nat": "Svezia"
+  },
+  "centrocampista_6_svezia_swe": {
+    "name": "Centrocampista 6 (Svezia)",
+    "pos": "CEN",
+    "nat": "Svezia"
+  },
+  "centrocampista_7_svezia_swe": {
+    "name": "Centrocampista 7 (Svezia)",
+    "pos": "CEN",
+    "nat": "Svezia"
+  },
+  "centrocampista_8_svezia_swe": {
+    "name": "Centrocampista 8 (Svezia)",
+    "pos": "CEN",
+    "nat": "Svezia"
+  },
+  "attaccante_1_svezia_swe": {
+    "name": "Attaccante 1 (Svezia)",
+    "pos": "ATT",
+    "nat": "Svezia"
+  },
+  "attaccante_2_svezia_swe": {
+    "name": "Attaccante 2 (Svezia)",
+    "pos": "ATT",
+    "nat": "Svezia"
+  },
+  "attaccante_3_svezia_swe": {
+    "name": "Attaccante 3 (Svezia)",
+    "pos": "ATT",
+    "nat": "Svezia"
+  },
+  "attaccante_4_svezia_swe": {
+    "name": "Attaccante 4 (Svezia)",
+    "pos": "ATT",
+    "nat": "Svezia"
+  },
+  "attaccante_5_svezia_swe": {
+    "name": "Attaccante 5 (Svezia)",
+    "pos": "ATT",
+    "nat": "Svezia"
+  },
+  "portiere_1_svizzera_sui": {
+    "name": "Portiere 1 (Svizzera)",
+    "pos": "POR",
+    "nat": "Svizzera"
+  },
+  "portiere_2_svizzera_sui": {
+    "name": "Portiere 2 (Svizzera)",
+    "pos": "POR",
+    "nat": "Svizzera"
+  },
+  "portiere_3_svizzera_sui": {
+    "name": "Portiere 3 (Svizzera)",
+    "pos": "POR",
+    "nat": "Svizzera"
+  },
+  "difensore_1_svizzera_sui": {
+    "name": "Difensore 1 (Svizzera)",
+    "pos": "DIF",
+    "nat": "Svizzera"
+  },
+  "difensore_2_svizzera_sui": {
+    "name": "Difensore 2 (Svizzera)",
+    "pos": "DIF",
+    "nat": "Svizzera"
+  },
+  "difensore_3_svizzera_sui": {
+    "name": "Difensore 3 (Svizzera)",
+    "pos": "DIF",
+    "nat": "Svizzera"
+  },
+  "difensore_4_svizzera_sui": {
+    "name": "Difensore 4 (Svizzera)",
+    "pos": "DIF",
+    "nat": "Svizzera"
+  },
+  "difensore_5_svizzera_sui": {
+    "name": "Difensore 5 (Svizzera)",
+    "pos": "DIF",
+    "nat": "Svizzera"
+  },
+  "difensore_6_svizzera_sui": {
+    "name": "Difensore 6 (Svizzera)",
+    "pos": "DIF",
+    "nat": "Svizzera"
+  },
+  "difensore_7_svizzera_sui": {
+    "name": "Difensore 7 (Svizzera)",
+    "pos": "DIF",
+    "nat": "Svizzera"
+  },
+  "centrocampista_1_svizzera_sui": {
+    "name": "Centrocampista 1 (Svizzera)",
+    "pos": "CEN",
+    "nat": "Svizzera"
+  },
+  "centrocampista_2_svizzera_sui": {
+    "name": "Centrocampista 2 (Svizzera)",
+    "pos": "CEN",
+    "nat": "Svizzera"
+  },
+  "centrocampista_3_svizzera_sui": {
+    "name": "Centrocampista 3 (Svizzera)",
+    "pos": "CEN",
+    "nat": "Svizzera"
+  },
+  "centrocampista_4_svizzera_sui": {
+    "name": "Centrocampista 4 (Svizzera)",
+    "pos": "CEN",
+    "nat": "Svizzera"
+  },
+  "centrocampista_5_svizzera_sui": {
+    "name": "Centrocampista 5 (Svizzera)",
+    "pos": "CEN",
+    "nat": "Svizzera"
+  },
+  "centrocampista_6_svizzera_sui": {
+    "name": "Centrocampista 6 (Svizzera)",
+    "pos": "CEN",
+    "nat": "Svizzera"
+  },
+  "centrocampista_7_svizzera_sui": {
+    "name": "Centrocampista 7 (Svizzera)",
+    "pos": "CEN",
+    "nat": "Svizzera"
+  },
+  "centrocampista_8_svizzera_sui": {
+    "name": "Centrocampista 8 (Svizzera)",
+    "pos": "CEN",
+    "nat": "Svizzera"
+  },
+  "attaccante_1_svizzera_sui": {
+    "name": "Attaccante 1 (Svizzera)",
+    "pos": "ATT",
+    "nat": "Svizzera"
+  },
+  "attaccante_2_svizzera_sui": {
+    "name": "Attaccante 2 (Svizzera)",
+    "pos": "ATT",
+    "nat": "Svizzera"
+  },
+  "attaccante_3_svizzera_sui": {
+    "name": "Attaccante 3 (Svizzera)",
+    "pos": "ATT",
+    "nat": "Svizzera"
+  },
+  "attaccante_4_svizzera_sui": {
+    "name": "Attaccante 4 (Svizzera)",
+    "pos": "ATT",
+    "nat": "Svizzera"
+  },
+  "attaccante_5_svizzera_sui": {
+    "name": "Attaccante 5 (Svizzera)",
+    "pos": "ATT",
+    "nat": "Svizzera"
+  },
+  "portiere_1_turchia_tur": {
+    "name": "Portiere 1 (Turchia)",
+    "pos": "POR",
+    "nat": "Turchia"
+  },
+  "portiere_2_turchia_tur": {
+    "name": "Portiere 2 (Turchia)",
+    "pos": "POR",
+    "nat": "Turchia"
+  },
+  "portiere_3_turchia_tur": {
+    "name": "Portiere 3 (Turchia)",
+    "pos": "POR",
+    "nat": "Turchia"
+  },
+  "difensore_1_turchia_tur": {
+    "name": "Difensore 1 (Turchia)",
+    "pos": "DIF",
+    "nat": "Turchia"
+  },
+  "difensore_2_turchia_tur": {
+    "name": "Difensore 2 (Turchia)",
+    "pos": "DIF",
+    "nat": "Turchia"
+  },
+  "difensore_3_turchia_tur": {
+    "name": "Difensore 3 (Turchia)",
+    "pos": "DIF",
+    "nat": "Turchia"
+  },
+  "difensore_4_turchia_tur": {
+    "name": "Difensore 4 (Turchia)",
+    "pos": "DIF",
+    "nat": "Turchia"
+  },
+  "difensore_5_turchia_tur": {
+    "name": "Difensore 5 (Turchia)",
+    "pos": "DIF",
+    "nat": "Turchia"
+  },
+  "difensore_6_turchia_tur": {
+    "name": "Difensore 6 (Turchia)",
+    "pos": "DIF",
+    "nat": "Turchia"
+  },
+  "difensore_7_turchia_tur": {
+    "name": "Difensore 7 (Turchia)",
+    "pos": "DIF",
+    "nat": "Turchia"
+  },
+  "centrocampista_1_turchia_tur": {
+    "name": "Centrocampista 1 (Turchia)",
+    "pos": "CEN",
+    "nat": "Turchia"
+  },
+  "centrocampista_2_turchia_tur": {
+    "name": "Centrocampista 2 (Turchia)",
+    "pos": "CEN",
+    "nat": "Turchia"
+  },
+  "centrocampista_3_turchia_tur": {
+    "name": "Centrocampista 3 (Turchia)",
+    "pos": "CEN",
+    "nat": "Turchia"
+  },
+  "centrocampista_4_turchia_tur": {
+    "name": "Centrocampista 4 (Turchia)",
+    "pos": "CEN",
+    "nat": "Turchia"
+  },
+  "centrocampista_5_turchia_tur": {
+    "name": "Centrocampista 5 (Turchia)",
+    "pos": "CEN",
+    "nat": "Turchia"
+  },
+  "centrocampista_6_turchia_tur": {
+    "name": "Centrocampista 6 (Turchia)",
+    "pos": "CEN",
+    "nat": "Turchia"
+  },
+  "centrocampista_7_turchia_tur": {
+    "name": "Centrocampista 7 (Turchia)",
+    "pos": "CEN",
+    "nat": "Turchia"
+  },
+  "centrocampista_8_turchia_tur": {
+    "name": "Centrocampista 8 (Turchia)",
+    "pos": "CEN",
+    "nat": "Turchia"
+  },
+  "attaccante_1_turchia_tur": {
+    "name": "Attaccante 1 (Turchia)",
+    "pos": "ATT",
+    "nat": "Turchia"
+  },
+  "attaccante_2_turchia_tur": {
+    "name": "Attaccante 2 (Turchia)",
+    "pos": "ATT",
+    "nat": "Turchia"
+  },
+  "attaccante_3_turchia_tur": {
+    "name": "Attaccante 3 (Turchia)",
+    "pos": "ATT",
+    "nat": "Turchia"
+  },
+  "attaccante_4_turchia_tur": {
+    "name": "Attaccante 4 (Turchia)",
+    "pos": "ATT",
+    "nat": "Turchia"
+  },
+  "attaccante_5_turchia_tur": {
+    "name": "Attaccante 5 (Turchia)",
+    "pos": "ATT",
+    "nat": "Turchia"
+  },
+  "portiere_1_ucraina_ukr": {
+    "name": "Portiere 1 (Ucraina)",
+    "pos": "POR",
+    "nat": "Ucraina"
+  },
+  "portiere_2_ucraina_ukr": {
+    "name": "Portiere 2 (Ucraina)",
+    "pos": "POR",
+    "nat": "Ucraina"
+  },
+  "portiere_3_ucraina_ukr": {
+    "name": "Portiere 3 (Ucraina)",
+    "pos": "POR",
+    "nat": "Ucraina"
+  },
+  "difensore_1_ucraina_ukr": {
+    "name": "Difensore 1 (Ucraina)",
+    "pos": "DIF",
+    "nat": "Ucraina"
+  },
+  "difensore_2_ucraina_ukr": {
+    "name": "Difensore 2 (Ucraina)",
+    "pos": "DIF",
+    "nat": "Ucraina"
+  },
+  "difensore_3_ucraina_ukr": {
+    "name": "Difensore 3 (Ucraina)",
+    "pos": "DIF",
+    "nat": "Ucraina"
+  },
+  "difensore_4_ucraina_ukr": {
+    "name": "Difensore 4 (Ucraina)",
+    "pos": "DIF",
+    "nat": "Ucraina"
+  },
+  "difensore_5_ucraina_ukr": {
+    "name": "Difensore 5 (Ucraina)",
+    "pos": "DIF",
+    "nat": "Ucraina"
+  },
+  "difensore_6_ucraina_ukr": {
+    "name": "Difensore 6 (Ucraina)",
+    "pos": "DIF",
+    "nat": "Ucraina"
+  },
+  "difensore_7_ucraina_ukr": {
+    "name": "Difensore 7 (Ucraina)",
+    "pos": "DIF",
+    "nat": "Ucraina"
+  },
+  "centrocampista_1_ucraina_ukr": {
+    "name": "Centrocampista 1 (Ucraina)",
+    "pos": "CEN",
+    "nat": "Ucraina"
+  },
+  "centrocampista_2_ucraina_ukr": {
+    "name": "Centrocampista 2 (Ucraina)",
+    "pos": "CEN",
+    "nat": "Ucraina"
+  },
+  "centrocampista_3_ucraina_ukr": {
+    "name": "Centrocampista 3 (Ucraina)",
+    "pos": "CEN",
+    "nat": "Ucraina"
+  },
+  "centrocampista_4_ucraina_ukr": {
+    "name": "Centrocampista 4 (Ucraina)",
+    "pos": "CEN",
+    "nat": "Ucraina"
+  },
+  "centrocampista_5_ucraina_ukr": {
+    "name": "Centrocampista 5 (Ucraina)",
+    "pos": "CEN",
+    "nat": "Ucraina"
+  },
+  "centrocampista_6_ucraina_ukr": {
+    "name": "Centrocampista 6 (Ucraina)",
+    "pos": "CEN",
+    "nat": "Ucraina"
+  },
+  "centrocampista_7_ucraina_ukr": {
+    "name": "Centrocampista 7 (Ucraina)",
+    "pos": "CEN",
+    "nat": "Ucraina"
+  },
+  "centrocampista_8_ucraina_ukr": {
+    "name": "Centrocampista 8 (Ucraina)",
+    "pos": "CEN",
+    "nat": "Ucraina"
+  },
+  "attaccante_1_ucraina_ukr": {
+    "name": "Attaccante 1 (Ucraina)",
+    "pos": "ATT",
+    "nat": "Ucraina"
+  },
+  "attaccante_2_ucraina_ukr": {
+    "name": "Attaccante 2 (Ucraina)",
+    "pos": "ATT",
+    "nat": "Ucraina"
+  },
+  "attaccante_3_ucraina_ukr": {
+    "name": "Attaccante 3 (Ucraina)",
+    "pos": "ATT",
+    "nat": "Ucraina"
+  },
+  "attaccante_4_ucraina_ukr": {
+    "name": "Attaccante 4 (Ucraina)",
+    "pos": "ATT",
+    "nat": "Ucraina"
+  },
+  "attaccante_5_ucraina_ukr": {
+    "name": "Attaccante 5 (Ucraina)",
+    "pos": "ATT",
+    "nat": "Ucraina"
+  },
+  "portiere_1_ungheria_hun": {
+    "name": "Portiere 1 (Ungheria)",
+    "pos": "POR",
+    "nat": "Ungheria"
+  },
+  "portiere_2_ungheria_hun": {
+    "name": "Portiere 2 (Ungheria)",
+    "pos": "POR",
+    "nat": "Ungheria"
+  },
+  "portiere_3_ungheria_hun": {
+    "name": "Portiere 3 (Ungheria)",
+    "pos": "POR",
+    "nat": "Ungheria"
+  },
+  "difensore_1_ungheria_hun": {
+    "name": "Difensore 1 (Ungheria)",
+    "pos": "DIF",
+    "nat": "Ungheria"
+  },
+  "difensore_2_ungheria_hun": {
+    "name": "Difensore 2 (Ungheria)",
+    "pos": "DIF",
+    "nat": "Ungheria"
+  },
+  "difensore_3_ungheria_hun": {
+    "name": "Difensore 3 (Ungheria)",
+    "pos": "DIF",
+    "nat": "Ungheria"
+  },
+  "difensore_4_ungheria_hun": {
+    "name": "Difensore 4 (Ungheria)",
+    "pos": "DIF",
+    "nat": "Ungheria"
+  },
+  "difensore_5_ungheria_hun": {
+    "name": "Difensore 5 (Ungheria)",
+    "pos": "DIF",
+    "nat": "Ungheria"
+  },
+  "difensore_6_ungheria_hun": {
+    "name": "Difensore 6 (Ungheria)",
+    "pos": "DIF",
+    "nat": "Ungheria"
+  },
+  "difensore_7_ungheria_hun": {
+    "name": "Difensore 7 (Ungheria)",
+    "pos": "DIF",
+    "nat": "Ungheria"
+  },
+  "centrocampista_1_ungheria_hun": {
+    "name": "Centrocampista 1 (Ungheria)",
+    "pos": "CEN",
+    "nat": "Ungheria"
+  },
+  "centrocampista_2_ungheria_hun": {
+    "name": "Centrocampista 2 (Ungheria)",
+    "pos": "CEN",
+    "nat": "Ungheria"
+  },
+  "centrocampista_3_ungheria_hun": {
+    "name": "Centrocampista 3 (Ungheria)",
+    "pos": "CEN",
+    "nat": "Ungheria"
+  },
+  "centrocampista_4_ungheria_hun": {
+    "name": "Centrocampista 4 (Ungheria)",
+    "pos": "CEN",
+    "nat": "Ungheria"
+  },
+  "centrocampista_5_ungheria_hun": {
+    "name": "Centrocampista 5 (Ungheria)",
+    "pos": "CEN",
+    "nat": "Ungheria"
+  },
+  "centrocampista_6_ungheria_hun": {
+    "name": "Centrocampista 6 (Ungheria)",
+    "pos": "CEN",
+    "nat": "Ungheria"
+  },
+  "centrocampista_7_ungheria_hun": {
+    "name": "Centrocampista 7 (Ungheria)",
+    "pos": "CEN",
+    "nat": "Ungheria"
+  },
+  "centrocampista_8_ungheria_hun": {
+    "name": "Centrocampista 8 (Ungheria)",
+    "pos": "CEN",
+    "nat": "Ungheria"
+  },
+  "attaccante_1_ungheria_hun": {
+    "name": "Attaccante 1 (Ungheria)",
+    "pos": "ATT",
+    "nat": "Ungheria"
+  },
+  "attaccante_2_ungheria_hun": {
+    "name": "Attaccante 2 (Ungheria)",
+    "pos": "ATT",
+    "nat": "Ungheria"
+  },
+  "attaccante_3_ungheria_hun": {
+    "name": "Attaccante 3 (Ungheria)",
+    "pos": "ATT",
+    "nat": "Ungheria"
+  },
+  "attaccante_4_ungheria_hun": {
+    "name": "Attaccante 4 (Ungheria)",
+    "pos": "ATT",
+    "nat": "Ungheria"
+  },
+  "attaccante_5_ungheria_hun": {
+    "name": "Attaccante 5 (Ungheria)",
+    "pos": "ATT",
+    "nat": "Ungheria"
+  }
+}
