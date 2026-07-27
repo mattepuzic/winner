@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qualificazioni Mondiali UEFA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg-dark: #090d16; --bg-card: rgba(22, 30, 49, 0.75); --border: rgba(255, 255, 255, 0.08); --primary: #3b82f6; --accent-gold: #f59e0b; --accent-green: #10b981; --text: #f8fafc; --text-muted: #64748b; }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
+    body { background-color: var(--bg-dark); color: var(--text); padding: 20px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
+    h1 { font-size: 1.5rem; background: linear-gradient(135deg, #f59e0b, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .btn { background: var(--primary); color: white; border: none; padding: 10px 18px; border-radius: 10px; font-weight: 600; cursor: pointer; }
+    .btn-gold { background: var(--accent-gold); }
+    .groups-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+    .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; margin-bottom: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.85rem; }
+    th, td { padding: 8px; text-align: center; border-bottom: 1px solid var(--border); }
+    td.team { text-align: left; font-weight: 600; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>🌍 Qualificazioni Mondiali UEFA</h1>
+    <div>
+      <button class="btn btn-gold" onclick="sorteggiaEStart()">🎲 Sorteggia e Simula Tutto</button>
+      <a href="index.html" class="btn" style="text-decoration:none; display:inline-block; margin-left:8px;">⬅ Torna al Menu</a>
+    </div>
+  </header>
+
+  <div class="card" id="status-card">
+    <p>Clicca su <b>"Sorteggia e Simula Tutto"</b> per distribuire tutte e 55 le nazionali nei gironi e calcolare automaticamente i risultati e la classifica!</p>
+  </div>
+
+  <div class="groups-grid" id="groups-container"></div>
+</div>
+
+<script>
+  let teams = [];
+
+  async function init() {
+    const ts = new Date().getTime();
+    try {
+      const res = await fetch('./data/teams.json?v=' + ts);
+      if (res.ok) teams = await res.json();
+    } catch(e){}
+  }
+
+  function sorteggiaEStart() {
+    if(!teams || teams.length === 0) { alert("Dati squadre non ancora caricati."); return; }
+    
+    const shuffled = [...teams].sort(() => Math.random() - 0.5);
+    const gironi = {};
+    let code = 65;
+
+    for(let i = 0; i < shuffled.length; i += 5) {
+      const gName = "Girone " + String.fromCharCode(code++);
+      const gTeams = shuffled.slice(i, i + 5).map(t => ({
+        ...t, P: 8, W: Math.floor(Math.random()*6), D: Math.floor(Math.random()*3), L: 0, GF: 0, GA: 0, PTS: 0
+      }));
+
+      // Calcola punti realistici
+      gTeams.forEach(t => {
+        t.L = t.P - (t.W + t.D);
+        if(t.L < 0) { t.L = 0; t.W = t.P - t.D; }
+        t.PTS = (t.W * 3) + t.D;
+        t.GF = (t.W * 2) + Math.floor(Math.random() * 5);
+        t.GA = (t.L * 2) + Math.floor(Math.random() * 3);
+      });
+
+      gTeams.sort((a,b) => b.PTS - a.PTS || (b.GF - b.GA) - (a.GF - a.GA));
+      gironi[gName] = gTeams;
+    }
+
+    renderGironi(gironi);
+  }
+
+  function renderGironi(gironi) {
+    const container = document.getElementById('groups-container');
+    container.innerHTML = '';
+    
+    Object.keys(gironi).forEach(gName => {
+      container.innerHTML += `
+        <div class="card">
+          <h3 style="color:#93c5fd; margin-bottom:10px;">${gName}</h3>
+          <table>
+            <thead><tr><th style="text-align:left;">Squadra</th><th>G</th><th>V</th><th>N</th><th>P</th><th>Pt</th></tr></thead>
+            <tbody>
+              ${gironi[gName].map((t, idx) => `
+                <tr style="${idx === 0 ? 'background:rgba(16, 185, 129, 0.15); font-weight:bold;' : (idx === 1 ? 'background:rgba(245, 158, 11, 0.15);' : '')}">
+                  <td class="team">${t.flag || '🏳️'} ${t.name}</td>
+                  <td>${t.P}</td><td>${t.W}</td><td>${t.D}</td><td>${t.L}</td>
+                  <td style="color:#f59e0b; font-weight:bold;">${t.PTS}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+          <p style="font-size:0.75rem; color:var(--text-muted); margin-top:8px;">🟢 1ª Qualificata | 🟡 2ª Playoff</p>
+        </div>
+      `;
+    });
+  }
+
+  window.onload = init;
+</script>
+</body>
+</html>
